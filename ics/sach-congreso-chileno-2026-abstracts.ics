@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SACH 2026: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sach-congreso-chileno-2026-abstracts@anaesthesia-meetings.ganeshsivasan
+ kara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:SACH 2026: abstracts close
+DESCRIPTION:52° Congreso Chileno de Anestesiología 2026 (with the II Cong
+ reso Latinoamericano de Anestesia Cardiovascular)\nAbstracts close Mon 31 
+ Aug 2026.\nhttps://www.congresochilenodeanestesia.cl/\nAnaesthesia Meeting
+ s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#sach-congre
+ so-chileno-2026
+URL:https://www.congresochilenodeanestesia.cl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SACH 2026: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SACH 2026: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

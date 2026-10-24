@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp St. Gallen
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-st-gallen-2027@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:SBI EEG Bootcamp St. Gallen
+LOCATION:St. Gallen\, Switzerland
+DESCRIPTION:SBI EEG Bootcamp BASIC\, St. Gallen\nSafe Brain Initiative (SBI
+ )\; local contact Dr. med. Andreas Baumann\nhttps://safebraininitiative.co
+ m/eeg-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.co
+ m/anaesthesia-meetings/#sbi-eeg-bootcamp-st-gallen-2027
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

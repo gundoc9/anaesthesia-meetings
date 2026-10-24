@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Critical Care Maui 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-critical-care-maui-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270522
+SUMMARY:NWAS Critical Care Maui 2027
+LOCATION:Hyatt Regency Maui Resort & Spa\, Lahaina (Maui\, Hawaii)\, United
+  States
+DESCRIPTION:Critical Care: The Team Approach - Maui\, Hawaii - May 17 - 21\
+ , 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; indepen
+ dent CME provider)\nhttps://online3.northwestseminars.com/conference/view/
+ CriticalCareTheTeamApproach/V0tQbw\nAnaesthesia Meetings Almanac: https://
+ ganeshsivasankara.com/anaesthesia-meetings/#nwas-critical-care-maui-2027
+URL:https://online3.northwestseminars.com/conference/view/CriticalCareTheTe
+ amApproach/V0tQbw
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

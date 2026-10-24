@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ANZCA ASM 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:anzca-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270505
+SUMMARY:ANZCA ASM 2027
+LOCATION:Adelaide Convention Centre\, Adelaide\, Australia
+DESCRIPTION:2027 ANZCA Annual Scientific Meeting (ASM)\nAustralian and New 
+ Zealand College of Anaesthetists (ANZCA)\nAbstracts close Sun 17 Jan 2027.
+ \nEarly rate ends Tue 9 Mar 2027.\nhttps://asm.anzca.edu.au/\nAnaesthesia 
+ Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#anzc
+ a-asm-2027
+URL:https://asm.anzca.edu.au/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

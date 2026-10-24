@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CAI Annual Congress 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cai-annual-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270529
+SUMMARY:CAI Annual Congress 2027
+LOCATION:University College Dublin (UCD)\, Dublin\, Ireland
+DESCRIPTION:College of Anaesthesiologists of Ireland Annual Congress 2027\n
+ College of Anaesthesiologists of Ireland\nhttps://www.anaesthesia.ie/colle
+ ge/annual-congress-2027/\nAnaesthesia Meetings Almanac: https://ganeshsiva
+ sankara.com/anaesthesia-meetings/#cai-annual-congress-2027
+URL:https://www.anaesthesia.ie/college/annual-congress-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

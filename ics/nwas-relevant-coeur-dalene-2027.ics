@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Coeur d'Alene 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-relevant-coeur-dalene-2027@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270730
+SUMMARY:NWAS Coeur d'Alene 2027
+LOCATION:The Coeur d'Alene Resort\, Coeur d'Alene\, United States
+DESCRIPTION:Relevant Topics in Anesthesia - Coeur d'Alene\, Idaho - July 26
+  - 29\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; i
+ ndependent CME provider)\nhttps://nwas2.northwestseminars.com/conference/v
+ iew/RelevantTopicsinAnesthesia/V2FYaQ\nAnaesthesia Meetings Almanac: https
+ ://ganeshsivasankara.com/anaesthesia-meetings/#nwas-relevant-coeur-dalene-
+ 2027
+URL:https://nwas2.northwestseminars.com/conference/view/RelevantTopicsinAne
+ sthesia/V2FYaQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

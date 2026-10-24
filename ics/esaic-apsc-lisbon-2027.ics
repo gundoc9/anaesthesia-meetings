@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESAIC APSC Lisbon 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-apsc-lisbon-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270319
+SUMMARY:ESAIC APSC Lisbon 2027
+LOCATION:Lisbon\, Portugal
+DESCRIPTION:ESAIC Advanced Patient Safety Course (APSC)\, Lisbon 2027\nSoci
+ edade Portuguesa de Anestesiologia (SPA)\, for the European Society of Ana
+ esthesiology and Intensive Care (ESAIC)\nhttps://esaic.org/professional-gr
+ owth/educational-courses/apsc/\nAnaesthesia Meetings Almanac: https://gane
+ shsivasankara.com/anaesthesia-meetings/#esaic-apsc-lisbon-2027
+URL:https://esaic.org/professional-growth/educational-courses/apsc/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

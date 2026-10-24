@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OAA Three Day Course 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:oaa-3dc-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:OAA Three Day Course 2026: early rate ends
+DESCRIPTION:Three Day Course in Obstetric Anaesthesia 2026 (OAA 3DC)\nEarly
+  rate ends Mon 21 Sep 2026.\nhttps://www.oaa-anaes.ac.uk/events/three-day-
+ course-in-obstetric-anaesthesia-2026\nAnaesthesia Meetings Almanac: https:
+ //ganeshsivasankara.com/anaesthesia-meetings/#oaa-3dc-2026
+URL:https://www.oaa-anaes.ac.uk/events/three-day-course-in-obstetric-anaest
+ hesia-2026
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OAA Three Day Course 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OAA Three Day Course 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

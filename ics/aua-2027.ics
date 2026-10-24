@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AUA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aua-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270405
+SUMMARY:AUA 2027
+LOCATION:TMC3 Collaborative Building\, Helix Hall\, Houston\, United States
+DESCRIPTION:AUA 2027 Annual Meeting (Association of University Anesthesiolo
+ gists)\nAssociation of University Anesthesiologists (AUA)\nAbstracts close
+  Thu 17 Dec 2026.\nhttps://www.auahq.org/2027-annual-meeting\nAnaesthesia 
+ Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#aua-
+ 2027
+URL:https://www.auahq.org/2027-annual-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

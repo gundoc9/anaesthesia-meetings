@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HFES Health Care Symposium 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hfes-health-care-symposium-2027@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270312
+SUMMARY:HFES Health Care Symposium 2027
+LOCATION:Orlando\, United States
+DESCRIPTION:16th International Symposium on Human Factors and Ergonomics in
+  Health Care\nHuman Factors and Ergonomics Society (HFES)\nhttps://www.hfe
+ s.org/Events/Healthcare-Symposium/Healthcare-Symposium-Home\nAnaesthesia M
+ eetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#hfes-
+ health-care-symposium-2027
+URL:https://www.hfes.org/Events/Healthcare-Symposium/Healthcare-Symposium-H
+ ome
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

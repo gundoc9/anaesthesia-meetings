@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Oahu Jun 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-challenges-in-anesthesia-2027@anaesthesia-meetings.ganeshsivasanka
+ ra.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270612
+SUMMARY:NWAS Oahu Jun 2027
+LOCATION:Aulani\, a Disney Resort & Spa\, Kapolei (Oahu\, Hawaii)\, United 
+ States
+DESCRIPTION:Challenges in Anesthesia - Kapolei\, O'ahu\, Hawaii - June 7 - 
+ 11\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; inde
+ pendent CME provider)\nhttps://nwas2.northwestseminars.com/conference/view
+ /topics-in-anesthesia/V2FmcQ\nAnaesthesia Meetings Almanac: https://ganesh
+ sivasankara.com/anaesthesia-meetings/#nwas-challenges-in-anesthesia-2027
+URL:https://nwas2.northwestseminars.com/conference/view/topics-in-anesthesi
+ a/V2FmcQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

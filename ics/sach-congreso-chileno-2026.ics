@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SACH 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sach-congreso-chileno-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261115
+SUMMARY:SACH 2026
+LOCATION:Hotel Sheraton Santiago & Convention Center\, Santiago\, Chile
+DESCRIPTION:52° Congreso Chileno de Anestesiología 2026 (with the II Cong
+ reso Latinoamericano de Anestesia Cardiovascular)\nSociedad de Anestesiolo
+ gía de Chile (SACH)\nAbstracts close Mon 31 Aug 2026.\nEarly rate ends We
+ d 1 Jul 2026.\nhttps://www.congresochilenodeanestesia.cl/\nAnaesthesia Mee
+ tings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#sach-co
+ ngreso-chileno-2026
+URL:https://www.congresochilenodeanestesia.cl/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

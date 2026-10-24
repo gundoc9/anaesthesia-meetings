@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WSM 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aoa-wsm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:WSM 2027: early rate ends
+DESCRIPTION:Association of Anaesthetists Winter Scientific Meeting 2027\nEa
+ rly rate ends Thu 3 Dec 2026.\nhttps://anaesthetists.org/Home/Education-ev
+ ents/Winter-Scientific-Meeting\nAnaesthesia Meetings Almanac: https://gane
+ shsivasankara.com/anaesthesia-meetings/#aoa-wsm-2027
+URL:https://anaesthetists.org/Home/Education-events/Winter-Scientific-Meeti
+ ng
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WSM 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WSM 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

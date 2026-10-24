@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSA Winter 2027 (Maui): early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:csa-winter-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:CSA Winter 2027 (Maui): early rate ends
+DESCRIPTION:CSA 2027 Winter Anesthesia Conference\nEarly rate ends Fri 16 O
+ ct 2026.\nhttps://csahq.org/events/csa-2027-winter-anesthesia-conference/\
+ nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-m
+ eetings/#csa-winter-2027
+URL:https://csahq.org/events/csa-2027-winter-anesthesia-conference/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Winter 2027 (Maui): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Winter 2027 (Maui): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PAF Clinical Conference 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:paf-clinical-conference-2027-abstracts@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:PAF Clinical Conference 2027: abstracts close
+DESCRIPTION:65th Clinical Conference in Pediatric Anesthesiology\nAbstracts
+  close Mon 7 Dec 2026.\nhttps://paf.societyhq.com/2027/guide/\nAnaesthesia
+  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#paf
+ -clinical-conference-2027
+URL:https://paf.societyhq.com/2027/guide/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PAF Clinical Conference 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PAF Clinical Conference 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PSMF Summit 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:psmf-summit-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:PSMF Summit 2027
+LOCATION:Laguna Cliffs Marriott Resort & Spa\, Dana Point\, United States
+DESCRIPTION:13th Annual World Patient Safety\, Science and Technology Summi
+ t\nPatient Safety Movement Foundation (PSMF)\nhttps://psmf.org/psmf-summit
+ s/13th-annual-world-patient-safety-science-technology-summit/\nAnaesthesia
+  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#psm
+ f-summit-2027
+URL:https://psmf.org/psmf-summits/13th-annual-world-patient-safety-science-
+ technology-summit/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

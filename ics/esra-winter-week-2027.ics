@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESRA Winter Week 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esra-winter-week-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270123
+SUMMARY:ESRA Winter Week 2027
+LOCATION:Aqua Dome Hotel\, Längenfeld\, Austria
+DESCRIPTION:21st ESRA Winter Week Conference (ESRA Winter Week 2027)\nEurop
+ ean Society of Regional Anaesthesia & Pain Therapy (ESRA)\nhttps://esraeur
+ ope.org/meeting/21st-esra-winter-week-conference/\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#esra-winter-wee
+ k-2027
+URL:https://esraeurope.org/meeting/21st-esra-winter-week-conference/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

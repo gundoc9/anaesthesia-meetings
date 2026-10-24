@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CRASH 2027 (Vail)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:crash-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270226
+SUMMARY:CRASH 2027 (Vail)
+LOCATION:The Hythe\, Vail (Lionshead Village)\, Vail\, United States
+DESCRIPTION:CRASH 2027: Colorado Review of Anesthesia for Surgicenters & Ho
+ spitals (35th annual conference)\nUniversity of Colorado Department of Ane
+ sthesiology (CU Anschutz)\nhttps://medschool.cuanschutz.edu/anesthesiology
+ /education/crash\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.
+ com/anaesthesia-meetings/#crash-2027
+URL:https://medschool.cuanschutz.edu/anesthesiology/education/crash
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

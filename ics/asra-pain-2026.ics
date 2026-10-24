@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ASRA Pain Medicine 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:asra-pain-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:ASRA Pain Medicine 2026
+LOCATION:JW Marriott Tampa Water Street\, Tampa\, United States
+DESCRIPTION:25th Annual Pain Medicine Meeting (ASRA Pain Medicine)\nAmerica
+ n Society of Regional Anesthesia and Pain Medicine (ASRA Pain Medicine)\nA
+ bstracts close Mon 10 Aug 2026.\nEarly rate ends Thu 17 Sep 2026.\nhttps:/
+ /asra.com/events-education/pain-medicine-meeting\nAnaesthesia Meetings Alm
+ anac: https://ganeshsivasankara.com/anaesthesia-meetings/#asra-pain-2026
+URL:https://asra.com/events-education/pain-medicine-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

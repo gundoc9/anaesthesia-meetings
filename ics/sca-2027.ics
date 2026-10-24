@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SCA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sca-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270412
+SUMMARY:SCA 2027
+LOCATION:Bellagio Las Vegas\, Las Vegas\, United States
+DESCRIPTION:Society of Cardiovascular Anesthesiologists 49th Annual Meeting
+  and Workshops (SCA 2027)\nSociety of Cardiovascular Anesthesiologists (SC
+ A)\nAbstracts close Tue 1 Dec 2026.\nhttps://scahq.org/upcoming-event/sca-
+ annual-meeting-and-workshops-2027/\nAnaesthesia Meetings Almanac: https://
+ ganeshsivasankara.com/anaesthesia-meetings/#sca-2027
+URL:https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

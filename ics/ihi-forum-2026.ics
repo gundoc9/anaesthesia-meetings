@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IHI Forum 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ihi-forum-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261210
+SUMMARY:IHI Forum 2026
+LOCATION:Phoenix Convention Center\, Phoenix\, United States
+DESCRIPTION:IHI Forum 2026\nInstitute for Healthcare Improvement (IHI)\nAbs
+ tracts close Wed 30 Sep 2026.\nEarly rate ends Wed 30 Sep 2026.\nhttps://w
+ ww.ihi.org/connect/events/forum\nAnaesthesia Meetings Almanac: https://gan
+ eshsivasankara.com/anaesthesia-meetings/#ihi-forum-2026
+URL:https://www.ihi.org/connect/events/forum
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

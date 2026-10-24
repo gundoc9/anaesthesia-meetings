@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PGA80: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pga80-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:PGA80: early rate ends
+DESCRIPTION:PGA80 - 80th PostGraduate Assembly in Anesthesiology 2026\nEarl
+ y rate ends Wed 30 Sep 2026.\nhttps://www.pga.nyc/\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#pga80-2026
+URL:https://www.pga.nyc/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PGA80: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PGA80: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

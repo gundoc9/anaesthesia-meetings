@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISACON 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:isacon-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:ISACON 2026: early rate ends
+DESCRIPTION:ISACON National 2026 - 73rd Annual National Conference of the I
+ ndian Society of Anaesthesiologists\nEarly rate ends Tue 2 Jun 2026.\nhttp
+ s://isacon2026national.com/\nAnaesthesia Meetings Almanac: https://ganeshs
+ ivasankara.com/anaesthesia-meetings/#isacon-2026
+URL:https://isacon2026national.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISACON 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISACON 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

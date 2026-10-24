@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIVA ASM 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:siva-asm-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:SIVA ASM 2026
+LOCATION:Exeter\, United Kingdom
+DESCRIPTION:Annual Scientific Meeting of the Society for Intravenous Anaest
+ hesia 2026\nSociety for Intravenous Anaesthesia (SIVA)\nhttps://www.siva.a
+ c.uk/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
+ esia-meetings/#siva-asm-2026
+URL:https://www.siva.ac.uk/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

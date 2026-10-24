@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESRA Congress 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esra-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270905
+SUMMARY:ESRA Congress 2027
+LOCATION:Bologna\, Italy
+DESCRIPTION:44th ESRA Annual Congress (ESRA Congress 2027)\nEuropean Societ
+ y of Regional Anaesthesia and Pain Therapy (ESRA)\nhttps://esraeurope.org/
+ meetings/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
+ esthesia-meetings/#esra-congress-2027
+URL:https://esraeurope.org/meetings/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICISA 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:icisa-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
+SUMMARY:ICISA 2026
+LOCATION:The David InterContinental Hotel Tel Aviv\, Tel Aviv\, Israel
+DESCRIPTION:International Congress of the Israel Society of Anesthesiologis
+ ts (ICISA 2026)\nIsrael Society of Anesthesiologists (ISA)\nAbstracts clos
+ e Thu 22 Oct 2026.\nhttps://www.icisa2026.com/\nAnaesthesia Meetings Alman
+ ac: https://ganeshsivasankara.com/anaesthesia-meetings/#icisa-2026
+URL:https://www.icisa2026.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

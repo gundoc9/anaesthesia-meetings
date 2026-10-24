@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DAS 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:das-asm-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261114
+SUMMARY:DAS 2026
+LOCATION:International Convention Centre (ICC) Wales\, Newport\, United Kin
+ gdom
+DESCRIPTION:DAS 2026 Annual Scientific Meeting\nDifficult Airway Society\nA
+ bstracts close Fri 7 Aug 2026.\nEarly rate ends Wed 9 Sep 2026.\nhttps://w
+ ww.das2026.co.uk/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara
+ .com/anaesthesia-meetings/#das-asm-2026
+URL:https://www.das2026.co.uk/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

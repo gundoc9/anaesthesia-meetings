@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Euroanaesthesia 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:euroanaesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270601
+SUMMARY:Euroanaesthesia 2027
+LOCATION:Bella Center Copenhagen\, Copenhagen\, Denmark
+DESCRIPTION:Euroanaesthesia 2027\nEuropean Society of Anaesthesiology and I
+ ntensive Care (ESAIC)\nAbstracts close Thu 10 Dec 2026.\nEarly rate ends W
+ ed 17 Feb 2027.\nhttps://euroanaesthesia.org/2027/\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#euroanaesthesi
+ a-2027
+URL:https://euroanaesthesia.org/2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

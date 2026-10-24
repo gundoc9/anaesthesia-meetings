@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anaesthesia 2027 (RCoA): early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rcoa-anaesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara
+ .com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Anaesthesia 2027 (RCoA): early rate ends
+DESCRIPTION:Anaesthesia 2027 (Royal College of Anaesthetists annual confere
+ nce)\nEarly rate ends Thu 31 Dec 2026.\nhttps://www.rcoa.ac.uk/events/anae
+ sthesia-2027\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
+ anaesthesia-meetings/#rcoa-anaesthesia-2027
+URL:https://www.rcoa.ac.uk/events/anaesthesia-2027
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anaesthesia 2027 (RCoA): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anaesthesia 2027 (RCoA): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

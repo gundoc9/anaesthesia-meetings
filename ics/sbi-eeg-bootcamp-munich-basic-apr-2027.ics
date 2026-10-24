@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp Munich (BASIC\, Apr)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-munich-basic-apr-2027@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:SBI EEG Bootcamp Munich (BASIC\, Apr)
+LOCATION:Munich\, Germany
+DESCRIPTION:SBI EEG Bootcamp BASIC\, Munich (April\, tentative)\nSafe Brain
+  Initiative (SBI)\; local contact PD Stefanie Pilge\nDates provisional: th
+ e organiser has not yet confirmed them.\nhttps://safebraininitiative.com/e
+ eg-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/a
+ naesthesia-meetings/#sbi-eeg-bootcamp-munich-basic-apr-2027
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

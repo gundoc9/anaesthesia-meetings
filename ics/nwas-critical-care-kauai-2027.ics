@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Critical Care Kauai 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-critical-care-kauai-2027@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271009
+SUMMARY:NWAS Critical Care Kauai 2027
+LOCATION:Grand Hyatt Kauai Resort & Spa\, Poipu (Kauai\, Hawaii)\, United S
+ tates
+DESCRIPTION:Critical Care: The Team Approach - Kauai\, Hawaii - October 4 -
+  8\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; inde
+ pendent CME provider)\nhttps://online3.northwestseminars.com/conference/vi
+ ew/CriticalCareTheTeamApproach/V2FQcQ\nAnaesthesia Meetings Almanac: https
+ ://ganeshsivasankara.com/anaesthesia-meetings/#nwas-critical-care-kauai-20
+ 27
+URL:https://online3.northwestseminars.com/conference/view/CriticalCareTheTe
+ amApproach/V2FQcQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

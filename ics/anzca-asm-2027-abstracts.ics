@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ANZCA ASM 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:anzca-asm-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:ANZCA ASM 2027: abstracts close
+DESCRIPTION:2027 ANZCA Annual Scientific Meeting (ASM)\nAbstracts close Sun
+  17 Jan 2027.\nhttps://asm.anzca.edu.au/\nAnaesthesia Meetings Almanac: ht
+ tps://ganeshsivasankara.com/anaesthesia-meetings/#anzca-asm-2027
+URL:https://asm.anzca.edu.au/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANZCA ASM 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANZCA ASM 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

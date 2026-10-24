@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Aspen Anesthesia 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aspen-anesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270207
+SUMMARY:Aspen Anesthesia 2027
+LOCATION:Viceroy Snowmass Resort\, Snowmass Village (Aspen)\, Colorado\, Un
+ ited States
+DESCRIPTION:Aspen Anesthesia Seminar 2027 (Holiday Seminars)\nHoliday Semin
+ ars (independent CME provider)\nhttps://www.holidayseminars.com/anesthesia
+ _seminars/aspen_anesthesia_conference\nAnaesthesia Meetings Almanac: https
+ ://ganeshsivasankara.com/anaesthesia-meetings/#aspen-anesthesia-2027
+URL:https://www.holidayseminars.com/anesthesia_seminars/aspen_anesthesia_co
+ nference
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

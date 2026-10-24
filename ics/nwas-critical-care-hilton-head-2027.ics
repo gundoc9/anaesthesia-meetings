@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Hilton Head 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-critical-care-hilton-head-2027@anaesthesia-meetings.ganeshsivasank
+ ara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270814
+SUMMARY:NWAS Hilton Head 2027
+LOCATION:Omni Hilton Head Oceanfront Resort\, Hilton Head Island\, United S
+ tates
+DESCRIPTION:Critical Care: The Team Approach - Hilton Head Island\, South C
+ arolina - August 10 - 13\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pas
+ co\, Washington\; independent CME provider)\nhttps://online3.northwestsemi
+ nars.com/conference/view/critical-care-the-team-approach/V3FIag\nAnaesthes
+ ia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#n
+ was-critical-care-hilton-head-2027
+URL:https://online3.northwestseminars.com/conference/view/critical-care-the
+ -team-approach/V3FIag
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ANESTHESIOLOGY 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:asa-anesthesiology-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271020
+SUMMARY:ANESTHESIOLOGY 2027
+LOCATION:Thomas M. Menino Convention & Exhibition Center\, Boston\, United 
+ States
+DESCRIPTION:ANESTHESIOLOGY 2027 - the American Society of Anesthesiologists
+  annual meeting\nAmerican Society of Anesthesiologists (ASA)\nAbstracts cl
+ ose Tue 30 Mar 2027.\nhttps://www.asahq.org/annualmeeting\nAnaesthesia Mee
+ tings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#asa-ane
+ sthesiology-2027
+URL:https://www.asahq.org/annualmeeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

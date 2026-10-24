@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Healthcare Improvement Forum Lisbon 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:healthcare-improvement-forum-lisbon-2027@anaesthesia-meetings.ganeshsiv
+ asankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270423
+SUMMARY:Healthcare Improvement Forum Lisbon 2027
+LOCATION:CCL - Lisbon Congress Centre (Centro de Congressos de Lisboa)\, Li
+ sbon\, Portugal
+DESCRIPTION:Healthcare Improvement Forum (formerly International Forum on Q
+ uality and Safety in Healthcare)\, Lisbon 2027\nInstitute for Healthcare I
+ mprovement (IHI) and BMJ Group\nAbstracts close Wed 7 Oct 2026.\nhttps://i
+ nternationalforum.bmj.com/lisbon/\nAnaesthesia Meetings Almanac: https://g
+ aneshsivasankara.com/anaesthesia-meetings/#healthcare-improvement-forum-li
+ sbon-2027
+URL:https://internationalforum.bmj.com/lisbon/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

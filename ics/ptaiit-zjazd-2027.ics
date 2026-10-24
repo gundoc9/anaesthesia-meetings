@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XXII Zjazd PTAiIT 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ptaiit-zjazd-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270926
+SUMMARY:XXII Zjazd PTAiIT 2027
+LOCATION:Warsaw Experience Center\, Stadion Miejski Legii Warszawa im. Mars
+ załka J. Piłsudskiego\, Warsaw\, Poland
+DESCRIPTION:XXII Zjazd Polskiego Towarzystwa Anestezjologii i Intensywnej T
+ erapii (22nd Congress of the Polish Society of Anaesthesiology and Intensi
+ ve Therapy)\nPolskie Towarzystwo Anestezjologii i Intensywnej Terapii (PTA
+ iIT)\; organising committee chair Prof. Mirosław Czuczwar (society Presid
+ ent-elect)\nhttps://zjazdanestezjologow2027.pl/\nAnaesthesia Meetings Alma
+ nac: https://ganeshsivasankara.com/anaesthesia-meetings/#ptaiit-zjazd-2027
+URL:https://zjazdanestezjologow2027.pl/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

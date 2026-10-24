@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CLASA Lima 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:clasa-lima-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270509
+SUMMARY:CLASA Lima 2027
+LOCATION:The Westin Lima Hotel & Convention Center\, Lima\, Peru
+DESCRIPTION:XXXIX Congreso Latinoamericano de Anestesiología (CLASA Lima 2
+ 027)\nConfederación Latinoamericana de Sociedades de Anestesiología (CLA
+ SA)\nhttps://fclasalima2027.com/\nAnaesthesia Meetings Almanac: https://ga
+ neshsivasankara.com/anaesthesia-meetings/#clasa-lima-2027
+URL:https://fclasalima2027.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

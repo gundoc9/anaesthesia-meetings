@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OAA Three Day Course 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:oaa-3dc-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261105
+SUMMARY:OAA Three Day Course 2026
+LOCATION:Church House\, Westminster\, London\, United Kingdom
+DESCRIPTION:Three Day Course in Obstetric Anaesthesia 2026 (OAA 3DC)\nObste
+ tric Anaesthetists' Association (OAA)\nEarly rate ends Mon 21 Sep 2026.\nh
+ ttps://www.oaa-anaes.ac.uk/events/three-day-course-in-obstetric-anaesthesi
+ a-2026\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaest
+ hesia-meetings/#oaa-3dc-2026
+URL:https://www.oaa-anaes.ac.uk/events/three-day-course-in-obstetric-anaest
+ hesia-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

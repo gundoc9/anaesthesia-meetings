@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Banff 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-clinical-topics-banff-2027@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270724
+SUMMARY:NWAS Banff 2027
+LOCATION:The Malcolm Hotel\, Banff (Canmore\, Alberta)\, Canada
+DESCRIPTION:Clinical Topics in Anesthesia - Banff (Canmore)\, Alberta\, Can
+ ada - July 19 - 23\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, W
+ ashington\; independent CME provider)\nhttps://nwas2.northwestseminars.com
+ /conference/view/topics-in-anesthesia/V2FmcA\nAnaesthesia Meetings Almanac
+ : https://ganeshsivasankara.com/anaesthesia-meetings/#nwas-clinical-topics
+ -banff-2027
+URL:https://nwas2.northwestseminars.com/conference/view/topics-in-anesthesi
+ a/V2FmcA
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

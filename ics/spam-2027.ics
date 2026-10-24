@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SPAM 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spam-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270625
+SUMMARY:SPAM 2027
+LOCATION:Marriott Momi Bay (printed 'Marriot Momi Bay' on the 2027 page)\, 
+ Momi Bay\, Fiji
+DESCRIPTION:South Pacific Anaesthesia Meeting (SPAM) 2027\nJoint Anaesthesi
+ a Faculty Auckland (JAFA)\, listed by the New Zealand Society of Anaesthet
+ ists (NZSA)\nDates provisional: the organiser has not yet confirmed them.\
+ nhttps://anaesthesia.nz/events/south-pacific-anaesthesia-meeting-spam/\nAn
+ aesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meet
+ ings/#spam-2027
+URL:https://anaesthesia.nz/events/south-pacific-anaesthesia-meeting-spam/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

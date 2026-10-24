@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Aruba 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-topics-aruba-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261205
+SUMMARY:NWAS Aruba 2026
+LOCATION:Hyatt Regency Aruba Resort\, Spa and Casino\, Palm Beach\, Aruba\,
+  Aruba
+DESCRIPTION:Topics in Anesthesia - Palm Beach\, Aruba - November 30 - Decem
+ ber 4\, 2026\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; i
+ ndependent CME provider)\nhttps://nwas2.northwestseminars.com/conference/v
+ iew/TopicsinAnesthesia/WDZYcg\nAnaesthesia Meetings Almanac: https://ganes
+ hsivasankara.com/anaesthesia-meetings/#nwas-topics-aruba-2026
+URL:https://nwas2.northwestseminars.com/conference/view/TopicsinAnesthesia/
+ WDZYcg
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

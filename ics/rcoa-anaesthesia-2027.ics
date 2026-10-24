@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anaesthesia 2027 (RCoA)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rcoa-anaesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270515
+SUMMARY:Anaesthesia 2027 (RCoA)
+LOCATION:International Convention Centre Wales (ICC Wales)\, Newport\, Unit
+ ed Kingdom
+DESCRIPTION:Anaesthesia 2027 (Royal College of Anaesthetists annual confere
+ nce)\nRoyal College of Anaesthetists (RCoA)\nEarly rate ends Thu 31 Dec 20
+ 26.\nhttps://www.rcoa.ac.uk/events/anaesthesia-2027\nAnaesthesia Meetings 
+ Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#rcoa-anaesthe
+ sia-2027
+URL:https://www.rcoa.ac.uk/events/anaesthesia-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

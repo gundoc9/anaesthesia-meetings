@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESRA Residents & Trainees Workshop 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esra-residents-trainees-workshop-2027@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270508
+SUMMARY:ESRA Residents & Trainees Workshop 2027
+LOCATION:SIMFMUP\, Centro de Simulação da FMUP (6th storey)\, Porto\, Por
+ tugal
+DESCRIPTION:9th ESRA Residents & Trainees Workshop\nEuropean Society of Reg
+ ional Anaesthesia & Pain Therapy (ESRA)\nDates provisional: the organiser 
+ has not yet confirmed them.\nhttps://esraeurope.org/meeting/9th-esra-resid
+ ents-trainees-workshop/\nAnaesthesia Meetings Almanac: https://ganeshsivas
+ ankara.com/anaesthesia-meetings/#esra-residents-trainees-workshop-2027
+URL:https://esraeurope.org/meeting/9th-esra-residents-trainees-workshop/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

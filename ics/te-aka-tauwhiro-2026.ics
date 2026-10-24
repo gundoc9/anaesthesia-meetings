@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Te Aka Tauwhiro 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:te-aka-tauwhiro-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261129
+SUMMARY:Te Aka Tauwhiro 2026
+LOCATION:Millennium Hotel Queenstown\, Queenstown\, New Zealand
+DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nNew Zeal
+ and Society of Anaesthetists (NZSA) - Ngā Ringa Tauwhiro\nEarly rate ends
+  Mon 26 Oct 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesia Meeti
+ ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te-aka-ta
+ uwhiro-2026
+URL:https://www.tauwhiro.anaesthesia.nz/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CBA 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cba-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261130
+SUMMARY:CBA 2026
+LOCATION:Fortaleza\, Brazil
+DESCRIPTION:71º Congresso Brasileiro de Anestesiologia (CBA 2026)\nSocieda
+ de Brasileira de Anestesiologia (SBA)\nhttps://www.cba2026.com.br/\nAnaest
+ hesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings
+ /#cba-2026
+URL:https://www.cba2026.com.br/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

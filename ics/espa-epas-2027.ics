@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EPAS 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:espa-epas-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270613
+SUMMARY:EPAS 2027
+LOCATION:Gaslini Academy\, Genoa\, Italy
+DESCRIPTION:3rd European Paediatric Airway Symposium (EPAS 2027)\nEuropean 
+ Society for Paediatric Anaesthesiology (ESPA)\, held at the Gaslini Academ
+ y\, Genoa\nhttps://www.euroespa.com/event/the-3rd-european-paediatric-airw
+ ay-symposium-epas/\nAnaesthesia Meetings Almanac: https://ganeshsivasankar
+ a.com/anaesthesia-meetings/#espa-epas-2027
+URL:https://www.euroespa.com/event/the-3rd-european-paediatric-airway-sympo
+ sium-epas/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

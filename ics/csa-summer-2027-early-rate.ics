@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSA Summer 2027 (Oahu): early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:csa-summer-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:CSA Summer 2027 (Oahu): early rate ends
+DESCRIPTION:CSA 2027 Summer Anesthesia Conference (CSA 2027 Hawaii Anesthes
+ ia Conference)\nEarly rate ends Fri 5 Mar 2027.\nhttps://csahq.org/events/
+ csa-2027-summer-anesthesia-conference/\nAnaesthesia Meetings Almanac: http
+ s://ganeshsivasankara.com/anaesthesia-meetings/#csa-summer-2027
+URL:https://csahq.org/events/csa-2027-summer-anesthesia-conference/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Summer 2027 (Oahu): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Summer 2027 (Oahu): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

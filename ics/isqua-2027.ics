@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISQua 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:isqua-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270923
+SUMMARY:ISQua 2027
+LOCATION:Vancouver Convention Centre\, Vancouver\, Canada
+DESCRIPTION:ISQua's 43rd International Conference 2027\nInternational Socie
+ ty for Quality in Health Care (ISQua)\, with Health Quality BC\nAbstracts 
+ close Mon 25 Jan 2027.\nhttps://isqua.org/conference/vancouver-2027/\nAnae
+ sthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetin
+ gs/#isqua-2027
+URL:https://isqua.org/conference/vancouver-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pediatric Anesthesiology 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spa-aap-pediatric-anesthesiology-2027@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270308
+SUMMARY:Pediatric Anesthesiology 2027
+LOCATION:Atlantis Paradise Island (Atlantis Conference Center\, Grand Ballr
+ oom)\, Nassau\, Bahamas
+DESCRIPTION:SPA-AAP Pediatric Anesthesiology 2027\nSociety for Pediatric An
+ esthesia (SPA)\, in partnership with the American Academy of Pediatrics (A
+ AP)\nAbstracts close Mon 26 Oct 2026.\nEarly rate ends Fri 15 Jan 2027.\nh
+ ttps://www2.pedsanesthesia.org/meetings/2027winter/guide\nAnaesthesia Meet
+ ings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#spa-aap-
+ pediatric-anesthesiology-2027
+URL:https://www2.pedsanesthesia.org/meetings/2027winter/guide
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

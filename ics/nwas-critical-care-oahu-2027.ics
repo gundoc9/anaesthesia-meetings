@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Critical Care Oahu 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-critical-care-oahu-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270220
+SUMMARY:NWAS Critical Care Oahu 2027
+LOCATION:Aulani\, a Disney Resort & Spa\, Kapolei (Oahu\, Hawaii)\, United 
+ States
+DESCRIPTION:Critical Care: The Team Approach - Kapolei\, O'ahu\, Hawaii - F
+ ebruary 15 - 19\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Wash
+ ington\; independent CME provider)\nhttps://online3.northwestseminars.com/
+ conference/view/CriticalCareTheTeamApproach/V2FUdQ\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#nwas-critical-
+ care-oahu-2027
+URL:https://online3.northwestseminars.com/conference/view/CriticalCareTheTe
+ amApproach/V2FUdQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

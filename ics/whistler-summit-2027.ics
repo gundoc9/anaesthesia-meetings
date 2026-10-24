@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Whistler Summit 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:whistler-summit-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270301
+SUMMARY:Whistler Summit 2027
+LOCATION:Westin Whistler Resort & Spa\, Whistler\, Canada
+DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nUBC CPD
+ \, Faculty of Medicine\, University of British Columbia\nEarly rate ends M
+ on 23 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meetings Almanac
+ : https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-summit-2027
+URL:https://ubccpd.ca/node/3017
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maui Anesthesia 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:maui-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Maui Anesthesia 2027: early rate ends
+DESCRIPTION:Maui Anesthesia Seminar 2027 (Holiday Seminars)\nEarly rate end
+ s Wed 20 Jan 2027.\nhttps://www.holidayseminars.com/anesthesia_seminars/ma
+ ui_anesthesia_conference\nAnaesthesia Meetings Almanac: https://ganeshsiva
+ sankara.com/anaesthesia-meetings/#maui-anesthesia-2027
+URL:https://www.holidayseminars.com/anesthesia_seminars/maui_anesthesia_con
+ ference
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maui Anesthesia 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maui Anesthesia 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

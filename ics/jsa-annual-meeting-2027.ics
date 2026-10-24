@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:JSA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:jsa-annual-meeting-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270606
+SUMMARY:JSA 2027
+LOCATION:Kobe Portopia Hotel\, Kobe International Exhibition Hall and Kobe 
+ International Conference Center\, Kobe\, Japan
+DESCRIPTION:The 74th Annual Meeting of the Japanese Society of Anesthesiolo
+ gists (2027)\nJapanese Society of Anesthesiologists (JSA)\nhttps://anesth-
+ 74thmeeting.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.
+ com/anaesthesia-meetings/#jsa-annual-meeting-2027
+URL:https://anesth-74thmeeting.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

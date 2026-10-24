@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp Potsdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-potsdam-2027@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:SBI EEG Bootcamp Potsdam
+LOCATION:Potsdam\, Germany
+DESCRIPTION:SBI EEG Bootcamp BASIC\, Potsdam\nSafe Brain Initiative (SBI)\;
+  local contact Dr. Leif-Christian Wilm\nhttps://safebraininitiative.com/ee
+ g-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/an
+ aesthesia-meetings/#sbi-eeg-bootcamp-potsdam-2027
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

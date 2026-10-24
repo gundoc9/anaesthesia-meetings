@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp Innsbruck
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-innsbruck-2027@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SBI EEG Bootcamp Innsbruck
+LOCATION:Innsbruck\, Austria
+DESCRIPTION:SBI EEG Bootcamp BASIC\, Innsbruck\nSafe Brain Initiative (SBI)
+ \; local contact Prof. Barbara Sinner\nhttps://safebraininitiative.com/eeg
+ -bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
+ esthesia-meetings/#sbi-eeg-bootcamp-innsbruck-2027
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

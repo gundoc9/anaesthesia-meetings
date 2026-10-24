@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COPA 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:copa-saesp-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:COPA 2027: abstracts close
+DESCRIPTION:COPA SAESP 2027 - Congresso Paulista de Anestesiologia 2027\nAb
+ stracts close Sun 31 Jan 2027.\nhttps://saesp.org.br/copa/\nAnaesthesia Me
+ etings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#copa-s
+ aesp-2027
+URL:https://saesp.org.br/copa/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COPA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COPA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

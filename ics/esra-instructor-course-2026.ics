@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESRA Instructor Course 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esra-instructor-course-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261213
+SUMMARY:ESRA Instructor Course 2026
+LOCATION:Lindner Hotel Antwerp\, Antwerp\, Belgium
+DESCRIPTION:7th ESRA Instructor Course\nEuropean Society of Regional Anaest
+ hesia & Pain Therapy (ESRA)\nhttps://esraeurope.org/meeting/7th-esra-instr
+ uctor-course/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com
+ /anaesthesia-meetings/#esra-instructor-course-2026
+URL:https://esraeurope.org/meeting/7th-esra-instructor-course/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

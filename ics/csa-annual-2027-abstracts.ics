@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSA Annual 2027 (Anaheim): abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:csa-annual-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:CSA Annual 2027 (Anaheim): abstracts close
+DESCRIPTION:CSA 2027 Annual Anesthesia Conference and Board Meeting\nAbstra
+ cts close Mon 8 Feb 2027.\nhttps://csahq.org/events/csa-2027-annual-anesth
+ esia-conference-and-board-meeting/\nAnaesthesia Meetings Almanac: https://
+ ganeshsivasankara.com/anaesthesia-meetings/#csa-annual-2027
+URL:https://csahq.org/events/csa-2027-annual-anesthesia-conference-and-boar
+ d-meeting/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Annual 2027 (Anaheim): abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Annual 2027 (Anaheim): abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

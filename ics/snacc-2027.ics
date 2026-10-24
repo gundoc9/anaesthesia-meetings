@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SNACC 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:snacc-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270912
+SUMMARY:SNACC 2027
+LOCATION:Paradise Point Resort & Spa\, San Diego\, United States
+DESCRIPTION:SNACC 2027 Annual Meeting\nSociety for Neuroscience in Anesthes
+ iology and Critical Care (SNACC)\nhttps://snacc.org/meetings/future-meetin
+ gs/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthes
+ ia-meetings/#snacc-2027
+URL:https://snacc.org/meetings/future-meetings/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Journées Francophones ARP 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:journees-francophones-arp-2026@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261114
+SUMMARY:Journées Francophones ARP 2026
+LOCATION:Djerba\, Tunisia
+DESCRIPTION:Journées Francophones d'Anesthésie Réanimation Pédiatriques
+ \nSTAAR (organiser site staartunisia.tn\; acronym not expanded on the SFAR
+  page)\nDates provisional: the organiser has not yet confirmed them.\nhttp
+ s://staartunisia.tn/evenements/journees-francophones-d-anesthesie-reanimat
+ ion-ped\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaes
+ thesia-meetings/#journees-francophones-arp-2026
+URL:https://staartunisia.tn/evenements/journees-francophones-d-anesthesie-r
+ eanimation-ped
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

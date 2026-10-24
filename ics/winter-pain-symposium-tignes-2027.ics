@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Winter Pain Symposium 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:winter-pain-symposium-tignes-2027@anaesthesia-meetings.ganeshsivasankar
+ a.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270123
+SUMMARY:Winter Pain Symposium 2027
+LOCATION:Hotel Village Montana\, Tignes\, France
+DESCRIPTION:13th Advances in Pain Medicine Winter Symposium\nLondon Pain Fo
+ rum (as named on ESRA's meetings calendar\, where it is an affiliated meet
+ ing)\nDates provisional: the organiser has not yet confirmed them.\nhttps:
+ //www.winterpainsymposium.com/\nAnaesthesia Meetings Almanac: https://gane
+ shsivasankara.com/anaesthesia-meetings/#winter-pain-symposium-tignes-2027
+URL:https://www.winterpainsymposium.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

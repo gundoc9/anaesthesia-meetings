@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stanley Update 2027 (Park City)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stanley-update-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270212
+SUMMARY:Stanley Update 2027 (Park City)
+LOCATION:Westgate Park City Resort & Spa\, Park City\, United States
+DESCRIPTION:72nd Theodore H. Stanley Annual Update in Anesthesiology\nUnive
+ rsity of Utah\, Department of Anesthesiology\nEarly rate ends Mon 21 Dec 2
+ 026.\nhttps://medicine.utah.edu/anesthesiology/postgrad\nAnaesthesia Meeti
+ ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#stanley-u
+ pdate-2027
+URL:https://medicine.utah.edu/anesthesiology/postgrad
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

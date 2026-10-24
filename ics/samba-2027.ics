@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAMBA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:samba-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270509
+SUMMARY:SAMBA 2027
+LOCATION:Hyatt Regency Savannah\, Savannah\, United States
+DESCRIPTION:SAMBA 2027 Annual Meeting\nSociety for Ambulatory Anesthesia (S
+ AMBA)\nhttps://www.sambahq.org/events/samba-2027-annual-meeting\nAnaesthes
+ ia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#s
+ amba-2027
+URL:https://www.sambahq.org/events/samba-2027-annual-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

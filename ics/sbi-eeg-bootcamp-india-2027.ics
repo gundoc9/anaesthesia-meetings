@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp India
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-india-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:SBI EEG Bootcamp India
+LOCATION:India
+DESCRIPTION:SBI EEG Bootcamp BASIC\, India\nSafe Brain Initiative (SBI)\; l
+ ocal contact Dr. Ravi\nhttps://safebraininitiative.com/eeg-bootcamp\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#sbi-eeg-bootcamp-india-2027
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

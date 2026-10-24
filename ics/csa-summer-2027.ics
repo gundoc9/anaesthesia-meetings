@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSA Summer 2027 (Oahu)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:csa-summer-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270717
+SUMMARY:CSA Summer 2027 (Oahu)
+LOCATION:Four Seasons Resort Oahu at Ko Olina\, Kapolei (Ko Olina\, Oahu)\,
+  United States
+DESCRIPTION:CSA 2027 Summer Anesthesia Conference (CSA 2027 Hawaii Anesthes
+ ia Conference)\nCalifornia Society of Anesthesiologists (CSA)\nEarly rate 
+ ends Fri 5 Mar 2027.\nhttps://csahq.org/events/csa-2027-summer-anesthesia-
+ conference/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/a
+ naesthesia-meetings/#csa-summer-2027
+URL:https://csahq.org/events/csa-2027-summer-anesthesia-conference/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

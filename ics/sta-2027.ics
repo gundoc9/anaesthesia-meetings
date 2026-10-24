@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:STA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sta-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270118
+SUMMARY:STA 2027
+LOCATION:W Scottsdale\, Scottsdale\, United States
+DESCRIPTION:2027 STA Annual Meeting (Society for Technology in Anesthesia)\
+ nSociety for Technology in Anesthesia (STA)\nAbstracts close Sun 15 Nov 20
+ 26.\nEarly rate ends Sun 15 Nov 2026.\nhttps://www.stahq.org/events/annual
+ -meeting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#sta-2027
+URL:https://www.stahq.org/events/annual-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

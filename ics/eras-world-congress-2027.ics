@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ERAS Berlin 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eras-world-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270605
+SUMMARY:ERAS Berlin 2027
+LOCATION:Berlin\, Germany
+DESCRIPTION:13th ERAS® World Congress (Berlin 2027)\nERAS® Society (Enhan
+ ced Recovery After Surgery Society)\nhttps://erassociety.org/event/13th-er
+ as-world-congress-2nd-4th-june-2027-berlin/\nAnaesthesia Meetings Almanac:
+  https://ganeshsivasankara.com/anaesthesia-meetings/#eras-world-congress-2
+ 027
+URL:https://erassociety.org/event/13th-eras-world-congress-2nd-4th-june-202
+ 7-berlin/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

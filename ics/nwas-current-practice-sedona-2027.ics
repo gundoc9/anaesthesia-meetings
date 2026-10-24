@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Sedona 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-current-practice-sedona-2027@anaesthesia-meetings.ganeshsivasankar
+ a.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20271001
+SUMMARY:NWAS Sedona 2027
+LOCATION:Hilton Sedona Resort at Bell Rock\, Sedona\, United States
+DESCRIPTION:Current Anesthesia Practice - Sedona\, Arizona - September 27 -
+  30\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; ind
+ ependent CME provider)\nhttps://nwas2.northwestseminars.com/conference/vie
+ w/TopicsinAnesthesia/V2FMcg\nAnaesthesia Meetings Almanac: https://ganeshs
+ ivasankara.com/anaesthesia-meetings/#nwas-current-practice-sedona-2027
+URL:https://nwas2.northwestseminars.com/conference/view/TopicsinAnesthesia/
+ V2FMcg
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

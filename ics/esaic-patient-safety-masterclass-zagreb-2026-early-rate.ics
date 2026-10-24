@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESAIC Patient Safety Masterclass 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-patient-safety-masterclass-zagreb-2026-early-rate@anaesthesia-mee
+ tings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:ESAIC Patient Safety Masterclass 2026: early rate ends
+DESCRIPTION:Patient Safety and Quality Masterclass 2026\nEarly rate ends Mo
+ n 12 Oct 2026.\nhttps://esaic.org/events/patient-safety-and-quality-master
+ class-2026/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/a
+ naesthesia-meetings/#esaic-patient-safety-masterclass-zagreb-2026
+URL:https://esaic.org/events/patient-safety-and-quality-masterclass-2026/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ESAIC Patient Safety Masterclass 2026: early rate ends in a wee
+ k
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ESAIC Patient Safety Masterclass 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

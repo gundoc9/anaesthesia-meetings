@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DGAI Jahreskongress 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:dgai-jahreskongress-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270925
+SUMMARY:DGAI Jahreskongress 2027
+LOCATION:Kongress Palais Kassel\, Kassel\, Germany
+DESCRIPTION:DGAI-Jahreskongress 2027 (DGAI 2027 - Der Jahreskongress)\nDeut
+ sche Gesellschaft für Anästhesiologie und Intensivmedizin (DGAI)\nhttps:
+ //www.dgai-jahreskongress.de/\nAnaesthesia Meetings Almanac: https://ganes
+ hsivasankara.com/anaesthesia-meetings/#dgai-jahreskongress-2027
+URL:https://www.dgai-jahreskongress.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

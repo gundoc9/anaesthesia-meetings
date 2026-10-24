@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:APA 2027 (Oxford)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:apa-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270626
+SUMMARY:APA 2027 (Oxford)
+LOCATION:Mathematical Institute\, University of Oxford\, Oxford\, United Ki
+ ngdom
+DESCRIPTION:Joint APAGBI and CPAS Meeting 2027 (APAGBI Annual Scientific Me
+ eting 2027\, Oxford)\nAssociation of Paediatric Anaesthetists of Great Bri
+ tain and Ireland (APA)\, jointly with the Canadian Pediatric Anesthesia So
+ ciety (CPAS-SAPC)\nDates provisional: the organiser has not yet confirmed 
+ them.\nEarly rate ends Sat 17 Apr 2027.\nhttps://www.apagbi.org.uk/joint-a
+ pagbi-and-cpas-meeting-2027/overview-1\nAnaesthesia Meetings Almanac: http
+ s://ganeshsivasankara.com/anaesthesia-meetings/#apa-asm-2027
+URL:https://www.apagbi.org.uk/joint-apagbi-and-cpas-meeting-2027/overview-1
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

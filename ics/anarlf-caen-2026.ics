@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ANARLF Caen 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:anarlf-caen-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:ANARLF Caen 2026
+LOCATION:Caen\, France
+DESCRIPTION:Congrès ANARLF 2026\nANARLF (acronym not expanded on the SFAR 
+ page)\nDates provisional: the organiser has not yet confirmed them.\nhttps
+ ://www.anarlf.fr/congr%C3%A8s-caen-2026\nAnaesthesia Meetings Almanac: htt
+ ps://ganeshsivasankara.com/anaesthesia-meetings/#anarlf-caen-2026
+URL:https://www.anarlf.fr/congr%C3%A8s-caen-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GasFest 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aoa-gasfest-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270925
+SUMMARY:GasFest 2027
+LOCATION:The ICC\, Birmingham\, Birmingham\, United Kingdom
+DESCRIPTION:GasFest 2027\nAssociation of Anaesthetists\nhttps://anaesthetis
+ ts.org/CPD-and-events/Education-events/Gasfest-2027\nAnaesthesia Meetings 
+ Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#aoa-gasfest-2
+ 027
+URL:https://anaesthetists.org/CPD-and-events/Education-events/Gasfest-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

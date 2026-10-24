@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AFSRA 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:afsra-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:AFSRA 2026
+LOCATION:Cairo\, Egypt
+DESCRIPTION:14th Annual Conference of the African Society of Regional Anest
+ hesia & Pain Therapy (AFSRA 2026)\nThe African Society for Regional Anesth
+ esia and Pain Therapy (AFSRA)\nhttps://afsra.net/afsra-2026/\nAnaesthesia 
+ Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#afsr
+ a-2026
+URL:https://afsra.net/afsra-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

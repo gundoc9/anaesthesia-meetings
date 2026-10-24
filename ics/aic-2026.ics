@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AIC 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aic-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:AIC 2026
+LOCATION:Kongresszentrum Villach\, Villach\, Austria
+DESCRIPTION:AIC 2026 - Jahrestagung der ÖGARI (Austrian International Cong
+ ress)\nÖGARI - Österreichische Gesellschaft für Anaesthesiologie\, Rean
+ imation und Intensivmedizin\nhttps://www.oegari.at/\nAnaesthesia Meetings 
+ Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#aic-2026
+URL:https://www.oegari.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KoreAnesthesia 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:koreanesthesia-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:KoreAnesthesia 2026
+LOCATION:Paradise City and Hyatt Regency Incheon Paradise City\, Incheon\, 
+ South Korea
+DESCRIPTION:KoreAnesthesia 2026\nKorean Society of Anesthesiologists (KSA)\
+ nAbstracts close Mon 31 Aug 2026.\nEarly rate ends Mon 31 Aug 2026.\nhttps
+ ://www.koreanesthesia.org/\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#koreanesthesia-2026
+URL:https://www.koreanesthesia.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

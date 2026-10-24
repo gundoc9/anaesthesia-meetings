@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maui Anesthesia 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:maui-anesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270307
+SUMMARY:Maui Anesthesia 2027
+LOCATION:Hyatt Regency Maui Resort & Spa\, Lahaina (Ka'anapali Beach\, Maui
+ )\, United States
+DESCRIPTION:Maui Anesthesia Seminar 2027 (Holiday Seminars)\nHoliday Semina
+ rs (independent CME provider)\nEarly rate ends Wed 20 Jan 2027.\nhttps://w
+ ww.holidayseminars.com/anesthesia_seminars/maui_anesthesia_conference\nAna
+ esthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeti
+ ngs/#maui-anesthesia-2027
+URL:https://www.holidayseminars.com/anesthesia_seminars/maui_anesthesia_con
+ ference
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

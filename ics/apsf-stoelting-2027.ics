@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:APSF Stoelting 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:apsf-stoelting-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270910
+SUMMARY:APSF Stoelting 2027
+LOCATION:Hilton San Diego Bayfront\, San Diego\, United States
+DESCRIPTION:APSF Stoelting Conference 2027: Safety without Walls: Protectin
+ g Patients in Ambulatory Surgery\nAnesthesia Patient Safety Foundation (AP
+ SF)\nhttps://www.apsf.org/event/stoelting-2027/\nAnaesthesia Meetings Alma
+ nac: https://ganeshsivasankara.com/anaesthesia-meetings/#apsf-stoelting-20
+ 27
+URL:https://www.apsf.org/event/stoelting-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

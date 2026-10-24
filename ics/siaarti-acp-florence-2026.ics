@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACP SIAARTI 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:siaarti-acp-florence-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261203
+SUMMARY:ACP SIAARTI 2026
+LOCATION:Florence\, Italy
+DESCRIPTION:Congresso ACP SIAARTI 2026 - Area Culturale Pediatrica (with pr
+ e-congress workshops)\nSocietà Italiana di Anestesia Analgesia Rianimazio
+ ne e Terapia Intensiva (SIAARTI)\, Area Culturale Pediatrica\nhttps://www.
+ siaarti.it/events/219034/page/programma\nAnaesthesia Meetings Almanac: htt
+ ps://ganeshsivasankara.com/anaesthesia-meetings/#siaarti-acp-florence-2026
+URL:https://www.siaarti.it/events/219034/page/programma
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

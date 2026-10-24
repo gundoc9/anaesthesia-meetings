@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBÜ Istanbul Anesthesia Symposium
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbu-istanbul-anesthesia-symposium-2026@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261206
+SUMMARY:SBÜ Istanbul Anesthesia Symposium
+LOCATION:Elite World Grand İstanbul Küçükyalı\, Istanbul\, Turkey
+DESCRIPTION:6th International Anesthesiology and Reanimation Symposium (6. 
+ Uluslararası Anesteziyoloji ve Reanimasyon Sempozyumu) 2026\nUniversity o
+ f Health Sciences (Sağlık Bilimleri Üniversitesi)\, Hamidiye Faculty of
+  Medicine\, Istanbul\nEarly rate ends Tue 15 Sep 2026.\nhttps://anestezise
+ mpozyumu.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com
+ /anaesthesia-meetings/#sbu-istanbul-anesthesia-symposium-2026
+URL:https://anestezisempozyumu.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

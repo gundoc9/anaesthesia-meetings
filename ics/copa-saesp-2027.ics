@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COPA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:copa-saesp-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270425
+SUMMARY:COPA 2027
+LOCATION:Transamerica Expo Center\, São Paulo\, Brazil
+DESCRIPTION:COPA SAESP 2027 - Congresso Paulista de Anestesiologia 2027\nSo
+ ciedade de Anestesiologia do Estado de São Paulo (SAESP)\nAbstracts close
+  Sun 31 Jan 2027.\nEarly rate ends Sun 29 Nov 2026.\nhttps://saesp.org.br/
+ copa/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
+ esia-meetings/#copa-saesp-2027
+URL:https://saesp.org.br/copa/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

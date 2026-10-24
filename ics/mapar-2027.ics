@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MAPAR 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mapar-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270612
+SUMMARY:MAPAR 2027
+LOCATION:Paris\, France
+DESCRIPTION:MAPAR Le Congrès 2027 (Mises au point en anesthésie-réanimat
+ ion)\nMAPAR\nDates provisional: the organiser has not yet confirmed them.\
+ nhttps://www.mapar.org/\nAnaesthesia Meetings Almanac: https://ganeshsivas
+ ankara.com/anaesthesia-meetings/#mapar-2027
+URL:https://www.mapar.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

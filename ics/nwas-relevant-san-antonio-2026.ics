@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS San Antonio 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-relevant-san-antonio-2026@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261106
+SUMMARY:NWAS San Antonio 2026
+LOCATION:Kimpton Santo Hotel\, San Antonio\, United States
+DESCRIPTION:Relevant Topics in Anesthesia - San Antonio\, Texas - November 
+ 2 - 5\, 2026\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; i
+ ndependent CME provider)\nhttps://nwas2.northwestseminars.com/conference/v
+ iew/RelevantTopicsinAnesthesia/V0tMcw\nAnaesthesia Meetings Almanac: https
+ ://ganeshsivasankara.com/anaesthesia-meetings/#nwas-relevant-san-antonio-2
+ 026
+URL:https://nwas2.northwestseminars.com/conference/view/RelevantTopicsinAne
+ sthesia/V0tMcw
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

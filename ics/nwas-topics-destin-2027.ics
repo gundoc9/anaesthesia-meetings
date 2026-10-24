@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Destin 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-topics-destin-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270426
+SUMMARY:NWAS Destin 2027
+LOCATION:Hilton Sandestin Beach Golf Resort & Spa\, Destin (Miramar Beach\,
+  Florida)\, United States
+DESCRIPTION:Topics in Anesthesia - Destin\, Florida - April 22 - 25\, 2027\
+ nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; independent CM
+ E provider)\nhttps://nwas2.northwestseminars.com/conference/view/topics-in
+ -anesthesia/V2FQaQ\nAnaesthesia Meetings Almanac: https://ganeshsivasankar
+ a.com/anaesthesia-meetings/#nwas-topics-destin-2027
+URL:https://nwas2.northwestseminars.com/conference/view/topics-in-anesthesi
+ a/V2FQaQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

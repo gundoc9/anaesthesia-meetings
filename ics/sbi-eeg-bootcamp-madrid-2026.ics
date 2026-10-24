@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp Madrid
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-madrid-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SBI EEG Bootcamp Madrid
+LOCATION:Madrid\, Spain
+DESCRIPTION:SBI EEG Bootcamp BASIC\, Madrid\nSafe Brain Initiative (SBI)\; 
+ local contact Dr. Alex Barroso\nhttps://safebraininitiative.com/eeg-bootca
+ mp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesi
+ a-meetings/#sbi-eeg-bootcamp-madrid-2026
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

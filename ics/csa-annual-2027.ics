@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSA Annual 2027 (Anaheim)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:csa-annual-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270412
+SUMMARY:CSA Annual 2027 (Anaheim)
+LOCATION:Disneyland Hotel (Disneyland Resort)\, Anaheim\, United States
+DESCRIPTION:CSA 2027 Annual Anesthesia Conference and Board Meeting\nCalifo
+ rnia Society of Anesthesiologists (CSA)\nAbstracts close Mon 8 Feb 2027.\n
+ Early rate ends Tue 16 Feb 2027.\nhttps://csahq.org/events/csa-2027-annual
+ -anesthesia-conference-and-board-meeting/\nAnaesthesia Meetings Almanac: h
+ ttps://ganeshsivasankara.com/anaesthesia-meetings/#csa-annual-2027
+URL:https://csahq.org/events/csa-2027-annual-anesthesia-conference-and-boar
+ d-meeting/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

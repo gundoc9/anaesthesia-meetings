@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SwissAnaesthesia 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:swissanaesthesia-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:SwissAnaesthesia 2026
+LOCATION:Congress Kursaal Interlaken\, Interlaken\, Switzerland
+DESCRIPTION:SwissAnaesthesia 2026 - Perioperative Medicine 2026: Shaping ou
+ r Future\nSwiss Society for Anaesthesiology and Perioperative Medicine (SS
+ APM)\, together with SIGA-FSIA\nhttps://bbscongress.ch/en/swissanaesthesia
+ \nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-
+ meetings/#swissanaesthesia-2026
+URL:https://bbscongress.ch/en/swissanaesthesia
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

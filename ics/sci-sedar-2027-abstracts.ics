@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SCI-SEDAR 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sci-sedar-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:SCI-SEDAR 2027: abstracts close
+DESCRIPTION:XI Reunión Nacional de la Sección de Cuidados Intensivos de l
+ a SEDAR (SCI-SEDAR 2027)\nAbstracts close Mon 18 Jan 2027.\nhttps://scised
+ ar2027.com/presentacion\nAnaesthesia Meetings Almanac: https://ganeshsivas
+ ankara.com/anaesthesia-meetings/#sci-sedar-2027
+URL:https://scisedar2027.com/presentacion
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCI-SEDAR 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCI-SEDAR 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

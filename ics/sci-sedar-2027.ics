@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SCI-SEDAR 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sci-sedar-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270220
+SUMMARY:SCI-SEDAR 2027
+LOCATION:Novotel Madrid Center\, Madrid\, Spain
+DESCRIPTION:XI Reunión Nacional de la Sección de Cuidados Intensivos de l
+ a SEDAR (SCI-SEDAR 2027)\nSociedad Española de Anestesiología y Reanimac
+ ión (SEDAR)\, Sección de Cuidados Intensivos (technical secretariat: San
+ icongress)\nAbstracts close Mon 18 Jan 2027.\nEarly rate ends Fri 15 Jan 2
+ 027.\nhttps://scisedar2027.com/presentacion\nAnaesthesia Meetings Almanac:
+  https://ganeshsivasankara.com/anaesthesia-meetings/#sci-sedar-2027
+URL:https://scisedar2027.com/presentacion
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

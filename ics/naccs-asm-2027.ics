@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NACCS ASM 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:naccs-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270519
+SUMMARY:NACCS ASM 2027
+LOCATION:Liverpool Experience Campus\, Liverpool\, United Kingdom
+DESCRIPTION:NACCS Annual Scientific Meeting 2027\nNeuro Anaesthesia and Cri
+ tical Care Society of Great Britain and Ireland (NACCS)\nhttps://naccs.org
+ .uk/event/naccs-annual-scientific-meeting-2027/\nAnaesthesia Meetings Alma
+ nac: https://ganeshsivasankara.com/anaesthesia-meetings/#naccs-asm-2027
+URL:https://naccs.org.uk/event/naccs-annual-scientific-meeting-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

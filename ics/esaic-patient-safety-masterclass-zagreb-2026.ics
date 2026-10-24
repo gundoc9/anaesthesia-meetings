@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESAIC Patient Safety Masterclass 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-patient-safety-masterclass-zagreb-2026@anaesthesia-meetings.ganes
+ hsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261105
+SUMMARY:ESAIC Patient Safety Masterclass 2026
+LOCATION:University Hospital Centre Sestre Milosrdnice\, Zagreb\, Croatia
+DESCRIPTION:Patient Safety and Quality Masterclass 2026\nEuropean Society o
+ f Anaesthesiology and Intensive Care (ESAIC)\nEarly rate ends Mon 12 Oct 2
+ 026.\nhttps://esaic.org/events/patient-safety-and-quality-masterclass-2026
+ /\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia
+ -meetings/#esaic-patient-safety-masterclass-zagreb-2026
+URL:https://esaic.org/events/patient-safety-and-quality-masterclass-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CAS 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cas-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270614
+SUMMARY:CAS 2027
+LOCATION:RBC Convention Centre Winnipeg\, Winnipeg\, Canada
+DESCRIPTION:2027 CAS Annual Meeting\nCanadian Anesthesiologists' Society (C
+ AS)\nhttps://www.cas.ca/annual-meeting\nAnaesthesia Meetings Almanac: http
+ s://ganeshsivasankara.com/anaesthesia-meetings/#cas-2027
+URL:https://www.cas.ca/annual-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp Munich (ADVANCED)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-munich-advanced-2027@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:SBI EEG Bootcamp Munich (ADVANCED)
+LOCATION:Munich\, Germany
+DESCRIPTION:SBI EEG Bootcamp ADVANCED\, Munich\nSafe Brain Initiative (SBI)
+ \; local contact Dr. med. Eleni Ostertag\nhttps://safebraininitiative.com/
+ eeg-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
+ anaesthesia-meetings/#sbi-eeg-bootcamp-munich-advanced-2027
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

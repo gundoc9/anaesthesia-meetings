@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PGA80
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pga80-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261215
+SUMMARY:PGA80
+LOCATION:New York Marriott Marquis\, New York\, United States
+DESCRIPTION:PGA80 - 80th PostGraduate Assembly in Anesthesiology 2026\nNew 
+ York State Society of Anesthesiologists\, Inc. (NYSSA)\nEarly rate ends We
+ d 30 Sep 2026.\nhttps://www.pga.nyc/\nAnaesthesia Meetings Almanac: https:
+ //ganeshsivasankara.com/anaesthesia-meetings/#pga80-2026
+URL:https://www.pga.nyc/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Maui Jan 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-relevant-maui-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270116
+SUMMARY:NWAS Maui Jan 2027
+LOCATION:Andaz Maui at Wailea Resort\, Wailea (Maui\, Hawaii)\, United Stat
+ es
+DESCRIPTION:Relevant Topics in Anesthesia - Maui\, Hawaii - January 11 - 15
+ \, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; indepe
+ ndent CME provider)\nhttps://nwas2.northwestseminars.com/conference/view/R
+ elevantTopicsinAnesthesia/V2FEdg\nAnaesthesia Meetings Almanac: https://ga
+ neshsivasankara.com/anaesthesia-meetings/#nwas-relevant-maui-2027
+URL:https://nwas2.northwestseminars.com/conference/view/RelevantTopicsinAne
+ sthesia/V2FEdg
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

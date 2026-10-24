@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Paediatric EEG Bootcamp
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:espa-eeg-bootcamp-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Paediatric EEG Bootcamp
+LOCATION:Villa Quartara\, Genoa\, Italy
+DESCRIPTION:Paediatric EEG Bootcamp BASIC (SBI\, PALNET and SafeTots)\, Gen
+ oa\nSafe Brain Initiative (SBI)\, PALNET (Paediatric Anaesthesia Learning 
+ Network for EEG Technology) and SafeTots\, by invitation of the European S
+ ociety for Paediatric Anaesthesiology (ESPA)\; secretariat Gaslini Academy
+ \, Genoa\nhttps://www.euroespa.com/espa-invitation-paediatric-eeg-bootcamp
+ -basic-5-december-2026-genoa/\nAnaesthesia Meetings Almanac: https://ganes
+ hsivasankara.com/anaesthesia-meetings/#espa-eeg-bootcamp-2026
+URL:https://www.euroespa.com/espa-invitation-paediatric-eeg-bootcamp-basic-
+ 5-december-2026-genoa/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

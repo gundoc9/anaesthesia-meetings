@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Te Aka Tauwhiro 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:te-aka-tauwhiro-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Te Aka Tauwhiro 2026: early rate ends
+DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nEarly ra
+ te ends Mon 26 Oct 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesi
+ a Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te
+ -aka-tauwhiro-2026
+URL:https://www.tauwhiro.anaesthesia.nz/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

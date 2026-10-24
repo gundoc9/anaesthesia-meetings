@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stanley Update 2027 (Park City): early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stanley-update-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Stanley Update 2027 (Park City): early rate ends
+DESCRIPTION:72nd Theodore H. Stanley Annual Update in Anesthesiology\nEarly
+  rate ends Mon 21 Dec 2026.\nhttps://medicine.utah.edu/anesthesiology/post
+ grad\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
+ sia-meetings/#stanley-update-2027
+URL:https://medicine.utah.edu/anesthesiology/postgrad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stanley Update 2027 (Park City): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stanley Update 2027 (Park City): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

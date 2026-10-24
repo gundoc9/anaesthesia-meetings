@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SBI EEG Bootcamp Augsburg
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sbi-eeg-bootcamp-augsburg-2026@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261213
+SUMMARY:SBI EEG Bootcamp Augsburg
+LOCATION:Augsburg\, Germany
+DESCRIPTION:SBI EEG Bootcamp BASIC and ADVANCED\, Augsburg\nSafe Brain Init
+ iative (SBI)\; local contact Prof. Stephan Kratzer\nhttps://safebraininiti
+ ative.com/eeg-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasa
+ nkara.com/anaesthesia-meetings/#sbi-eeg-bootcamp-augsburg-2026
+URL:https://safebraininitiative.com/eeg-bootcamp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSA Fall 2026 (Big Island)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:csa-fall-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261114
+SUMMARY:CSA Fall 2026 (Big Island)
+LOCATION:Fairmont Orchid\, Kohala Coast (Big Island\, Hawaii)\, United Stat
+ es
+DESCRIPTION:CSA 2026 Fall Anesthesia Conference\nCalifornia Society of Anes
+ thesiologists (CSA)\nhttps://csahq.org/events/csa-2026-fall-anesthesia-con
+ ference/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#csa-fall-2026
+URL:https://csahq.org/events/csa-2026-fall-anesthesia-conference/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WCRAPM 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:wcrapm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:WCRAPM 2027: early rate ends
+DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
+ APM 2027)\nEarly rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027.co
+ m/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesi
+ a-meetings/#wcrapm-2027
+URL:https://www.lasraworld2027.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WCRAPM 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WCRAPM 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pediatric Anesthesiology 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spa-aap-pediatric-anesthesiology-2027-early-rate@anaesthesia-meetings.g
+ aneshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Pediatric Anesthesiology 2027: early rate ends
+DESCRIPTION:SPA-AAP Pediatric Anesthesiology 2027\nEarly rate ends Fri 15 J
+ an 2027.\nhttps://www2.pedsanesthesia.org/meetings/2027winter/guide\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#spa-aap-pediatric-anesthesiology-2027
+URL:https://www2.pedsanesthesia.org/meetings/2027winter/guide
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pediatric Anesthesiology 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pediatric Anesthesiology 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

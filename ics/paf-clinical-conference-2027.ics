@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PAF Clinical Conference 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:paf-clinical-conference-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270222
+SUMMARY:PAF Clinical Conference 2027
+LOCATION:Disney's Grand Californian Hotel & Spa\, Anaheim\, United States
+DESCRIPTION:65th Clinical Conference in Pediatric Anesthesiology\nPediatric
+  Anesthesiology Foundation (PAF)\; CME provider Children's Hospital Los An
+ geles\nAbstracts close Mon 7 Dec 2026.\nEarly rate ends Sat 9 Jan 2027.\nh
+ ttps://paf.societyhq.com/2027/guide/\nAnaesthesia Meetings Almanac: https:
+ //ganeshsivasankara.com/anaesthesia-meetings/#paf-clinical-conference-2027
+URL:https://paf.societyhq.com/2027/guide/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

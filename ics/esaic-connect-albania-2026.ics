@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CONNECT.Albania 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-connect-albania-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261108
+SUMMARY:CONNECT.Albania 2026
+LOCATION:Tirana\, Albania
+DESCRIPTION:CONNECT.Albania 2026 (ESAIC autumn meeting)\nEuropean Society o
+ f Anaesthesiology and Intensive Care (ESAIC) with the Albanian Society of 
+ Anaesthesiologists & Intensivists (ASAI)\nDates provisional: the organiser
+  has not yet confirmed them.\nhttps://connect.esaic.org/\nAnaesthesia Meet
+ ings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#esaic-co
+ nnect-albania-2026
+URL:https://connect.esaic.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

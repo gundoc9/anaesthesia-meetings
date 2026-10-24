@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AQUA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aqua-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270822
+SUMMARY:AQUA 2027
+LOCATION:QT Hotel Queenstown\, Queenstown\, New Zealand
+DESCRIPTION:AQUA 2027 (Annual Queenstown Update in Anaesthesia)\nJoint Anae
+ sthesia Faculty Auckland (JAFA)\, listed by the New Zealand Society of Ana
+ esthetists (NZSA)\nDates provisional: the organiser has not yet confirmed 
+ them.\nhttps://anaesthesia.nz/events/aqua/\nAnaesthesia Meetings Almanac: 
+ https://ganeshsivasankara.com/anaesthesia-meetings/#aqua-2027
+URL:https://anaesthesia.nz/events/aqua/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

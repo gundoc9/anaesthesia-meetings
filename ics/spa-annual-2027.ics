@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SPA 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spa-annual-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:SPA 2027
+LOCATION:Boston\, United States
+DESCRIPTION:Society for Pediatric Anesthesia 41st Annual Meeting (2027)\nSo
+ ciety for Pediatric Anesthesia (SPA)\nDates provisional: the organiser has
+  not yet confirmed them.\nhttps://pedsanesthesia.org/education-and-meeting
+ s/upcoming-meetings/\nAnaesthesia Meetings Almanac: https://ganeshsivasank
+ ara.com/anaesthesia-meetings/#spa-annual-2027
+URL:https://pedsanesthesia.org/education-and-meetings/upcoming-meetings/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

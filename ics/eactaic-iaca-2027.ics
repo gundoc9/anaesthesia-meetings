@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EACTAIC 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eactaic-iaca-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270920
+SUMMARY:EACTAIC 2027
+LOCATION:Palazzo dei Congressi\, Rome\, Italy
+DESCRIPTION:42nd EACTAIC Annual Congress & 2nd IACA Congress (joint meeting
+ )\, Rome 2027\nEuropean Association of Cardiothoracic Anaesthesiology and 
+ Intensive Care (EACTAIC)\, jointly with IACA (2nd IACA Congress)\nDates pr
+ ovisional: the organiser has not yet confirmed them.\nhttps://www.eactaic.
+ org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
+ sia-meetings/#eactaic-iaca-2027
+URL:https://www.eactaic.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

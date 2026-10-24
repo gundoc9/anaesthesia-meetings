@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FMCA 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fmca-congreso-mexicano-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261108
+SUMMARY:FMCA 2026
+LOCATION:Centro Internacional de Congresos de Yucatán\, Mérida\, Mexico
+DESCRIPTION:LVIII Congreso Mexicano de Anestesiología (Mérida 2026)\nFede
+ ración Mexicana de Colegios de Anestesiología\, A.C. (FMCAAC)\nAbstracts
+  close Wed 30 Sep 2026.\nEarly rate ends Sat 31 Oct 2026.\nhttps://www.fmc
+ a2026.mx/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
+ esthesia-meetings/#fmca-congreso-mexicano-2026
+URL:https://www.fmca2026.mx/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

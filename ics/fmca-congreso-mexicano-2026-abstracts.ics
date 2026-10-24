@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FMCA 2026: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fmca-congreso-mexicano-2026-abstracts@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:FMCA 2026: abstracts close
+DESCRIPTION:LVIII Congreso Mexicano de Anestesiología (Mérida 2026)\nAbst
+ racts close Wed 30 Sep 2026.\nhttps://www.fmca2026.mx/\nAnaesthesia Meetin
+ gs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#fmca-congr
+ eso-mexicano-2026
+URL:https://www.fmca2026.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FMCA 2026: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FMCA 2026: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Healthcare Improvement Forum Lisbon 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:healthcare-improvement-forum-lisbon-2027-abstracts@anaesthesia-meetings
+ .ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Healthcare Improvement Forum Lisbon 2027: abstracts close
+DESCRIPTION:Healthcare Improvement Forum (formerly International Forum on Q
+ uality and Safety in Healthcare)\, Lisbon 2027\nAbstracts close Wed 7 Oct 
+ 2026.\nhttps://internationalforum.bmj.com/lisbon/\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#healthcare-impr
+ ovement-forum-lisbon-2027
+URL:https://internationalforum.bmj.com/lisbon/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Healthcare Improvement Forum Lisbon 2027: abstracts close in a 
+ week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Healthcare Improvement Forum Lisbon 2027: abstracts close tomor
+ row
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

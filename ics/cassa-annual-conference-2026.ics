@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CASSA 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cassa-annual-conference-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:CASSA 2026
+LOCATION:The Capital on the Park\, Johannesburg (Sandton)\, South Africa
+DESCRIPTION:2026 CASSA Annual Conference - Cardiac Anaesthesia from physiol
+ ogy to precision\nCardiothoracic and Vascular Anaesthesia Society of South
+ ern Africa (CASSA)\, a special interest group of the South African Society
+  of Anaesthesiologists (SASA)\nhttps://sasaweb.com/sasa_events/2026-cassa-
+ annual-conference-cardiac-anaesthesia-from-physiology-to-precision/\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#cassa-annual-conference-2026
+URL:https://sasaweb.com/sasa_events/2026-cassa-annual-conference-cardiac-an
+ aesthesia-from-physiology-to-precision/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

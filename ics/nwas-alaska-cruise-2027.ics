@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Alaska cruise 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-alaska-cruise-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270829
+SUMMARY:NWAS Alaska cruise 2027
+LOCATION:Holland America Line ms Koningsdam (cruise ship)\, Vancouver (Alas
+ ka Inside Passage cruise)\, Canada
+DESCRIPTION:Topics in Anesthesia : 7-Night Alaska Inside Passage Cruise (Au
+ gust 21 - 28\, 2027)\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washin
+ gton\; independent CME provider)\nhttps://nwas2.northwestseminars.com/conf
+ erence/view/TopicsinAnesthesia/V0tuag\nAnaesthesia Meetings Almanac: https
+ ://ganeshsivasankara.com/anaesthesia-meetings/#nwas-alaska-cruise-2027
+URL:https://nwas2.northwestseminars.com/conference/view/TopicsinAnesthesia/
+ V0tuag
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

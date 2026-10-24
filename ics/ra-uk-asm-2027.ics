@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RA-UK 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ra-uk-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270424
+SUMMARY:RA-UK 2027
+LOCATION:ICC Belfast\, Belfast\, United Kingdom
+DESCRIPTION:RA-UK Annual Scientific Meeting 2027\nRegional Anaesthesia UK (
+ RA-UK)\nhttps://ra-uk.org/asm/ra-uk-2027-belfast\nAnaesthesia Meetings Alm
+ anac: https://ganeshsivasankara.com/anaesthesia-meetings/#ra-uk-asm-2027
+URL:https://ra-uk.org/asm/ra-uk-2027-belfast
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

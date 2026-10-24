@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SEDAR Hemostasia 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sedar-hemostasia-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270508
+SUMMARY:SEDAR Hemostasia 2027
+LOCATION:Hotel Chamartín The One\, Madrid\, Spain
+DESCRIPTION:XI Reunión de la Sección de Hemostasia\, Medicina Transfusion
+ al y Fluidoterapia de la SEDAR\nSociedad Española de Anestesiología y Re
+ animación (SEDAR)\, Sección de Hemostasia\, Medicina Transfusional y Flu
+ idoterapia (technical secretariat: Sanicongress)\nhttps://sedarhemostasia2
+ 027.com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#sedar-hemostasia-2027
+URL:https://sedarhemostasia2027.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

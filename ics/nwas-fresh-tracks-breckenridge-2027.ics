@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Breckenridge 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-fresh-tracks-breckenridge-2027@anaesthesia-meetings.ganeshsivasank
+ ara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:NWAS Breckenridge 2027
+LOCATION:Hotel Alpenrock\, Breckenridge\, United States
+DESCRIPTION:Fresh Tracks in Anesthesia - Breckenridge\, Colorado - March 15
+  - 19\, 2027\nNorthwest Anesthesia Seminars (NWAS\, Pasco\, Washington\; i
+ ndependent CME provider)\nhttps://nwas2.northwestseminars.com/conference/v
+ iew/FreshTracksinAnesthesia/V2FUcQ\nAnaesthesia Meetings Almanac: https://
+ ganeshsivasankara.com/anaesthesia-meetings/#nwas-fresh-tracks-breckenridge
+ -2027
+URL:https://nwas2.northwestseminars.com/conference/view/FreshTracksinAnesth
+ esia/V2FUcQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
