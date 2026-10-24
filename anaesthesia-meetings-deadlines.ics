@@ -1,0 +1,855 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anaesthesia meeting deadlines
+X-WR-CALDESC:Abstract and early-rate deadlines for anaesthesia meetings\, w
+ ith reminders a week before and the day before. https://ganeshsivasankara.
+ com/anaesthesia-meetings/
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fmca-congreso-mexicano-2026-early-rate@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:FMCA 2026: early rate ends
+DESCRIPTION:LVIII Congreso Mexicano de Anestesiología (Mérida 2026)\nEarl
+ y rate ends Sat 31 Oct 2026.\nhttps://www.fmca2026.mx/\nAnaesthesia Meetin
+ gs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#fmca-congr
+ eso-mexicano-2026
+URL:https://www.fmca2026.mx/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FMCA 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FMCA 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isacon-2026-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:ISACON 2026: abstracts close
+DESCRIPTION:ISACON National 2026 - 73rd Annual National Conference of the I
+ ndian Society of Anaesthesiologists\nAbstracts close Tue 10 Nov 2026.\nhtt
+ ps://isacon2026national.com/\nAnaesthesia Meetings Almanac: https://ganesh
+ sivasankara.com/anaesthesia-meetings/#isacon-2026
+URL:https://isacon2026national.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISACON 2026: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISACON 2026: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:te-aka-tauwhiro-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Te Aka Tauwhiro 2026: early rate ends
+DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nEarly ra
+ te ends Mon 26 Oct 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesi
+ a Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te
+ -aka-tauwhiro-2026
+URL:https://www.tauwhiro.anaesthesia.nz/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:STA 2027: abstracts close
+DESCRIPTION:2027 STA Annual Meeting (Society for Technology in Anesthesia)\
+ nAbstracts close Sun 15 Nov 2026.\nhttps://www.stahq.org/events/annual-mee
+ ting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
+ sia-meetings/#sta-2027
+URL:https://www.stahq.org/events/annual-meeting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:STA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:STA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:STA 2027: early rate ends
+DESCRIPTION:2027 STA Annual Meeting (Society for Technology in Anesthesia)\
+ nEarly rate ends Sun 15 Nov 2026.\nhttps://www.stahq.org/events/annual-mee
+ ting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
+ sia-meetings/#sta-2027
+URL:https://www.stahq.org/events/annual-meeting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:STA 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:STA 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aoa-wsm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:WSM 2027: early rate ends
+DESCRIPTION:Association of Anaesthetists Winter Scientific Meeting 2027\nEa
+ rly rate ends Thu 3 Dec 2026.\nhttps://anaesthetists.org/Home/Education-ev
+ ents/Winter-Scientific-Meeting\nAnaesthesia Meetings Almanac: https://gane
+ shsivasankara.com/anaesthesia-meetings/#aoa-wsm-2027
+URL:https://anaesthetists.org/Home/Education-events/Winter-Scientific-Meeti
+ ng
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WSM 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WSM 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:stanley-update-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Stanley Update 2027 (Park City): early rate ends
+DESCRIPTION:72nd Theodore H. Stanley Annual Update in Anesthesiology\nEarly
+  rate ends Mon 21 Dec 2026.\nhttps://medicine.utah.edu/anesthesiology/post
+ grad\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
+ sia-meetings/#stanley-update-2027
+URL:https://medicine.utah.edu/anesthesiology/postgrad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stanley Update 2027 (Park City): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stanley Update 2027 (Park City): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sci-sedar-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:SCI-SEDAR 2027: abstracts close
+DESCRIPTION:XI Reunión Nacional de la Sección de Cuidados Intensivos de l
+ a SEDAR (SCI-SEDAR 2027)\nAbstracts close Mon 18 Jan 2027.\nhttps://scised
+ ar2027.com/presentacion\nAnaesthesia Meetings Almanac: https://ganeshsivas
+ ankara.com/anaesthesia-meetings/#sci-sedar-2027
+URL:https://scisedar2027.com/presentacion
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCI-SEDAR 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCI-SEDAR 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sci-sedar-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:SCI-SEDAR 2027: early rate ends
+DESCRIPTION:XI Reunión Nacional de la Sección de Cuidados Intensivos de l
+ a SEDAR (SCI-SEDAR 2027)\nEarly rate ends Fri 15 Jan 2027.\nhttps://scised
+ ar2027.com/presentacion\nAnaesthesia Meetings Almanac: https://ganeshsivas
+ ankara.com/anaesthesia-meetings/#sci-sedar-2027
+URL:https://scisedar2027.com/presentacion
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCI-SEDAR 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCI-SEDAR 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:paf-clinical-conference-2027-abstracts@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:PAF Clinical Conference 2027: abstracts close
+DESCRIPTION:65th Clinical Conference in Pediatric Anesthesiology\nAbstracts
+  close Mon 7 Dec 2026.\nhttps://paf.societyhq.com/2027/guide/\nAnaesthesia
+  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#paf
+ -clinical-conference-2027
+URL:https://paf.societyhq.com/2027/guide/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PAF Clinical Conference 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PAF Clinical Conference 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:paf-clinical-conference-2027-early-rate@anaesthesia-meetings.ganeshsiva
+ sankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:PAF Clinical Conference 2027: early rate ends
+DESCRIPTION:65th Clinical Conference in Pediatric Anesthesiology\nEarly rat
+ e ends Sat 9 Jan 2027.\nhttps://paf.societyhq.com/2027/guide/\nAnaesthesia
+  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#paf
+ -clinical-conference-2027
+URL:https://paf.societyhq.com/2027/guide/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PAF Clinical Conference 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PAF Clinical Conference 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whistler-summit-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Whistler Summit 2027: early rate ends
+DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nEarly r
+ ate ends Mon 23 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meetin
+ gs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-s
+ ummit-2027
+URL:https://ubccpd.ca/node/3017
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whistler Summit 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whistler Summit 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:maui-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Maui Anesthesia 2027: early rate ends
+DESCRIPTION:Maui Anesthesia Seminar 2027 (Holiday Seminars)\nEarly rate end
+ s Wed 20 Jan 2027.\nhttps://www.holidayseminars.com/anesthesia_seminars/ma
+ ui_anesthesia_conference\nAnaesthesia Meetings Almanac: https://ganeshsiva
+ sankara.com/anaesthesia-meetings/#maui-anesthesia-2027
+URL:https://www.holidayseminars.com/anesthesia_seminars/maui_anesthesia_con
+ ference
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maui Anesthesia 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maui Anesthesia 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccas-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:CCAS 2027: abstracts close
+DESCRIPTION:CCAS 2027 Annual Meeting\nAbstracts close Mon 26 Oct 2026.\nhtt
+ ps://www2.ccasociety.org/meetings/2027annual/guide\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#ccas-2027
+URL:https://www2.ccasociety.org/meetings/2027annual/guide
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CCAS 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CCAS 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spa-aap-pediatric-anesthesiology-2027-abstracts@anaesthesia-meetings.ga
+ neshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Pediatric Anesthesiology 2027: abstracts close
+DESCRIPTION:SPA-AAP Pediatric Anesthesiology 2027\nAbstracts close Mon 26 O
+ ct 2026.\nhttps://www2.pedsanesthesia.org/meetings/2027winter/guide\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#spa-aap-pediatric-anesthesiology-2027
+URL:https://www2.pedsanesthesia.org/meetings/2027winter/guide
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pediatric Anesthesiology 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pediatric Anesthesiology 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spa-aap-pediatric-anesthesiology-2027-early-rate@anaesthesia-meetings.g
+ aneshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Pediatric Anesthesiology 2027: early rate ends
+DESCRIPTION:SPA-AAP Pediatric Anesthesiology 2027\nEarly rate ends Fri 15 J
+ an 2027.\nhttps://www2.pedsanesthesia.org/meetings/2027winter/guide\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#spa-aap-pediatric-anesthesiology-2027
+URL:https://www2.pedsanesthesia.org/meetings/2027winter/guide
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pediatric Anesthesiology 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pediatric Anesthesiology 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wcrapm-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:WCRAPM 2027: abstracts close
+DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
+ APM 2027)\nAbstracts close Sun 1 Nov 2026.\nhttps://www.lasraworld2027.com
+ /\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia
+ -meetings/#wcrapm-2027
+URL:https://www.lasraworld2027.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WCRAPM 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WCRAPM 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wcrapm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:WCRAPM 2027: early rate ends
+DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
+ APM 2027)\nEarly rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027.co
+ m/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesi
+ a-meetings/#wcrapm-2027
+URL:https://www.lasraworld2027.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WCRAPM 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WCRAPM 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aua-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:AUA 2027: abstracts close
+DESCRIPTION:AUA 2027 Annual Meeting (Association of University Anesthesiolo
+ gists)\nAbstracts close Thu 17 Dec 2026.\nhttps://www.auahq.org/2027-annua
+ l-meeting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
+ esthesia-meetings/#aua-2027
+URL:https://www.auahq.org/2027-annual-meeting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AUA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AUA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sca-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:SCA 2027: abstracts close
+DESCRIPTION:Society of Cardiovascular Anesthesiologists 49th Annual Meeting
+  and Workshops (SCA 2027)\nAbstracts close Tue 1 Dec 2026.\nhttps://scahq.
+ org/upcoming-event/sca-annual-meeting-and-workshops-2027/\nAnaesthesia Mee
+ tings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#sca-202
+ 7
+URL:https://scahq.org/upcoming-event/sca-annual-meeting-and-workshops-2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SCA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:csa-annual-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:CSA Annual 2027 (Anaheim): abstracts close
+DESCRIPTION:CSA 2027 Annual Anesthesia Conference and Board Meeting\nAbstra
+ cts close Mon 8 Feb 2027.\nhttps://csahq.org/events/csa-2027-annual-anesth
+ esia-conference-and-board-meeting/\nAnaesthesia Meetings Almanac: https://
+ ganeshsivasankara.com/anaesthesia-meetings/#csa-annual-2027
+URL:https://csahq.org/events/csa-2027-annual-anesthesia-conference-and-boar
+ d-meeting/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Annual 2027 (Anaheim): abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Annual 2027 (Anaheim): abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:csa-annual-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:CSA Annual 2027 (Anaheim): early rate ends
+DESCRIPTION:CSA 2027 Annual Anesthesia Conference and Board Meeting\nEarly 
+ rate ends Tue 16 Feb 2027.\nhttps://csahq.org/events/csa-2027-annual-anest
+ hesia-conference-and-board-meeting/\nAnaesthesia Meetings Almanac: https:/
+ /ganeshsivasankara.com/anaesthesia-meetings/#csa-annual-2027
+URL:https://csahq.org/events/csa-2027-annual-anesthesia-conference-and-boar
+ d-meeting/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Annual 2027 (Anaheim): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Annual 2027 (Anaheim): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:copa-saesp-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:COPA 2027: abstracts close
+DESCRIPTION:COPA SAESP 2027 - Congresso Paulista de Anestesiologia 2027\nAb
+ stracts close Sun 31 Jan 2027.\nhttps://saesp.org.br/copa/\nAnaesthesia Me
+ etings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#copa-s
+ aesp-2027
+URL:https://saesp.org.br/copa/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COPA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COPA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:copa-saesp-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:COPA 2027: early rate ends
+DESCRIPTION:COPA SAESP 2027 - Congresso Paulista de Anestesiologia 2027\nEa
+ rly rate ends Sun 29 Nov 2026.\nhttps://saesp.org.br/copa/\nAnaesthesia Me
+ etings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#copa-s
+ aesp-2027
+URL:https://saesp.org.br/copa/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COPA 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COPA 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:anzca-asm-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:ANZCA ASM 2027: abstracts close
+DESCRIPTION:2027 ANZCA Annual Scientific Meeting (ASM)\nAbstracts close Sun
+  17 Jan 2027.\nhttps://asm.anzca.edu.au/\nAnaesthesia Meetings Almanac: ht
+ tps://ganeshsivasankara.com/anaesthesia-meetings/#anzca-asm-2027
+URL:https://asm.anzca.edu.au/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANZCA ASM 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANZCA ASM 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:anzca-asm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:ANZCA ASM 2027: early rate ends
+DESCRIPTION:2027 ANZCA Annual Scientific Meeting (ASM)\nEarly rate ends Tue
+  9 Mar 2027.\nhttps://asm.anzca.edu.au/\nAnaesthesia Meetings Almanac: htt
+ ps://ganeshsivasankara.com/anaesthesia-meetings/#anzca-asm-2027
+URL:https://asm.anzca.edu.au/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANZCA ASM 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANZCA ASM 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iars-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:IARS 2027: abstracts close
+DESCRIPTION:2027 Annual Meeting\, presented by IARS and SOCCA (Internationa
+ l Anesthesia Research Society)\nAbstracts close Sun 6 Dec 2026.\nhttps://m
+ eetings.iars.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara
+ .com/anaesthesia-meetings/#iars-2027
+URL:https://meetings.iars.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IARS 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IARS 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iars-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:IARS 2027: early rate ends
+DESCRIPTION:2027 Annual Meeting\, presented by IARS and SOCCA (Internationa
+ l Anesthesia Research Society)\nEarly rate ends Thu 11 Mar 2027.\nhttps://
+ meetings.iars.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankar
+ a.com/anaesthesia-meetings/#iars-2027
+URL:https://meetings.iars.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IARS 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IARS 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rcoa-anaesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara
+ .com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Anaesthesia 2027 (RCoA): early rate ends
+DESCRIPTION:Anaesthesia 2027 (Royal College of Anaesthetists annual confere
+ nce)\nEarly rate ends Thu 31 Dec 2026.\nhttps://www.rcoa.ac.uk/events/anae
+ sthesia-2027\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
+ anaesthesia-meetings/#rcoa-anaesthesia-2027
+URL:https://www.rcoa.ac.uk/events/anaesthesia-2027
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anaesthesia 2027 (RCoA): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anaesthesia 2027 (RCoA): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:euroanaesthesia-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Euroanaesthesia 2027: abstracts close
+DESCRIPTION:Euroanaesthesia 2027\nAbstracts close Thu 10 Dec 2026.\nhttps:/
+ /euroanaesthesia.org/2027/\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#euroanaesthesia-2027
+URL:https://euroanaesthesia.org/2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Euroanaesthesia 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Euroanaesthesia 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:euroanaesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Euroanaesthesia 2027: early rate ends
+DESCRIPTION:Euroanaesthesia 2027\nEarly rate ends Wed 17 Feb 2027.\nhttps:/
+ /euroanaesthesia.org/2027/\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#euroanaesthesia-2027
+URL:https://euroanaesthesia.org/2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Euroanaesthesia 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Euroanaesthesia 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apa-asm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:APA 2027 (Oxford): early rate ends
+DESCRIPTION:Joint APAGBI and CPAS Meeting 2027 (APAGBI Annual Scientific Me
+ eting 2027\, Oxford)\nEarly rate ends Sat 17 Apr 2027.\nhttps://www.apagbi
+ .org.uk/joint-apagbi-and-cpas-meeting-2027/overview-1\nAnaesthesia Meeting
+ s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#apa-asm-202
+ 7
+URL:https://www.apagbi.org.uk/joint-apagbi-and-cpas-meeting-2027/overview-1
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APA 2027 (Oxford): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APA 2027 (Oxford): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:csa-summer-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:CSA Summer 2027 (Oahu): early rate ends
+DESCRIPTION:CSA 2027 Summer Anesthesia Conference (CSA 2027 Hawaii Anesthes
+ ia Conference)\nEarly rate ends Fri 5 Mar 2027.\nhttps://csahq.org/events/
+ csa-2027-summer-anesthesia-conference/\nAnaesthesia Meetings Almanac: http
+ s://ganeshsivasankara.com/anaesthesia-meetings/#csa-summer-2027
+URL:https://csahq.org/events/csa-2027-summer-anesthesia-conference/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Summer 2027 (Oahu): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSA Summer 2027 (Oahu): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isqua-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:ISQua 2027: abstracts close
+DESCRIPTION:ISQua's 43rd International Conference 2027\nAbstracts close Mon
+  25 Jan 2027.\nhttps://isqua.org/conference/vancouver-2027/\nAnaesthesia M
+ eetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#isqua
+ -2027
+URL:https://isqua.org/conference/vancouver-2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISQua 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISQua 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asa-nsc-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:ASA NSC 2027: abstracts close
+DESCRIPTION:Australian Society of Anaesthetists National Scientific Congres
+ s 2027 (ASA NSC 2027 Kyoto)\nAbstracts close Mon 17 May 2027.\nhttps://asa
+ nsc.com.au/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/a
+ naesthesia-meetings/#asa-nsc-2027
+URL:https://asansc.com.au/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASA NSC 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASA NSC 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asa-anesthesiology-2027-abstracts@anaesthesia-meetings.ganeshsivasankar
+ a.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:ANESTHESIOLOGY 2027: abstracts close
+DESCRIPTION:ANESTHESIOLOGY 2027 - the American Society of Anesthesiologists
+  annual meeting\nAbstracts close Tue 30 Mar 2027.\nhttps://www.asahq.org/a
+ nnualmeeting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
+ anaesthesia-meetings/#asa-anesthesiology-2027
+URL:https://www.asahq.org/annualmeeting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANESTHESIOLOGY 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ANESTHESIOLOGY 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
