@@ -58,30 +58,6 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:te-aka-tauwhiro-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.
- com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:Te Aka Tauwhiro 2026: early rate ends
-DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nEarly ra
- te ends Mon 26 Oct 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesi
- a Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te
- -aka-tauwhiro-2026
-URL:https://www.tauwhiro.anaesthesia.nz/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:sta-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -315,52 +291,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Maui Anesthesia 2027: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ccas-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:CCAS 2027: abstracts close
-DESCRIPTION:CCAS 2027 Annual Meeting\nAbstracts close Mon 26 Oct 2026.\nhtt
- ps://www2.ccasociety.org/meetings/2027annual/guide\nAnaesthesia Meetings A
- lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#ccas-2027
-URL:https://www2.ccasociety.org/meetings/2027annual/guide
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:CCAS 2027: abstracts close in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:CCAS 2027: abstracts close tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:spa-aap-pediatric-anesthesiology-2027-abstracts@anaesthesia-meetings.ga
- neshsivasankara.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:Pediatric Anesthesiology 2027: abstracts close
-DESCRIPTION:SPA-AAP Pediatric Anesthesiology 2027\nAbstracts close Mon 26 O
- ct 2026.\nhttps://www2.pedsanesthesia.org/meetings/2027winter/guide\nAnaes
- thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
- s/#spa-aap-pediatric-anesthesiology-2027
-URL:https://www2.pedsanesthesia.org/meetings/2027winter/guide
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Pediatric Anesthesiology 2027: abstracts close in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Pediatric Anesthesiology 2027: abstracts close tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
