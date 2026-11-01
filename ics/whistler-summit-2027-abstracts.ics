@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Whistler Summit 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:whistler-summit-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Whistler Summit 2027: abstracts close
+DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nAbstrac
+ ts close Fri 6 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meeting
+ s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-su
+ mmit-2027
+URL:https://ubccpd.ca/node/3017
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whistler Summit 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whistler Summit 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Block & Pain 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:block-and-pain-paris-2027-early-rate@anaesthesia-meetings.ganeshsivasan
+ kara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Block & Pain 2027: early rate ends
+DESCRIPTION:Congrès Block & Pain : Anesthésie & Douleur\nEarly rate ends 
+ Sun 1 Nov 2026.\nhttps://www.blockandpain.com/\nAnaesthesia Meetings Alman
+ ac: https://ganeshsivasankara.com/anaesthesia-meetings/#block-and-pain-par
+ is-2027
+URL:https://www.blockandpain.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Block & Pain 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Block & Pain 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AAAC 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aaac-dar-es-salaam-2027-early-rate@anaesthesia-meetings.ganeshsivasanka
+ ra.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:AAAC 2027: early rate ends
+DESCRIPTION:10th All Africa Anaesthesia Congress 2027\nEarly rate ends Sun 
+ 31 Jan 2027.\nhttps://aaac2027.com/\nAnaesthesia Meetings Almanac: https:/
+ /ganeshsivasankara.com/anaesthesia-meetings/#aaac-dar-es-salaam-2027
+URL:https://aaac2027.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAAC 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAAC 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

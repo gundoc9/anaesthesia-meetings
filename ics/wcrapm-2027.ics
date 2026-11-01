@@ -9,17 +9,18 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:wcrapm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270314
 SUMMARY:WCRAPM 2027
-LOCATION:Centroparque Convention Center (Araucano Park)\, Santiago\, Chile
+LOCATION:Centro Parque (Centroparque Convention Center\, Parque Araucano)\,
+  Santiago\, Chile
 DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
- APM 2027)\nLatin American Society of Regional Anesthesia (LASRA)\, support
- ed by AFSRA\, ASRA\, AOSRA and ESRA\nAbstracts close Sun 1 Nov 2026.\nEarl
- y rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027.com/\nAnaesthesia
-  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#wcr
- apm-2027
+ APM 2027)\nLatin American Society of Regional Anesthesia and Pain Therapy 
+ (LASRA)\, supported by AFSRA\, ASRA\, AOSRA and ESRA\nAbstracts close Fri 
+ 15 Jan 2027.\nEarly rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027
+ .com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
+ esia-meetings/#wcrapm-2027
 URL:https://www.lasraworld2027.com/
 TRANSP:TRANSPARENT
 END:VEVENT

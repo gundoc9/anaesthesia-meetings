@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESAIC Statistics Masterclass Rome 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-statistics-masterclass-rome-2027@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270319
+SUMMARY:ESAIC Statistics Masterclass Rome 2027
+LOCATION:DotCampus Roma\, Rome\, Italy
+DESCRIPTION:ESAIC Masterclass in Statistics and Research Methodology 2027\n
+ European Society of Anaesthesiology and Intensive Care (ESAIC)\nhttps://es
+ aic.org/events/masterclass-in-statistics-and-research-methodology-2027/\nA
+ naesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-mee
+ tings/#esaic-statistics-masterclass-rome-2027
+URL:https://esaic.org/events/masterclass-in-statistics-and-research-methodo
+ logy-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

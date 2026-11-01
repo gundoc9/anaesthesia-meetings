@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anaesthesia Research 2026 (Southampton)
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rcoa-anaesthesia-research-2026@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:Anaesthesia Research 2026 (Southampton)
+LOCATION:Southampton\, United Kingdom
+DESCRIPTION:Anaesthesia Research 2026: Advancing Science\, Transforming Car
+ e\nRoyal College of Anaesthetists (RCoA) with partner organising groups (t
+ he page says 'many organising groups' without naming them)\nhttps://www.rc
+ oa.ac.uk/events/anaesthesia-research-2026-advancing-science-transforming-c
+ are\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthes
+ ia-meetings/#rcoa-anaesthesia-research-2026
+URL:https://www.rcoa.ac.uk/events/anaesthesia-research-2026-advancing-scien
+ ce-transforming-care
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

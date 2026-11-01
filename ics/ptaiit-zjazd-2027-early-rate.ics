@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XXII Zjazd PTAiIT 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ptaiit-zjazd-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:XXII Zjazd PTAiIT 2027: early rate ends
+DESCRIPTION:XXII Zjazd Polskiego Towarzystwa Anestezjologii i Intensywnej T
+ erapii (22nd Congress of the Polish Society of Anaesthesiology and Intensi
+ ve Therapy)\nEarly rate ends Wed 31 Mar 2027.\nhttps://zjazdanestezjologow
+ 2027.pl/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#ptaiit-zjazd-2027
+URL:https://zjazdanestezjologow2027.pl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:XXII Zjazd PTAiIT 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:XXII Zjazd PTAiIT 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

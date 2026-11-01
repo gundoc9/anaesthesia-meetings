@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mount Sinai Clinical Update Curaçao 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mount-sinai-clinical-update-curacao-2027-early-rate@anaesthesia-meeting
+ s.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Mount Sinai Clinical Update Curaçao 2027: early rate ends
+DESCRIPTION:43rd Annual International Symposium: Clinical Update in Anesthe
+ siology\, Surgery and Perioperative Medicine\nEarly rate ends Mon 14 Dec 2
+ 026.\nhttps://www.clinicalupdateinanesthesiology.org\nAnaesthesia Meetings
+  Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#mount-sinai-
+ clinical-update-curacao-2027
+URL:https://www.clinicalupdateinanesthesiology.org
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: early rate ends in a
+  week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: early rate ends tomo
+ rrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

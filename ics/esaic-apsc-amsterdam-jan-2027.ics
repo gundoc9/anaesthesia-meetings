@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESAIC APSC Amsterdam Jan 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-apsc-amsterdam-jan-2027@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270113
+SUMMARY:ESAIC APSC Amsterdam Jan 2027
+LOCATION:Academic Medical Center\, University of Amsterdam\, Amsterdam\, Ne
+ therlands
+DESCRIPTION:ESAIC Advanced Patient Safety Course (APSC)\, Amsterdam\, Janua
+ ry 2027\nEuropean Society of Anaesthesiology and Intensive Care (ESAIC) co
+ urse\, organised locally by a national society (not named on the ESAIC pag
+ e)\nhttps://esaic.org/professional-growth/educational-courses/apsc/\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#esaic-apsc-amsterdam-jan-2027
+URL:https://esaic.org/professional-growth/educational-courses/apsc/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

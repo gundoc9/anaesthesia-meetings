@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CRASH 2027 (Vail): early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:crash-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:CRASH 2027 (Vail): early rate ends
+DESCRIPTION:CRASH 2027: Colorado Review of Anesthesia for Surgicenters & Ho
+ spitals (35th annual conference)\nEarly rate ends Fri 4 Sep 2026.\nhttps:/
+ /medschool.cuanschutz.edu/anesthesiology/education/crash\nAnaesthesia Meet
+ ings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#crash-20
+ 27
+URL:https://medschool.cuanschutz.edu/anesthesiology/education/crash
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CRASH 2027 (Vail): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CRASH 2027 (Vail): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

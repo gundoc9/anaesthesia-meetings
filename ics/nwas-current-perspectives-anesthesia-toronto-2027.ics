@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NWAS Current Perspectives in Anesthesia Toronto 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nwas-current-perspectives-anesthesia-toronto-2027@anaesthesia-meetings.
+ ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271015
+SUMMARY:NWAS Current Perspectives in Anesthesia Toronto 2027
+LOCATION:The Omni King Edward Hotel\, Toronto\, Canada
+DESCRIPTION:Current Perspectives in Anesthesia\nNorthwest Anesthesia Semina
+ rs (NWAS)\nhttps://nwas2.northwestseminars.com/conference/view/current-per
+ spectives-in-anesthesia/V2FYdQ\nAnaesthesia Meetings Almanac: https://gane
+ shsivasankara.com/anaesthesia-meetings/#nwas-current-perspectives-anesthes
+ ia-toronto-2027
+URL:https://nwas2.northwestseminars.com/conference/view/current-perspective
+ s-in-anesthesia/V2FYdQ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

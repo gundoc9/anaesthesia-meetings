@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jefferson Anesthesia 2027 (Big Sky): early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:jefferson-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasan
+ kara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Jefferson Anesthesia 2027 (Big Sky): early rate ends
+DESCRIPTION:Jefferson Anesthesia Conference 2027\nEarly rate ends Fri 1 Jan
+  2027.\nhttps://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924\nAnaest
+ hesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings
+ /#jefferson-anesthesia-2027
+URL:https://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jefferson Anesthesia 2027 (Big Sky): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jefferson Anesthesia 2027 (Big Sky): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

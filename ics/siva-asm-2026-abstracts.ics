@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIVA ASM 2026: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:siva-asm-2026-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:SIVA ASM 2026: abstracts close
+DESCRIPTION:Annual Scientific Meeting of the Society for Intravenous Anaest
+ hesia 2026\nAbstracts close Mon 12 Oct 2026.\nhttps://www.sivameetings.co.
+ uk/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthes
+ ia-meetings/#siva-asm-2026
+URL:https://www.sivameetings.co.uk/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SIVA ASM 2026: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SIVA ASM 2026: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

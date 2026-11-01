@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SEA Spring Meeting 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sea-spring-meeting-2027-abstracts@anaesthesia-meetings.ganeshsivasankar
+ a.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:SEA Spring Meeting 2027: abstracts close
+DESCRIPTION:Society for Education in Anesthesia 2027 Spring Meeting\nAbstra
+ cts close Wed 30 Sep 2026.\nhttps://www.seahq.org/2027-spring-meeting\nAna
+ esthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeti
+ ngs/#sea-spring-meeting-2027
+URL:https://www.seahq.org/2027-spring-meeting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SEA Spring Meeting 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SEA Spring Meeting 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HMS Anesthesiology Update 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hms-anesthesiology-update-boston-2027-early-rate@anaesthesia-meetings.g
+ aneshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:HMS Anesthesiology Update 2027: early rate ends
+DESCRIPTION:Anesthesiology Update 2027\nEarly rate ends Wed 31 Mar 2027.\nh
+ ttps://learn.hms.harvard.edu/anesthesiology\nAnaesthesia Meetings Almanac:
+  https://ganeshsivasankara.com/anaesthesia-meetings/#hms-anesthesiology-up
+ date-boston-2027
+URL:https://learn.hms.harvard.edu/anesthesiology
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HMS Anesthesiology Update 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HMS Anesthesiology Update 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SPANZA ASM 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spanza-apagbi-asm-perth-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270919
+SUMMARY:SPANZA ASM 2027
+LOCATION:Pan Pacific Perth\, Perth\, Australia
+DESCRIPTION:SPANZA/APAGBI Annual Scientific Meeting 2027\nSociety for Paedi
+ atric Anaesthesia in New Zealand and Australia (SPANZA)\, with the Associa
+ tion of Paediatric Anaesthetists of Great Britain and Ireland (APAGBI)\nht
+ tps://spanza.org.au/Web/iCore/Events/Event_display.aspx?EventKey=27ASM\nAn
+ aesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meet
+ ings/#spanza-apagbi-asm-perth-2027
+URL:https://spanza.org.au/Web/iCore/Events/Event_display.aspx?EventKey=27AS
+ M
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -11,32 +11,34 @@ X-WR-CALDESC:Abstract and early-rate deadlines for anaesthesia meetings\, w
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:fmca-congreso-mexicano-2026-early-rate@anaesthesia-meetings.ganeshsivas
- ankara.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:FMCA 2026: early rate ends
-DESCRIPTION:LVIII Congreso Mexicano de Anestesiología (Mérida 2026)\nEarl
- y rate ends Sat 31 Oct 2026.\nhttps://www.fmca2026.mx/\nAnaesthesia Meetin
- gs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#fmca-congr
- eso-mexicano-2026
-URL:https://www.fmca2026.mx/
+UID:journees-francophones-arp-2026-early-rate@anaesthesia-meetings.ganeshsi
+ vasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Journées Francophones ARP 2026: early rate ends
+DESCRIPTION:Journées Francophones d'Anesthésie Réanimation Pédiatriques
+  (JFAR 2026)\nEarly rate ends Mon 2 Nov 2026.\nhttps://staartunisia.tn/eve
+ nements/journees-francophones-d-anesthesie-reanimation-ped\nAnaesthesia Me
+ etings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#journe
+ es-francophones-arp-2026
+URL:https://staartunisia.tn/evenements/journees-francophones-d-anesthesie-r
+ eanimation-ped
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:FMCA 2026: early rate ends in a week
+DESCRIPTION:Journées Francophones ARP 2026: early rate ends in a week
 TRIGGER:-P7DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:FMCA 2026: early rate ends tomorrow
+DESCRIPTION:Journées Francophones ARP 2026: early rate ends tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isacon-2026-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:ISACON 2026: abstracts close
@@ -58,8 +60,32 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:te-aka-tauwhiro-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.
+ com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Te Aka Tauwhiro 2026: early rate ends
+DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nEarly ra
+ te ends Mon 2 Nov 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesia
+  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te-
+ aka-tauwhiro-2026
+URL:https://www.tauwhiro.anaesthesia.nz/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sta-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:STA 2027: abstracts close
@@ -82,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sta-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:STA 2027: early rate ends
@@ -105,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aoa-wsm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:WSM 2027: early rate ends
@@ -128,9 +154,180 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mount-sinai-clinical-update-curacao-2027-early-rate@anaesthesia-meeting
+ s.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Mount Sinai Clinical Update Curaçao 2027: early rate ends
+DESCRIPTION:43rd Annual International Symposium: Clinical Update in Anesthe
+ siology\, Surgery and Perioperative Medicine\nEarly rate ends Mon 14 Dec 2
+ 026.\nhttps://www.clinicalupdateinanesthesiology.org\nAnaesthesia Meetings
+  Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#mount-sinai-
+ clinical-update-curacao-2027
+URL:https://www.clinicalupdateinanesthesiology.org
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: early rate ends in a
+  week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: early rate ends tomo
+ rrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:winter-pain-symposium-tignes-2027-early-rate@anaesthesia-meetings.ganes
+ hsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Winter Pain Symposium 2027: early rate ends
+DESCRIPTION:13th Advances in Pain Medicine Winter Symposium\nEarly rate end
+ s Sun 1 Nov 2026.\nhttps://www.winterpainsymposium.com/\nAnaesthesia Meeti
+ ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#winter-pa
+ in-symposium-tignes-2027
+URL:https://www.winterpainsymposium.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Winter Pain Symposium 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Winter Pain Symposium 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asa-advance-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:ASA ADVANCE 2027: early rate ends
+DESCRIPTION:ASA ADVANCE 2027: The Anesthesiology Business Event\nEarly rate
+  ends Thu 19 Nov 2026.\nhttps://www.asahq.org/advance\nAnaesthesia Meeting
+ s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#asa-advance
+ -2027
+URL:https://www.asahq.org/advance
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASA ADVANCE 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASA ADVANCE 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aspen-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara
+ .com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Aspen Anesthesia 2027: early rate ends
+DESCRIPTION:Aspen Anesthesia Seminar 2027 (Holiday Seminars)\nEarly rate en
+ ds Thu 31 Dec 2026.\nhttps://www.holidayseminars.com/anesthesia_seminars/a
+ spen_anesthesia_conference\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#aspen-anesthesia-2027
+URL:https://www.holidayseminars.com/anesthesia_seminars/aspen_anesthesia_co
+ nference
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aspen Anesthesia 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aspen Anesthesia 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:block-and-pain-paris-2027-early-rate@anaesthesia-meetings.ganeshsivasan
+ kara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Block & Pain 2027: early rate ends
+DESCRIPTION:Congrès Block & Pain : Anesthésie & Douleur\nEarly rate ends 
+ Sun 1 Nov 2026.\nhttps://www.blockandpain.com/\nAnaesthesia Meetings Alman
+ ac: https://ganeshsivasankara.com/anaesthesia-meetings/#block-and-pain-par
+ is-2027
+URL:https://www.blockandpain.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Block & Pain 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Block & Pain 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jefferson-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasan
+ kara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Jefferson Anesthesia 2027 (Big Sky): early rate ends
+DESCRIPTION:Jefferson Anesthesia Conference 2027\nEarly rate ends Fri 1 Jan
+  2027.\nhttps://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924\nAnaest
+ hesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings
+ /#jefferson-anesthesia-2027
+URL:https://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jefferson Anesthesia 2027 (Big Sky): early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jefferson Anesthesia 2027 (Big Sky): early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:caicsl-annual-academic-congress-2027-early-rate@anaesthesia-meetings.ga
+ neshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:CAICSL Congress 2027: early rate ends
+DESCRIPTION:43rd Annual Academic Congress of the College of Anaesthesiologi
+ sts and Intensivists of Sri Lanka\nEarly rate ends Thu 31 Dec 2026.\nhttps
+ ://congress.anaesthesia.lk/\nAnaesthesia Meetings Almanac: https://ganeshs
+ ivasankara.com/anaesthesia-meetings/#caicsl-annual-academic-congress-2027
+URL:https://congress.anaesthesia.lk/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CAICSL Congress 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CAICSL Congress 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:stanley-update-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.c
  om
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Stanley Update 2027 (Park City): early rate ends
@@ -153,7 +350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sci-sedar-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:SCI-SEDAR 2027: abstracts close
@@ -176,7 +373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sci-sedar-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:SCI-SEDAR 2027: early rate ends
@@ -200,7 +397,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:paf-clinical-conference-2027-abstracts@anaesthesia-meetings.ganeshsivas
  ankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:PAF Clinical Conference 2027: abstracts close
@@ -224,7 +421,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:paf-clinical-conference-2027-early-rate@anaesthesia-meetings.ganeshsiva
  sankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:PAF Clinical Conference 2027: early rate ends
@@ -246,9 +443,85 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:spaqi-perioperative-medicine-summit-2027-abstracts@anaesthesia-meetings
+ .ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:SPAQI Perioperative Medicine Summit 2027: abstracts close
+DESCRIPTION:22nd Annual Perioperative Medicine Summit (SPAQI)\nAbstracts cl
+ ose Fri 13 Nov 2026.\nhttps://www.spaqi.org/2027/\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#spaqi-periopera
+ tive-medicine-summit-2027
+URL:https://www.spaqi.org/2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: abstracts close in a 
+ week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: abstracts close tomor
+ row
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spaqi-perioperative-medicine-summit-2027-early-rate@anaesthesia-meeting
+ s.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:SPAQI Perioperative Medicine Summit 2027: early rate ends
+DESCRIPTION:22nd Annual Perioperative Medicine Summit (SPAQI)\nEarly rate e
+ nds Sun 24 Jan 2027.\nhttps://www.spaqi.org/2027/\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#spaqi-periopera
+ tive-medicine-summit-2027
+URL:https://www.spaqi.org/2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: early rate ends in a 
+ week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: early rate ends tomor
+ row
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whistler-summit-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Whistler Summit 2027: abstracts close
+DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nAbstrac
+ ts close Fri 6 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meeting
+ s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-su
+ mmit-2027
+URL:https://ubccpd.ca/node/3017
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whistler Summit 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Whistler Summit 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:whistler-summit-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Whistler Summit 2027: early rate ends
@@ -272,7 +545,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:maui-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Maui Anesthesia 2027: early rate ends
@@ -295,9 +568,31 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ccas-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:CCAS 2027: early rate ends
+DESCRIPTION:CCAS 2027 Annual Meeting\nEarly rate ends Fri 15 Jan 2027.\nhtt
+ ps://www2.ccasociety.org/meetings/2027annual/guide\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#ccas-2027
+URL:https://www2.ccasociety.org/meetings/2027annual/guide
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CCAS 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CCAS 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spa-aap-pediatric-anesthesiology-2027-early-rate@anaesthesia-meetings.g
  aneshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Pediatric Anesthesiology 2027: early rate ends
@@ -320,14 +615,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wcrapm-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
 SUMMARY:WCRAPM 2027: abstracts close
 DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
- APM 2027)\nAbstracts close Sun 1 Nov 2026.\nhttps://www.lasraworld2027.com
- /\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia
- -meetings/#wcrapm-2027
+ APM 2027)\nAbstracts close Fri 15 Jan 2027.\nhttps://www.lasraworld2027.co
+ m/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesi
+ a-meetings/#wcrapm-2027
 URL:https://www.lasraworld2027.com/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -342,31 +637,8 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:wcrapm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:WCRAPM 2027: early rate ends
-DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
- APM 2027)\nEarly rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027.co
- m/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesi
- a-meetings/#wcrapm-2027
-URL:https://www.lasraworld2027.com/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:WCRAPM 2027: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:WCRAPM 2027: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:aua-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:AUA 2027: abstracts close
@@ -389,7 +661,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sca-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:SCA 2027: abstracts close
@@ -413,7 +685,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-annual-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:CSA Annual 2027 (Anaheim): abstracts close
@@ -437,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-annual-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:CSA Annual 2027 (Anaheim): early rate ends
@@ -461,7 +733,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:copa-saesp-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:COPA 2027: abstracts close
@@ -484,7 +756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:copa-saesp-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:COPA 2027: early rate ends
@@ -507,7 +779,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:anzca-asm-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:ANZCA ASM 2027: abstracts close
@@ -529,7 +801,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:anzca-asm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:ANZCA ASM 2027: early rate ends
@@ -551,7 +823,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iars-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:IARS 2027: abstracts close
@@ -574,7 +846,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iars-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:IARS 2027: early rate ends
@@ -596,33 +868,103 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rcoa-anaesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara
- .com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:Anaesthesia 2027 (RCoA): early rate ends
-DESCRIPTION:Anaesthesia 2027 (Royal College of Anaesthetists annual confere
- nce)\nEarly rate ends Thu 31 Dec 2026.\nhttps://www.rcoa.ac.uk/events/anae
- sthesia-2027\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
- anaesthesia-meetings/#rcoa-anaesthesia-2027
-URL:https://www.rcoa.ac.uk/events/anaesthesia-2027
+UID:hms-anesthesiology-update-boston-2027-early-rate@anaesthesia-meetings.g
+ aneshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:HMS Anesthesiology Update 2027: early rate ends
+DESCRIPTION:Anesthesiology Update 2027\nEarly rate ends Wed 31 Mar 2027.\nh
+ ttps://learn.hms.harvard.edu/anesthesiology\nAnaesthesia Meetings Almanac:
+  https://ganeshsivasankara.com/anaesthesia-meetings/#hms-anesthesiology-up
+ date-boston-2027
+URL:https://learn.hms.harvard.edu/anesthesiology
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Anaesthesia 2027 (RCoA): early rate ends in a week
+DESCRIPTION:HMS Anesthesiology Update 2027: early rate ends in a week
 TRIGGER:-P7DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Anaesthesia 2027 (RCoA): early rate ends tomorrow
+DESCRIPTION:HMS Anesthesiology Update 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asnacc-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ASNACC 2027: abstracts close
+DESCRIPTION:Congress of the Asian Society for Neuroanaesthesia and Critical
+  Care 2027 (ASNACC 2027)\nAbstracts close Sun 15 Nov 2026.\nhttps://asnacc
+ 2027.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
+ esthesia-meetings/#asnacc-2027
+URL:https://asnacc2027.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASNACC 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASNACC 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asnacc-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:ASNACC 2027: early rate ends
+DESCRIPTION:Congress of the Asian Society for Neuroanaesthesia and Critical
+  Care 2027 (ASNACC 2027)\nEarly rate ends Sun 28 Feb 2027.\nhttps://asnacc
+ 2027.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
+ esthesia-meetings/#asnacc-2027
+URL:https://asnacc2027.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASNACC 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASNACC 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sedar-hemostasia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara
+ .com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:SEDAR Hemostasia 2027: early rate ends
+DESCRIPTION:XI Reunión de la Sección de Hemostasia\, Medicina Transfusion
+ al y Fluidoterapia de la SEDAR\nEarly rate ends Mon 1 Feb 2027.\nhttps://s
+ edarhemostasia2027.com/\nAnaesthesia Meetings Almanac: https://ganeshsivas
+ ankara.com/anaesthesia-meetings/#sedar-hemostasia-2027
+URL:https://sedarhemostasia2027.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SEDAR Hemostasia 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SEDAR Hemostasia 2027: early rate ends tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:euroanaesthesia-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.c
  om
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Euroanaesthesia 2027: abstracts close
@@ -645,7 +987,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:euroanaesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Euroanaesthesia 2027: early rate ends
@@ -666,8 +1008,32 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:jsa-annual-meeting-2027-abstracts@anaesthesia-meetings.ganeshsivasankar
+ a.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:JSA 2027: abstracts close
+DESCRIPTION:The 74th Annual Meeting of the Japanese Society of Anesthesiolo
+ gists (2027)\nAbstracts close Tue 1 Dec 2026.\nhttps://anesth-74thmeeting.
+ org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
+ sia-meetings/#jsa-annual-meeting-2027
+URL:https://anesth-74thmeeting.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:JSA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:JSA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:apa-asm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:APA 2027 (Oxford): early rate ends
@@ -691,7 +1057,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-summer-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:CSA Summer 2027 (Oahu): early rate ends
@@ -713,8 +1079,31 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:aaac-dar-es-salaam-2027-early-rate@anaesthesia-meetings.ganeshsivasanka
+ ra.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:AAAC 2027: early rate ends
+DESCRIPTION:10th All Africa Anaesthesia Congress 2027\nEarly rate ends Sun 
+ 31 Jan 2027.\nhttps://aaac2027.com/\nAnaesthesia Meetings Almanac: https:/
+ /ganeshsivasankara.com/anaesthesia-meetings/#aaac-dar-es-salaam-2027
+URL:https://aaac2027.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAAC 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAAC 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:isqua-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:ISQua 2027: abstracts close
@@ -737,7 +1126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asa-nsc-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:ASA NSC 2027: abstracts close
@@ -759,9 +1148,80 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ptaiit-zjazd-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:XXII Zjazd PTAiIT 2027: early rate ends
+DESCRIPTION:XXII Zjazd Polskiego Towarzystwa Anestezjologii i Intensywnej T
+ erapii (22nd Congress of the Polish Society of Anaesthesiology and Intensi
+ ve Therapy)\nEarly rate ends Wed 31 Mar 2027.\nhttps://zjazdanestezjologow
+ 2027.pl/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#ptaiit-zjazd-2027
+URL:https://zjazdanestezjologow2027.pl/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:XXII Zjazd PTAiIT 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:XXII Zjazd PTAiIT 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:espa-congress-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:ESPA 2027: abstracts close
+DESCRIPTION:ESPA 2027\, 17th Congress of the European Society for Paediatri
+ c Anaesthesiology\nAbstracts close Wed 30 Jun 2027.\nhttps://www.espacongr
+ ess.com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#espa-congress-2027
+URL:https://www.espacongress.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ESPA 2027: abstracts close in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ESPA 2027: abstracts close tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:espa-congress-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:ESPA 2027: early rate ends
+DESCRIPTION:ESPA 2027\, 17th Congress of the European Society for Paediatri
+ c Anaesthesiology\nEarly rate ends Mon 12 Jul 2027.\nhttps://www.espacongr
+ ess.com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
+ sthesia-meetings/#espa-congress-2027
+URL:https://www.espacongress.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ESPA 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ESPA 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:asa-anesthesiology-2027-abstracts@anaesthesia-meetings.ganeshsivasankar
  a.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:ANESTHESIOLOGY 2027: abstracts close

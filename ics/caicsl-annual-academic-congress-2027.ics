@@ -10,17 +10,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:caicsl-annual-academic-congress-2027@anaesthesia-meetings.ganeshsivasan
  kara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270208
 SUMMARY:CAICSL Congress 2027
 LOCATION:Cinnamon Grand Hotel\, Colombo\, Sri Lanka
 DESCRIPTION:43rd Annual Academic Congress of the College of Anaesthesiologi
  sts and Intensivists of Sri Lanka\nCollege of Anaesthesiologists and Inten
- sivists of Sri Lanka (CAICSL)\nDates provisional: the organiser has not ye
- t confirmed them.\nhttps://congress.anaesthesia.lk/\nAnaesthesia Meetings 
- Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#caicsl-annual
- -academic-congress-2027
+ sivists of Sri Lanka (CAICSL\, styled COAISL on its own site)\nEarly rate 
+ ends Thu 31 Dec 2026.\nhttps://congress.anaesthesia.lk/\nAnaesthesia Meeti
+ ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#caicsl-an
+ nual-academic-congress-2027
 URL:https://congress.anaesthesia.lk/
 TRANSP:TRANSPARENT
 END:VEVENT

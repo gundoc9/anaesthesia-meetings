@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SPAQI Perioperative Medicine Summit 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spaqi-perioperative-medicine-summit-2027@anaesthesia-meetings.ganeshsiv
+ asankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270228
+SUMMARY:SPAQI Perioperative Medicine Summit 2027
+LOCATION:Grand Hyatt Atlanta\, Atlanta\, United States
+DESCRIPTION:22nd Annual Perioperative Medicine Summit (SPAQI)\nSociety for 
+ Perioperative Assessment and Quality Improvement (SPAQI)\nAbstracts close 
+ Fri 13 Nov 2026.\nEarly rate ends Sun 24 Jan 2027.\nhttps://www.spaqi.org/
+ 2027/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
+ esia-meetings/#spaqi-perioperative-medicine-summit-2027
+URL:https://www.spaqi.org/2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Journées Francophones ARP 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:journees-francophones-arp-2026-early-rate@anaesthesia-meetings.ganeshsi
+ vasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Journées Francophones ARP 2026: early rate ends
+DESCRIPTION:Journées Francophones d'Anesthésie Réanimation Pédiatriques
+  (JFAR 2026)\nEarly rate ends Mon 2 Nov 2026.\nhttps://staartunisia.tn/eve
+ nements/journees-francophones-d-anesthesie-reanimation-ped\nAnaesthesia Me
+ etings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#journe
+ es-francophones-arp-2026
+URL:https://staartunisia.tn/evenements/journees-francophones-d-anesthesie-r
+ eanimation-ped
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Journées Francophones ARP 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Journées Francophones ARP 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

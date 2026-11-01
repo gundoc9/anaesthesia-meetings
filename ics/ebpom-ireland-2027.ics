@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EBPOM Ireland 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ebpom-ireland-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271008
+SUMMARY:EBPOM Ireland 2027
+LOCATION:Dingle\, Ireland
+DESCRIPTION:EBPOM Ireland 2027\nEvidence Based Perioperative Medicine (EBPO
+ M)\nhttps://www.ebpom.org/\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#ebpom-ireland-2027
+URL:https://www.ebpom.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

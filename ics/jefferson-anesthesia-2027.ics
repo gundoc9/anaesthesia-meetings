@@ -9,15 +9,16 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:jefferson-anesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270205
 SUMMARY:Jefferson Anesthesia 2027 (Big Sky)
 LOCATION:Huntley Lodge (Big Sky Resort)\, Big Sky\, Montana\, United States
 DESCRIPTION:Jefferson Anesthesia Conference 2027\nThomas Jefferson Universi
- ty\, Office of Continuing Professional Development\nhttps://jefferson.clou
- d-cme.com/default.aspx?P=5&EID=48924\nAnaesthesia Meetings Almanac: https:
- //ganeshsivasankara.com/anaesthesia-meetings/#jefferson-anesthesia-2027
+ ty\, Office of Continuing Professional Development\nEarly rate ends Fri 1 
+ Jan 2027.\nhttps://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924\nAna
+ esthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeti
+ ngs/#jefferson-anesthesia-2027
 URL:https://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924
 TRANSP:TRANSPARENT
 END:VEVENT

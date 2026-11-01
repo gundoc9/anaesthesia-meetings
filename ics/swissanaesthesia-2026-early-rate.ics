@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SwissAnaesthesia 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:swissanaesthesia-2026-early-rate@anaesthesia-meetings.ganeshsivasankara
+ .com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SwissAnaesthesia 2026: early rate ends
+DESCRIPTION:SwissAnaesthesia 2026 - Perioperative Medicine 2026: Shaping ou
+ r Future\nEarly rate ends Mon 19 Oct 2026.\nhttps://bbscongress.ch/en/swis
+ sanaesthesia\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
+ anaesthesia-meetings/#swissanaesthesia-2026
+URL:https://bbscongress.ch/en/swissanaesthesia
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SwissAnaesthesia 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SwissAnaesthesia 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

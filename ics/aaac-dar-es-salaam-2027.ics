@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AAAC 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aaac-dar-es-salaam-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270917
+SUMMARY:AAAC 2027
+LOCATION:Julius Nyerere International Convention Centre (JNICC)\, Dar es Sa
+ laam\, Tanzania
+DESCRIPTION:10th All Africa Anaesthesia Congress 2027\nSociety of Anaesthes
+ iologists of Tanzania (SATA)\, with the WFSA Africa regional section\nEarl
+ y rate ends Sun 31 Jan 2027.\nhttps://aaac2027.com/\nAnaesthesia Meetings 
+ Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#aaac-dar-es-s
+ alaam-2027
+URL:https://aaac2027.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

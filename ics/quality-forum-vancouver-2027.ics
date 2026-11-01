@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Quality Forum 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:quality-forum-vancouver-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270312
+SUMMARY:Quality Forum 2027
+LOCATION:Hyatt Regency Vancouver\, Vancouver\, Canada
+DESCRIPTION:Quality Forum 2027\nHealth Quality BC\nhttps://healthqualitybc.
+ ca/events/quality-forum-2027/\nAnaesthesia Meetings Almanac: https://ganes
+ hsivasankara.com/anaesthesia-meetings/#quality-forum-vancouver-2027
+URL:https://healthqualitybc.ca/events/quality-forum-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

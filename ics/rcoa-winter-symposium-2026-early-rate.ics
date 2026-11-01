@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RCoA Winter Symposium 2026: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rcoa-winter-symposium-2026-early-rate@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:RCoA Winter Symposium 2026: early rate ends
+DESCRIPTION:RCoA Winter Symposium 2026\nEarly rate ends Mon 31 Aug 2026.\nh
+ ttps://rcoa.ac.uk/events/winter-symposium-2026\nAnaesthesia Meetings Alman
+ ac: https://ganeshsivasankara.com/anaesthesia-meetings/#rcoa-winter-sympos
+ ium-2026
+URL:https://rcoa.ac.uk/events/winter-symposium-2026
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RCoA Winter Symposium 2026: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RCoA Winter Symposium 2026: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

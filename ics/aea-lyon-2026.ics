@@ -9,16 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:aea-lyon-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261212
 SUMMARY:AEA Lyon 2026
-LOCATION:Lyon\, France
+LOCATION:École Normale Supérieure de Lyon\, Lyon\, France
 DESCRIPTION:Ateliers d'échographie en anesthésie\, 20ème édition (AEA)\
- nAEA (Ateliers d'échographie en anesthésie)\nDates provisional: the orga
- niser has not yet confirmed them.\nhttps://www.aea-congres.com/\nAnaesthes
- ia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#a
- ea-lyon-2026
+ nAEA (Ateliers d'échographie en anesthésie)\; organisation by MD Events\
+ , Clermont-Ferrand\nhttps://www.aea-congres.com/\nAnaesthesia Meetings Alm
+ anac: https://ganeshsivasankara.com/anaesthesia-meetings/#aea-lyon-2026
 URL:https://www.aea-congres.com/
 TRANSP:TRANSPARENT
 END:VEVENT

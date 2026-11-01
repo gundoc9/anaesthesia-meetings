@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESAIC APSC Amsterdam Nov 2026
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:esaic-apsc-amsterdam-nov-2026@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261112
+SUMMARY:ESAIC APSC Amsterdam Nov 2026
+LOCATION:Academic Medical Center\, University of Amsterdam\, Amsterdam\, Ne
+ therlands
+DESCRIPTION:ESAIC Advanced Patient Safety Course (APSC)\, Amsterdam\, Novem
+ ber 2026\nEuropean Society of Anaesthesiology and Intensive Care (ESAIC) c
+ ourse\, organised locally by a national society (not named on the ESAIC pa
+ ge)\nhttps://esaic.org/professional-growth/educational-courses/apsc/\nAnae
+ sthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetin
+ gs/#esaic-apsc-amsterdam-nov-2026
+URL:https://esaic.org/professional-growth/educational-courses/apsc/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

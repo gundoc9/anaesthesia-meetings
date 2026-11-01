@@ -10,7 +10,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:paf-clinical-conference-2027-early-rate@anaesthesia-meetings.ganeshsiva
  sankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:PAF Clinical Conference 2027: early rate ends

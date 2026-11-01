@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SPAQI Perioperative Medicine Summit 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spaqi-perioperative-medicine-summit-2027-early-rate@anaesthesia-meeting
+ s.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:SPAQI Perioperative Medicine Summit 2027: early rate ends
+DESCRIPTION:22nd Annual Perioperative Medicine Summit (SPAQI)\nEarly rate e
+ nds Sun 24 Jan 2027.\nhttps://www.spaqi.org/2027/\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#spaqi-periopera
+ tive-medicine-summit-2027
+URL:https://www.spaqi.org/2027/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: early rate ends in a 
+ week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: early rate ends tomor
+ row
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

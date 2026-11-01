@@ -10,16 +10,21 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-st-gallen-2027@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:SBI EEG Bootcamp St. Gallen
-LOCATION:St. Gallen\, Switzerland
-DESCRIPTION:SBI EEG Bootcamp BASIC\, St. Gallen\nSafe Brain Initiative (SBI
- )\; local contact Dr. med. Andreas Baumann\nhttps://safebraininitiative.co
- m/eeg-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.co
- m/anaesthesia-meetings/#sbi-eeg-bootcamp-st-gallen-2027
-URL:https://safebraininitiative.com/eeg-bootcamp
+LOCATION:Kantonsspital St.Gallen (HOCH Health Ostschweiz)\, Haus 21\, Zentr
+ aler Hörsaal\, St. Gallen\, Switzerland
+DESCRIPTION:SBI EEG Bootcamp BASIC\, St. Gallen\nKlinik für Anästhesiolog
+ ie\, Rettungs- und Schmerzmedizin\, HOCH Health Ostschweiz (Kantonsspital 
+ St.Gallen)\, in cooperation with the Safe Brain Initiative (SBI)\; course 
+ lead Dr. med. Andreas Baumann\nhttps://www.h-och.ch/ueber-uns/veranstaltun
+ gen/1-st-galler-sbi-eeg-bootcamp-basic-2027-03-20/\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#sbi-eeg-bootca
+ mp-st-gallen-2027
+URL:https://www.h-och.ch/ueber-uns/veranstaltungen/1-st-galler-sbi-eeg-boot
+ camp-basic-2027-03-20/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HMS Anesthesiology Update 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hms-anesthesiology-update-boston-2027@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270508
+SUMMARY:HMS Anesthesiology Update 2027
+LOCATION:Fairmont Copley Plaza Hotel\, Boston\, United States
+DESCRIPTION:Anesthesiology Update 2027\nHarvard Medical School Professional
+ \, Corporate\, and Continuing Education\nEarly rate ends Wed 31 Mar 2027.\
+ nhttps://learn.hms.harvard.edu/anesthesiology\nAnaesthesia Meetings Almana
+ c: https://ganeshsivasankara.com/anaesthesia-meetings/#hms-anesthesiology-
+ update-boston-2027
+URL:https://learn.hms.harvard.edu/anesthesiology
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

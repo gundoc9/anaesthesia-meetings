@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ASA ADVANCE 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:asa-advance-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270125
+SUMMARY:ASA ADVANCE 2027
+LOCATION:Gaylord National Resort & Convention Center\, Oxon Hill\, Maryland
+  (Washington DC metro area)\, United States
+DESCRIPTION:ASA ADVANCE 2027: The Anesthesiology Business Event\nAmerican S
+ ociety of Anesthesiologists (ASA)\nEarly rate ends Thu 19 Nov 2026.\nhttps
+ ://www.asahq.org/advance\nAnaesthesia Meetings Almanac: https://ganeshsiva
+ sankara.com/anaesthesia-meetings/#asa-advance-2027
+URL:https://www.asahq.org/advance
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -13,7 +13,7 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:esaic-patient-safety-masterclass-zagreb-2026@anaesthesia-meetings.ganes
  hsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261105
 SUMMARY:ESAIC Patient Safety Masterclass 2026
@@ -29,7 +29,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-relevant-san-antonio-2026@anaesthesia-meetings.ganeshsivasankara.c
  om
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261106
 SUMMARY:NWAS San Antonio 2026
@@ -46,7 +46,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oaa-3dc-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261105
 SUMMARY:OAA Three Day Course 2026
@@ -62,7 +62,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fmca-congreso-mexicano-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261108
 SUMMARY:FMCA 2026
@@ -77,7 +77,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:asra-pain-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261108
 SUMMARY:ASRA Pain Medicine 2026
@@ -92,7 +92,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:koreanesthesia-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261108
 SUMMARY:KoreAnesthesia 2026
@@ -107,22 +107,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:swissanaesthesia-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261108
 SUMMARY:SwissAnaesthesia 2026
 LOCATION:Congress Kursaal Interlaken\, Interlaken\, Switzerland
 DESCRIPTION:SwissAnaesthesia 2026 - Perioperative Medicine 2026: Shaping ou
  r Future\nSwiss Society for Anaesthesiology and Perioperative Medicine (SS
- APM)\, together with SIGA-FSIA\nhttps://bbscongress.ch/en/swissanaesthesia
- \nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-
- meetings/#swissanaesthesia-2026
+ APM)\, together with SIGA-FSIA\nEarly rate ends Mon 19 Oct 2026.\nhttps://
+ bbscongress.ch/en/swissanaesthesia\nAnaesthesia Meetings Almanac: https://
+ ganeshsivasankara.com/anaesthesia-meetings/#swissanaesthesia-2026
 URL:https://bbscongress.ch/en/swissanaesthesia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:esaic-connect-albania-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261108
 SUMMARY:CONNECT.Albania 2026
@@ -138,7 +138,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-fall-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261114
 SUMMARY:CSA Fall 2026 (Big Island)
@@ -152,8 +152,26 @@ URL:https://csahq.org/events/csa-2026-fall-anesthesia-conference/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:esaic-apsc-amsterdam-nov-2026@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261112
+SUMMARY:ESAIC APSC Amsterdam Nov 2026
+LOCATION:Academic Medical Center\, University of Amsterdam\, Amsterdam\, Ne
+ therlands
+DESCRIPTION:ESAIC Advanced Patient Safety Course (APSC)\, Amsterdam\, Novem
+ ber 2026\nEuropean Society of Anaesthesiology and Intensive Care (ESAIC) c
+ ourse\, organised locally by a national society (not named on the ESAIC pa
+ ge)\nhttps://esaic.org/professional-growth/educational-courses/apsc/\nAnae
+ sthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetin
+ gs/#esaic-apsc-amsterdam-nov-2026
+URL:https://esaic.org/professional-growth/educational-courses/apsc/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:das-asm-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261114
 SUMMARY:DAS 2026
@@ -169,24 +187,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:journees-francophones-arp-2026@anaesthesia-meetings.ganeshsivasankara.c
  om
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261114
 SUMMARY:Journées Francophones ARP 2026
-LOCATION:Djerba\, Tunisia
+LOCATION:Hôtel Palm Azur\, Djerba\, Djerba\, Tunisia
 DESCRIPTION:Journées Francophones d'Anesthésie Réanimation Pédiatriques
- \nSTAAR (organiser site staartunisia.tn\; acronym not expanded on the SFAR
-  page)\nDates provisional: the organiser has not yet confirmed them.\nhttp
- s://staartunisia.tn/evenements/journees-francophones-d-anesthesie-reanimat
- ion-ped\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaes
- thesia-meetings/#journees-francophones-arp-2026
+  (JFAR 2026)\nSociété Tunisienne d'Anesthésie\, d'Analgésie et de Réa
+ nimation (STAAR)\, in collaboration with ADARPEF (the French-speaking paed
+ iatric anaesthesia and intensive care association)\nAbstracts close Tue 22
+  Sep 2026.\nEarly rate ends Mon 2 Nov 2026.\nhttps://staartunisia.tn/evene
+ ments/journees-francophones-d-anesthesie-reanimation-ped\nAnaesthesia Meet
+ ings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#journees
+ -francophones-arp-2026
 URL:https://staartunisia.tn/evenements/journees-francophones-d-anesthesie-r
  eanimation-ped
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sach-congreso-chileno-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261115
 SUMMARY:SACH 2026
@@ -202,7 +222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:afsra-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261115
 SUMMARY:AFSRA 2026
@@ -217,7 +237,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-madrid-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:SBI EEG Bootcamp Madrid
@@ -231,7 +251,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-critical-care-kona-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261121
 SUMMARY:NWAS Critical Care Kona 2026
@@ -249,7 +269,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:icisa-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261120
 SUMMARY:ICISA 2026
@@ -263,11 +283,12 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aic-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
 SUMMARY:AIC 2026
-LOCATION:Kongresszentrum Villach\, Villach\, Austria
+LOCATION:Kongresszentrum Villach (Congress Center Villach)\, Villach\, Aust
+ ria
 DESCRIPTION:AIC 2026 - Jahrestagung der ÖGARI (Austrian International Cong
  ress)\nÖGARI - Österreichische Gesellschaft für Anaesthesiologie\, Rean
  imation und Intensivmedizin\nhttps://www.oegari.at/\nAnaesthesia Meetings 
@@ -277,21 +298,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:anarlf-caen-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261121
 SUMMARY:ANARLF Caen 2026
 LOCATION:Caen\, France
-DESCRIPTION:Congrès ANARLF 2026\nANARLF (acronym not expanded on the SFAR 
- page)\nDates provisional: the organiser has not yet confirmed them.\nhttps
- ://www.anarlf.fr/congr%C3%A8s-caen-2026\nAnaesthesia Meetings Almanac: htt
- ps://ganeshsivasankara.com/anaesthesia-meetings/#anarlf-caen-2026
+DESCRIPTION:Congrès ANARLF 2026\nAssociation de Neuro-Anesthésie Réanima
+ tion de Langue Française (ANARLF)\nDates provisional: the organiser has n
+ ot yet confirmed them.\nhttps://www.anarlf.fr/congr%C3%A8s-caen-2026\nAnae
+ sthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetin
+ gs/#anarlf-caen-2026
 URL:https://www.anarlf.fr/congr%C3%A8s-caen-2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:rcoa-winter-symposium-2026@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:RCoA Winter Symposium 2026
+LOCATION:London\, United Kingdom
+DESCRIPTION:RCoA Winter Symposium 2026\nRoyal College of Anaesthetists (RCo
+ A)\nEarly rate ends Mon 31 Aug 2026.\nhttps://rcoa.ac.uk/events/winter-sym
+ posium-2026\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/a
+ naesthesia-meetings/#rcoa-winter-symposium-2026
+URL:https://rcoa.ac.uk/events/winter-symposium-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sas-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
 SUMMARY:SAS 2026
@@ -306,7 +342,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cassa-annual-conference-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:CASSA 2026
@@ -324,7 +360,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:isacon-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261130
 SUMMARY:ISACON 2026
@@ -340,7 +376,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:psa-annual-convention-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261128
 SUMMARY:PSA Annual Convention 2026
@@ -353,8 +389,26 @@ URL:https://www.psa-inc.org/AnnualConvention2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:rcoa-anaesthesia-research-2026@anaesthesia-meetings.ganeshsivasankara.c
+ om
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:Anaesthesia Research 2026 (Southampton)
+LOCATION:Southampton\, United Kingdom
+DESCRIPTION:Anaesthesia Research 2026: Advancing Science\, Transforming Car
+ e\nRoyal College of Anaesthetists (RCoA) with partner organising groups (t
+ he page says 'many organising groups' without naming them)\nhttps://www.rc
+ oa.ac.uk/events/anaesthesia-research-2026-advancing-science-transforming-c
+ are\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthes
+ ia-meetings/#rcoa-anaesthesia-research-2026
+URL:https://www.rcoa.ac.uk/events/anaesthesia-research-2026-advancing-scien
+ ce-transforming-care
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cba-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261130
 SUMMARY:CBA 2026
@@ -368,36 +422,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:siva-asm-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:SIVA ASM 2026
-LOCATION:Exeter\, United Kingdom
+LOCATION:Sandy Park Conference Centre\, Exeter\, United Kingdom
 DESCRIPTION:Annual Scientific Meeting of the Society for Intravenous Anaest
- hesia 2026\nSociety for Intravenous Anaesthesia (SIVA)\nhttps://www.siva.a
- c.uk/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
- esia-meetings/#siva-asm-2026
-URL:https://www.siva.ac.uk/
+ hesia 2026\nSociety for Intravenous Anaesthesia (SIVA)\nAbstracts close Mo
+ n 12 Oct 2026.\nhttps://www.sivameetings.co.uk/\nAnaesthesia Meetings Alma
+ nac: https://ganeshsivasankara.com/anaesthesia-meetings/#siva-asm-2026
+URL:https://www.sivameetings.co.uk/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:te-aka-tauwhiro-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Te Aka Tauwhiro 2026
 LOCATION:Millennium Hotel Queenstown\, Queenstown\, New Zealand
 DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nNew Zeal
  and Society of Anaesthetists (NZSA) - Ngā Ringa Tauwhiro\nEarly rate ends
-  Mon 26 Oct 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesia Meeti
- ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te-aka-ta
- uwhiro-2026
+  Mon 2 Nov 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesia Meetin
+ gs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te-aka-tau
+ whiro-2026
 URL:https://www.tauwhiro.anaesthesia.nz/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-poznan-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:SBI EEG Bootcamp Poznań
@@ -411,7 +465,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-topics-aruba-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261205
 SUMMARY:NWAS Aruba 2026
@@ -428,7 +482,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:siaarti-acp-florence-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261203
 SUMMARY:ACP SIAARTI 2026
@@ -436,15 +490,15 @@ LOCATION:Florence\, Italy
 DESCRIPTION:Congresso ACP SIAARTI 2026 - Area Culturale Pediatrica (with pr
  e-congress workshops)\nSocietà Italiana di Anestesia Analgesia Rianimazio
  ne e Terapia Intensiva (SIAARTI)\, Area Culturale Pediatrica\nhttps://www.
- siaarti.it/events/219034/page/programma\nAnaesthesia Meetings Almanac: htt
- ps://ganeshsivasankara.com/anaesthesia-meetings/#siaarti-acp-florence-2026
-URL:https://www.siaarti.it/events/219034/page/programma
+ siaarti.it/events/219034\nAnaesthesia Meetings Almanac: https://ganeshsiva
+ sankara.com/anaesthesia-meetings/#siaarti-acp-florence-2026
+URL:https://www.siaarti.it/events/219034
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sbu-istanbul-anesthesia-symposium-2026@anaesthesia-meetings.ganeshsivas
  ankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
 SUMMARY:SBÜ Istanbul Anesthesia Symposium
@@ -460,7 +514,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:espa-eeg-bootcamp-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Paediatric EEG Bootcamp
@@ -478,7 +532,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ihi-forum-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261210
 SUMMARY:IHI Forum 2026
@@ -493,7 +547,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-current-topics-palm-beach-2026@anaesthesia-meetings.ganeshsivasank
  ara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261211
 SUMMARY:NWAS Palm Beach 2026
@@ -510,22 +564,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aea-lyon-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261212
 SUMMARY:AEA Lyon 2026
-LOCATION:Lyon\, France
+LOCATION:École Normale Supérieure de Lyon\, Lyon\, France
 DESCRIPTION:Ateliers d'échographie en anesthésie\, 20ème édition (AEA)\
- nAEA (Ateliers d'échographie en anesthésie)\nDates provisional: the orga
- niser has not yet confirmed them.\nhttps://www.aea-congres.com/\nAnaesthes
- ia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#a
- ea-lyon-2026
+ nAEA (Ateliers d'échographie en anesthésie)\; organisation by MD Events\
+ , Clermont-Ferrand\nhttps://www.aea-congres.com/\nAnaesthesia Meetings Alm
+ anac: https://ganeshsivasankara.com/anaesthesia-meetings/#aea-lyon-2026
 URL:https://www.aea-congres.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:esra-instructor-course-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261213
 SUMMARY:ESRA Instructor Course 2026
@@ -539,7 +592,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pga80-2026@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261215
 SUMMARY:PGA80
@@ -554,7 +607,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-augsburg-2026@anaesthesia-meetings.ganeshsivasankara.c
  om
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261213
 SUMMARY:SBI EEG Bootcamp Augsburg
@@ -569,7 +622,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-hong-kong-2026@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:SBI EEG Bootcamp Hong Kong
@@ -582,8 +635,26 @@ URL:https://safebraininitiative.com/eeg-bootcamp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:esaic-apsc-amsterdam-jan-2027@anaesthesia-meetings.ganeshsivasankara.co
+ m
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270113
+SUMMARY:ESAIC APSC Amsterdam Jan 2027
+LOCATION:Academic Medical Center\, University of Amsterdam\, Amsterdam\, Ne
+ therlands
+DESCRIPTION:ESAIC Advanced Patient Safety Course (APSC)\, Amsterdam\, Janua
+ ry 2027\nEuropean Society of Anaesthesiology and Intensive Care (ESAIC) co
+ urse\, organised locally by a national society (not named on the ESAIC pag
+ e)\nhttps://esaic.org/professional-growth/educational-courses/apsc/\nAnaes
+ thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
+ s/#esaic-apsc-amsterdam-jan-2027
+URL:https://esaic.org/professional-growth/educational-courses/apsc/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nwas-relevant-maui-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270116
 SUMMARY:NWAS Maui Jan 2027
@@ -600,7 +671,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-topics-sarasota-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270118
 SUMMARY:NWAS Sarasota 2027
@@ -616,7 +687,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sta-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270118
 SUMMARY:STA 2027
@@ -631,7 +702,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aoa-wsm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270116
 SUMMARY:WSM 2027
@@ -647,7 +718,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:esra-winter-week-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270123
 SUMMARY:ESRA Winter Week 2027
@@ -661,24 +732,41 @@ URL:https://esraeurope.org/meeting/21st-esra-winter-week-conference/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:mount-sinai-clinical-update-curacao-2027@anaesthesia-meetings.ganeshsiv
+ asankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270123
+SUMMARY:Mount Sinai Clinical Update Curaçao 2027
+LOCATION:Curaçao Marriott Beach Resort\, Willemstad\, Curaçao
+DESCRIPTION:43rd Annual International Symposium: Clinical Update in Anesthe
+ siology\, Surgery and Perioperative Medicine\nDepartment of Anesthesiology
+ \, Perioperative and Pain Medicine\, Icahn School of Medicine at Mount Sin
+ ai\nAbstracts close Fri 30 Oct 2026.\nEarly rate ends Mon 14 Dec 2026.\nht
+ tps://www.clinicalupdateinanesthesiology.org\nAnaesthesia Meetings Almanac
+ : https://ganeshsivasankara.com/anaesthesia-meetings/#mount-sinai-clinical
+ -update-curacao-2027
+URL:https://www.clinicalupdateinanesthesiology.org
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:winter-pain-symposium-tignes-2027@anaesthesia-meetings.ganeshsivasankar
  a.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270123
 SUMMARY:Winter Pain Symposium 2027
 LOCATION:Hotel Village Montana\, Tignes\, France
 DESCRIPTION:13th Advances in Pain Medicine Winter Symposium\nLondon Pain Fo
- rum (as named on ESRA's meetings calendar\, where it is an affiliated meet
- ing)\nDates provisional: the organiser has not yet confirmed them.\nhttps:
- //www.winterpainsymposium.com/\nAnaesthesia Meetings Almanac: https://gane
- shsivasankara.com/anaesthesia-meetings/#winter-pain-symposium-tignes-2027
+ rum\nEarly rate ends Sun 1 Nov 2026.\nhttps://www.winterpainsymposium.com/
+ \nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-
+ meetings/#winter-pain-symposium-tignes-2027
 URL:https://www.winterpainsymposium.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-winter-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270123
 SUMMARY:CSA Winter 2027 (Maui)
@@ -692,8 +780,23 @@ URL:https://csahq.org/events/csa-2027-winter-anesthesia-conference/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:asa-advance-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270125
+SUMMARY:ASA ADVANCE 2027
+LOCATION:Gaylord National Resort & Convention Center\, Oxon Hill\, Maryland
+  (Washington DC metro area)\, United States
+DESCRIPTION:ASA ADVANCE 2027: The Anesthesiology Business Event\nAmerican S
+ ociety of Anesthesiologists (ASA)\nEarly rate ends Thu 19 Nov 2026.\nhttps
+ ://www.asahq.org/advance\nAnaesthesia Meetings Almanac: https://ganeshsiva
+ sankara.com/anaesthesia-meetings/#asa-advance-2027
+URL:https://www.asahq.org/advance
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sfar-strasbourg-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:SFAR Strasbourg 2027
@@ -707,52 +810,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aspen-anesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270207
 SUMMARY:Aspen Anesthesia 2027
 LOCATION:Viceroy Snowmass Resort\, Snowmass Village (Aspen)\, Colorado\, Un
  ited States
 DESCRIPTION:Aspen Anesthesia Seminar 2027 (Holiday Seminars)\nHoliday Semin
- ars (independent CME provider)\nhttps://www.holidayseminars.com/anesthesia
- _seminars/aspen_anesthesia_conference\nAnaesthesia Meetings Almanac: https
- ://ganeshsivasankara.com/anaesthesia-meetings/#aspen-anesthesia-2027
+ ars (independent CME provider)\nEarly rate ends Thu 31 Dec 2026.\nhttps://
+ www.holidayseminars.com/anesthesia_seminars/aspen_anesthesia_conference\nA
+ naesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-mee
+ tings/#aspen-anesthesia-2027
 URL:https://www.holidayseminars.com/anesthesia_seminars/aspen_anesthesia_co
  nference
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:block-and-pain-paris-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Block & Pain 2027
-LOCATION:Paris\, France
-DESCRIPTION:Congrès Block & Pain : Anesthésie & Douleur\nBlock & Pain\nDa
- tes provisional: the organiser has not yet confirmed them.\nhttps://www.bl
- ockandpain.com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.c
- om/anaesthesia-meetings/#block-and-pain-paris-2027
+LOCATION:COMET Bourse (Comet Meetings - Bourse)\, Paris\, France
+DESCRIPTION:Congrès Block & Pain : Anesthésie & Douleur\nBlock & Pain\nEa
+ rly rate ends Sun 1 Nov 2026.\nhttps://www.blockandpain.com/\nAnaesthesia 
+ Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#bloc
+ k-and-pain-paris-2027
 URL:https://www.blockandpain.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:jefferson-anesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270205
 SUMMARY:Jefferson Anesthesia 2027 (Big Sky)
 LOCATION:Huntley Lodge (Big Sky Resort)\, Big Sky\, Montana\, United States
 DESCRIPTION:Jefferson Anesthesia Conference 2027\nThomas Jefferson Universi
- ty\, Office of Continuing Professional Development\nhttps://jefferson.clou
- d-cme.com/default.aspx?P=5&EID=48924\nAnaesthesia Meetings Almanac: https:
- //ganeshsivasankara.com/anaesthesia-meetings/#jefferson-anesthesia-2027
+ ty\, Office of Continuing Professional Development\nEarly rate ends Fri 1 
+ Jan 2027.\nhttps://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924\nAna
+ esthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeti
+ ngs/#jefferson-anesthesia-2027
 URL:https://jefferson.cloud-cme.com/default.aspx?P=5&EID=48924
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-innsbruck-2027@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:SBI EEG Bootcamp Innsbruck
@@ -767,27 +872,27 @@ END:VEVENT
 BEGIN:VEVENT
 UID:caicsl-annual-academic-congress-2027@anaesthesia-meetings.ganeshsivasan
  kara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270208
 SUMMARY:CAICSL Congress 2027
 LOCATION:Cinnamon Grand Hotel\, Colombo\, Sri Lanka
 DESCRIPTION:43rd Annual Academic Congress of the College of Anaesthesiologi
  sts and Intensivists of Sri Lanka\nCollege of Anaesthesiologists and Inten
- sivists of Sri Lanka (CAICSL)\nDates provisional: the organiser has not ye
- t confirmed them.\nhttps://congress.anaesthesia.lk/\nAnaesthesia Meetings 
- Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#caicsl-annual
- -academic-congress-2027
+ sivists of Sri Lanka (CAICSL\, styled COAISL on its own site)\nEarly rate 
+ ends Thu 31 Dec 2026.\nhttps://congress.anaesthesia.lk/\nAnaesthesia Meeti
+ ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#caicsl-an
+ nual-academic-congress-2027
 URL:https://congress.anaesthesia.lk/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-india-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:SBI EEG Bootcamp India
-LOCATION:India
+LOCATION:Hyderabad\, India
 DESCRIPTION:SBI EEG Bootcamp BASIC\, India\nSafe Brain Initiative (SBI)\; l
  ocal contact Dr. Ravi\nhttps://safebraininitiative.com/eeg-bootcamp\nAnaes
  thesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meeting
@@ -797,7 +902,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stanley-update-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270212
 SUMMARY:Stanley Update 2027 (Park City)
@@ -813,7 +918,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-munich-basic-feb-2027@anaesthesia-meetings.ganeshsivas
  ankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:SBI EEG Bootcamp Munich (BASIC\, Feb)
@@ -827,7 +932,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-critical-care-oahu-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270220
 SUMMARY:NWAS Critical Care Oahu 2027
@@ -846,7 +951,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-anesthesia-update-orlando-2027@anaesthesia-meetings.ganeshsivasank
  ara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270220
 SUMMARY:NWAS Orlando 2027
@@ -862,7 +967,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sci-sedar-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270220
 SUMMARY:SCI-SEDAR 2027
@@ -878,7 +983,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:paf-clinical-conference-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:PAF Clinical Conference 2027
@@ -893,36 +998,53 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crash-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270226
 SUMMARY:CRASH 2027 (Vail)
 LOCATION:The Hythe\, Vail (Lionshead Village)\, Vail\, United States
 DESCRIPTION:CRASH 2027: Colorado Review of Anesthesia for Surgicenters & Ho
  spitals (35th annual conference)\nUniversity of Colorado Department of Ane
- sthesiology (CU Anschutz)\nhttps://medschool.cuanschutz.edu/anesthesiology
- /education/crash\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.
- com/anaesthesia-meetings/#crash-2027
+ sthesiology (CU Anschutz)\nEarly rate ends Fri 4 Sep 2026.\nhttps://medsch
+ ool.cuanschutz.edu/anesthesiology/education/crash\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#crash-2027
 URL:https://medschool.cuanschutz.edu/anesthesiology/education/crash
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:spaqi-perioperative-medicine-summit-2027@anaesthesia-meetings.ganeshsiv
+ asankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270228
+SUMMARY:SPAQI Perioperative Medicine Summit 2027
+LOCATION:Grand Hyatt Atlanta\, Atlanta\, United States
+DESCRIPTION:22nd Annual Perioperative Medicine Summit (SPAQI)\nSociety for 
+ Perioperative Assessment and Quality Improvement (SPAQI)\nAbstracts close 
+ Fri 13 Nov 2026.\nEarly rate ends Sun 24 Jan 2027.\nhttps://www.spaqi.org/
+ 2027/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
+ esia-meetings/#spaqi-perioperative-medicine-summit-2027
+URL:https://www.spaqi.org/2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:whistler-summit-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270301
 SUMMARY:Whistler Summit 2027
 LOCATION:Westin Whistler Resort & Spa\, Whistler\, Canada
 DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nUBC CPD
- \, Faculty of Medicine\, University of British Columbia\nEarly rate ends M
- on 23 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meetings Almanac
- : https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-summit-2027
+ \, Faculty of Medicine\, University of British Columbia\nAbstracts close F
+ ri 6 Nov 2026.\nEarly rate ends Mon 23 Nov 2026.\nhttps://ubccpd.ca/node/3
+ 017\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthes
+ ia-meetings/#whistler-summit-2027
 URL:https://ubccpd.ca/node/3017
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:psmf-summit-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 SUMMARY:PSMF Summit 2027
@@ -938,7 +1060,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:maui-anesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270307
 SUMMARY:Maui Anesthesia 2027
@@ -956,7 +1078,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-potsdam-2027@anaesthesia-meetings.ganeshsivasankara.co
  m
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:SBI EEG Bootcamp Potsdam
@@ -970,23 +1092,23 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ccas-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20270304
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270305
 SUMMARY:CCAS 2027
 LOCATION:Atlantis Paradise Island\, Nassau\, Bahamas
 DESCRIPTION:CCAS 2027 Annual Meeting\nCongenital Cardiac Anesthesia Society
   (CCAS)\, a subspecialty section of the Society for Pediatric Anesthesia\n
- Abstracts close Mon 26 Oct 2026.\nhttps://www2.ccasociety.org/meetings/202
- 7annual/guide\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com
- /anaesthesia-meetings/#ccas-2027
+ Abstracts close Mon 26 Oct 2026.\nEarly rate ends Fri 15 Jan 2027.\nhttps:
+ //www2.ccasociety.org/meetings/2027annual/guide\nAnaesthesia Meetings Alma
+ nac: https://ganeshsivasankara.com/anaesthesia-meetings/#ccas-2027
 URL:https://www2.ccasociety.org/meetings/2027annual/guide
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spa-aap-pediatric-anesthesiology-2027@anaesthesia-meetings.ganeshsivasa
  nkara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270308
 SUMMARY:Pediatric Anesthesiology 2027
@@ -1004,7 +1126,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hfes-health-care-symposium-2027@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270312
 SUMMARY:HFES Health Care Symposium 2027
@@ -1019,24 +1141,38 @@ URL:https://www.hfes.org/Events/Healthcare-Symposium/Healthcare-Symposium-H
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:quality-forum-vancouver-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270312
+SUMMARY:Quality Forum 2027
+LOCATION:Hyatt Regency Vancouver\, Vancouver\, Canada
+DESCRIPTION:Quality Forum 2027\nHealth Quality BC\nhttps://healthqualitybc.
+ ca/events/quality-forum-2027/\nAnaesthesia Meetings Almanac: https://ganes
+ hsivasankara.com/anaesthesia-meetings/#quality-forum-vancouver-2027
+URL:https://healthqualitybc.ca/events/quality-forum-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:wcrapm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270314
 SUMMARY:WCRAPM 2027
-LOCATION:Centroparque Convention Center (Araucano Park)\, Santiago\, Chile
+LOCATION:Centro Parque (Centroparque Convention Center\, Parque Araucano)\,
+  Santiago\, Chile
 DESCRIPTION:7th World Congress on Regional Anaesthesia & Pain Medicine (WCR
- APM 2027)\nLatin American Society of Regional Anesthesia (LASRA)\, support
- ed by AFSRA\, ASRA\, AOSRA and ESRA\nAbstracts close Sun 1 Nov 2026.\nEarl
- y rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027.com/\nAnaesthesia
-  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#wcr
- apm-2027
+ APM 2027)\nLatin American Society of Regional Anesthesia and Pain Therapy 
+ (LASRA)\, supported by AFSRA\, ASRA\, AOSRA and ESRA\nAbstracts close Fri 
+ 15 Jan 2027.\nEarly rate ends Sat 31 Oct 2026.\nhttps://www.lasraworld2027
+ .com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesth
+ esia-meetings/#wcrapm-2027
 URL:https://www.lasraworld2027.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:jona-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270315
 SUMMARY:JONA 2027
@@ -1053,7 +1189,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-fresh-tracks-breckenridge-2027@anaesthesia-meetings.ganeshsivasank
  ara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270320
 SUMMARY:NWAS Breckenridge 2027
@@ -1069,8 +1205,25 @@ URL:https://nwas2.northwestseminars.com/conference/view/FreshTracksinAnesth
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:esaic-statistics-masterclass-rome-2027@anaesthesia-meetings.ganeshsivas
+ ankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270319
+SUMMARY:ESAIC Statistics Masterclass Rome 2027
+LOCATION:DotCampus Roma\, Rome\, Italy
+DESCRIPTION:ESAIC Masterclass in Statistics and Research Methodology 2027\n
+ European Society of Anaesthesiology and Intensive Care (ESAIC)\nhttps://es
+ aic.org/events/masterclass-in-statistics-and-research-methodology-2027/\nA
+ naesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-mee
+ tings/#esaic-statistics-masterclass-rome-2027
+URL:https://esaic.org/events/masterclass-in-statistics-and-research-methodo
+ logy-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nwas-topics-tucson-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270320
 SUMMARY:NWAS Tucson 2027
@@ -1086,7 +1239,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:esaic-apsc-lisbon-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270319
 SUMMARY:ESAIC APSC Lisbon 2027
@@ -1102,21 +1255,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-st-gallen-2027@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:SBI EEG Bootcamp St. Gallen
-LOCATION:St. Gallen\, Switzerland
-DESCRIPTION:SBI EEG Bootcamp BASIC\, St. Gallen\nSafe Brain Initiative (SBI
- )\; local contact Dr. med. Andreas Baumann\nhttps://safebraininitiative.co
- m/eeg-bootcamp\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.co
- m/anaesthesia-meetings/#sbi-eeg-bootcamp-st-gallen-2027
-URL:https://safebraininitiative.com/eeg-bootcamp
+LOCATION:Kantonsspital St.Gallen (HOCH Health Ostschweiz)\, Haus 21\, Zentr
+ aler Hörsaal\, St. Gallen\, Switzerland
+DESCRIPTION:SBI EEG Bootcamp BASIC\, St. Gallen\nKlinik für Anästhesiolog
+ ie\, Rettungs- und Schmerzmedizin\, HOCH Health Ostschweiz (Kantonsspital 
+ St.Gallen)\, in cooperation with the Safe Brain Initiative (SBI)\; course 
+ lead Dr. med. Andreas Baumann\nhttps://www.h-och.ch/ueber-uns/veranstaltun
+ gen/1-st-galler-sbi-eeg-bootcamp-basic-2027-03-20/\nAnaesthesia Meetings A
+ lmanac: https://ganeshsivasankara.com/anaesthesia-meetings/#sbi-eeg-bootca
+ mp-st-gallen-2027
+URL:https://www.h-och.ch/ueber-uns/veranstaltungen/1-st-galler-sbi-eeg-boot
+ camp-basic-2027-03-20/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aua-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270405
 SUMMARY:AUA 2027
@@ -1131,7 +1289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dace-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
 SUMMARY:DACE 2027
@@ -1146,7 +1304,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sca-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:SCA 2027
@@ -1161,7 +1319,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-annual-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270412
 SUMMARY:CSA Annual 2027 (Anaheim)
@@ -1177,7 +1335,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pannz-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
 SUMMARY:PANNZ 2027
@@ -1195,7 +1353,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-munich-basic-apr-2027@anaesthesia-meetings.ganeshsivas
  ankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 SUMMARY:SBI EEG Bootcamp Munich (BASIC\, Apr)
@@ -1209,8 +1367,24 @@ URL:https://safebraininitiative.com/eeg-bootcamp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:sea-spring-meeting-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270419
+SUMMARY:SEA Spring Meeting 2027
+LOCATION:Renaissance Minneapolis Hotel\, The Depot\, Minneapolis\, United S
+ tates
+DESCRIPTION:Society for Education in Anesthesia 2027 Spring Meeting\nSociet
+ y for Education in Anesthesia (SEA)\, in collaboration with the ASA Simula
+ tion Education Network (SEN)\nAbstracts close Wed 30 Sep 2026.\nhttps://ww
+ w.seahq.org/2027-spring-meeting\nAnaesthesia Meetings Almanac: https://gan
+ eshsivasankara.com/anaesthesia-meetings/#sea-spring-meeting-2027
+URL:https://www.seahq.org/2027-spring-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nwas-challenges-kauai-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270424
 SUMMARY:NWAS Kauai Apr 2027
@@ -1228,7 +1402,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:healthcare-improvement-forum-lisbon-2027@anaesthesia-meetings.ganeshsiv
  asankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270423
 SUMMARY:Healthcare Improvement Forum Lisbon 2027
@@ -1236,16 +1410,16 @@ LOCATION:CCL - Lisbon Congress Centre (Centro de Congressos de Lisboa)\, Li
  sbon\, Portugal
 DESCRIPTION:Healthcare Improvement Forum (formerly International Forum on Q
  uality and Safety in Healthcare)\, Lisbon 2027\nInstitute for Healthcare I
- mprovement (IHI) and BMJ Group\nAbstracts close Wed 7 Oct 2026.\nhttps://i
- nternationalforum.bmj.com/lisbon/\nAnaesthesia Meetings Almanac: https://g
- aneshsivasankara.com/anaesthesia-meetings/#healthcare-improvement-forum-li
- sbon-2027
-URL:https://internationalforum.bmj.com/lisbon/
+ mprovement (IHI) and BMJ Group\nAbstracts close Wed 7 Oct 2026.\nhttps://h
+ ealthcareimprovementforum.bmj.com/lisbon/\nAnaesthesia Meetings Almanac: h
+ ttps://ganeshsivasankara.com/anaesthesia-meetings/#healthcare-improvement-
+ forum-lisbon-2027
+URL:https://healthcareimprovementforum.bmj.com/lisbon/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:copa-saesp-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270425
 SUMMARY:COPA 2027
@@ -1260,7 +1434,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-topics-destin-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270426
 SUMMARY:NWAS Destin 2027
@@ -1277,7 +1451,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ra-uk-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270424
 SUMMARY:RA-UK 2027
@@ -1290,7 +1464,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aaq-congres-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270425
 SUMMARY:AAQ 2027
@@ -1306,7 +1480,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-hannover-2027@anaesthesia-meetings.ganeshsivasankara.c
  om
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:SBI EEG Bootcamp Hannover
@@ -1320,7 +1494,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:anzca-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270505
 SUMMARY:ANZCA ASM 2027
@@ -1335,7 +1509,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:iars-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270503
 SUMMARY:IARS 2027
@@ -1350,8 +1524,24 @@ URL:https://meetings.iars.org/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hms-anesthesiology-update-boston-2027@anaesthesia-meetings.ganeshsivasa
+ nkara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270508
+SUMMARY:HMS Anesthesiology Update 2027
+LOCATION:Fairmont Copley Plaza Hotel\, Boston\, United States
+DESCRIPTION:Anesthesiology Update 2027\nHarvard Medical School Professional
+ \, Corporate\, and Continuing Education\nEarly rate ends Wed 31 Mar 2027.\
+ nhttps://learn.hms.harvard.edu/anesthesiology\nAnaesthesia Meetings Almana
+ c: https://ganeshsivasankara.com/anaesthesia-meetings/#hms-anesthesiology-
+ update-boston-2027
+URL:https://learn.hms.harvard.edu/anesthesiology
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:clasa-lima-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270509
 SUMMARY:CLASA Lima 2027
@@ -1365,7 +1555,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:asnacc-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270510
 SUMMARY:ASNACC 2027
@@ -1373,17 +1563,17 @@ LOCATION:Borneo Convention Centre Kuching\, Kuching\, Malaysia
 DESCRIPTION:Congress of the Asian Society for Neuroanaesthesia and Critical
   Care 2027 (ASNACC 2027)\nMalaysian Society of Neuroanaesthesiology and Ne
  urocritical Care (MSNACC) organising committee\, for the Asian Society for
-  Neuroanaesthesia and Critical Care (ASNACC)\nDates provisional: the organ
- iser has not yet confirmed them.\nhttps://asnacc2027.org/\nAnaesthesia Mee
- tings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#asnacc-
- 2027
+  Neuroanaesthesia and Critical Care (ASNACC)\nAbstracts close Sun 15 Nov 2
+ 026.\nEarly rate ends Sun 28 Feb 2027.\nhttps://asnacc2027.org/\nAnaesthes
+ ia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#a
+ snacc-2027
 URL:https://asnacc2027.org/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:esra-residents-trainees-workshop-2027@anaesthesia-meetings.ganeshsivasa
  nkara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270508
 SUMMARY:ESRA Residents & Trainees Workshop 2027
@@ -1399,7 +1589,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:samba-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270509
 SUMMARY:SAMBA 2027
@@ -1413,7 +1603,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sedar-hemostasia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270508
 SUMMARY:SEDAR Hemostasia 2027
@@ -1421,31 +1611,30 @@ LOCATION:Hotel Chamartín The One\, Madrid\, Spain
 DESCRIPTION:XI Reunión de la Sección de Hemostasia\, Medicina Transfusion
  al y Fluidoterapia de la SEDAR\nSociedad Española de Anestesiología y Re
  animación (SEDAR)\, Sección de Hemostasia\, Medicina Transfusional y Flu
- idoterapia (technical secretariat: Sanicongress)\nhttps://sedarhemostasia2
- 027.com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anae
- sthesia-meetings/#sedar-hemostasia-2027
+ idoterapia (technical secretariat: Sanicongress)\nEarly rate ends Mon 1 Fe
+ b 2027.\nhttps://sedarhemostasia2027.com/\nAnaesthesia Meetings Almanac: h
+ ttps://ganeshsivasankara.com/anaesthesia-meetings/#sedar-hemostasia-2027
 URL:https://sedarhemostasia2027.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rcoa-anaesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270515
 SUMMARY:Anaesthesia 2027 (RCoA)
 LOCATION:International Convention Centre Wales (ICC Wales)\, Newport\, Unit
  ed Kingdom
 DESCRIPTION:Anaesthesia 2027 (Royal College of Anaesthetists annual confere
- nce)\nRoyal College of Anaesthetists (RCoA)\nEarly rate ends Thu 31 Dec 20
- 26.\nhttps://www.rcoa.ac.uk/events/anaesthesia-2027\nAnaesthesia Meetings 
- Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#rcoa-anaesthe
- sia-2027
+ nce)\nRoyal College of Anaesthetists (RCoA)\nhttps://www.rcoa.ac.uk/events
+ /anaesthesia-2027\nAnaesthesia Meetings Almanac: https://ganeshsivasankara
+ .com/anaesthesia-meetings/#rcoa-anaesthesia-2027
 URL:https://www.rcoa.ac.uk/events/anaesthesia-2027
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:asra-ra-acute-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270516
 SUMMARY:ASRA Spring 2027
@@ -1460,7 +1649,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:naccs-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270519
 SUMMARY:NACCS ASM 2027
@@ -1474,7 +1663,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-critical-care-maui-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270522
 SUMMARY:NWAS Critical Care Maui 2027
@@ -1491,7 +1680,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:soap-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270524
 SUMMARY:SOAP 2027
@@ -1507,7 +1696,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cai-annual-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270529
 SUMMARY:CAI Annual Congress 2027
@@ -1522,7 +1711,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nva-anesthesiologendagen-2027@anaesthesia-meetings.ganeshsivasankara.co
  m
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270529
 SUMMARY:NVA Anesthesiologendagen 2027
@@ -1536,7 +1725,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:euroanaesthesia-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270601
 SUMMARY:Euroanaesthesia 2027
@@ -1551,7 +1740,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eras-world-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270602
 DTEND;VALUE=DATE:20270605
 SUMMARY:ERAS Berlin 2027
@@ -1567,23 +1756,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:jsa-annual-meeting-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270606
 SUMMARY:JSA 2027
 LOCATION:Kobe Portopia Hotel\, Kobe International Exhibition Hall and Kobe 
  International Conference Center\, Kobe\, Japan
 DESCRIPTION:The 74th Annual Meeting of the Japanese Society of Anesthesiolo
- gists (2027)\nJapanese Society of Anesthesiologists (JSA)\nhttps://anesth-
- 74thmeeting.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.
- com/anaesthesia-meetings/#jsa-annual-meeting-2027
+ gists (2027)\nJapanese Society of Anesthesiologists (JSA)\nAbstracts close
+  Tue 1 Dec 2026.\nhttps://anesth-74thmeeting.org/\nAnaesthesia Meetings Al
+ manac: https://ganeshsivasankara.com/anaesthesia-meetings/#jsa-annual-meet
+ ing-2027
 URL:https://anesth-74thmeeting.org/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-challenges-in-anesthesia-2027@anaesthesia-meetings.ganeshsivasanka
  ra.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270612
 SUMMARY:NWAS Oahu Jun 2027
@@ -1600,7 +1790,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mapar-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270612
 SUMMARY:MAPAR 2027
@@ -1614,7 +1804,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cas-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270611
 DTEND;VALUE=DATE:20270614
 SUMMARY:CAS 2027
@@ -1627,23 +1817,23 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:espa-epas-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270611
 DTEND;VALUE=DATE:20270613
 SUMMARY:EPAS 2027
-LOCATION:Gaslini Academy\, Genoa\, Italy
+LOCATION:Villa Quartara (Gaslini Academy)\, Genoa\, Italy
 DESCRIPTION:3rd European Paediatric Airway Symposium (EPAS 2027)\nEuropean 
- Society for Paediatric Anaesthesiology (ESPA)\, held at the Gaslini Academ
- y\, Genoa\nhttps://www.euroespa.com/event/the-3rd-european-paediatric-airw
- ay-symposium-epas/\nAnaesthesia Meetings Almanac: https://ganeshsivasankar
- a.com/anaesthesia-meetings/#espa-epas-2027
+ Society for Paediatric Anaesthesiology (ESPA) with the Gaslini Academy\, G
+ enoa\nhttps://www.euroespa.com/event/the-3rd-european-paediatric-airway-sy
+ mposium-epas/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com
+ /anaesthesia-meetings/#espa-epas-2027
 URL:https://www.euroespa.com/event/the-3rd-european-paediatric-airway-sympo
  sium-epas/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spam-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270622
 DTEND;VALUE=DATE:20270625
 SUMMARY:SPAM 2027
@@ -1660,7 +1850,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:apa-asm-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270626
 SUMMARY:APA 2027 (Oxford)
@@ -1679,7 +1869,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sbi-eeg-bootcamp-munich-advanced-2027@anaesthesia-meetings.ganeshsivasa
  nkara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
 SUMMARY:SBI EEG Bootcamp Munich (ADVANCED)
@@ -1693,7 +1883,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:csa-summer-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270712
 DTEND;VALUE=DATE:20270717
 SUMMARY:CSA Summer 2027 (Oahu)
@@ -1710,7 +1900,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-clinical-topics-banff-2027@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:NWAS Banff 2027
@@ -1728,7 +1918,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-relevant-coeur-dalene-2027@anaesthesia-meetings.ganeshsivasankara.
  com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270730
 SUMMARY:NWAS Coeur d'Alene 2027
@@ -1745,7 +1935,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:jassbra-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270729
 DTEND;VALUE=DATE:20270801
 SUMMARY:JASSBRA 2027
@@ -1762,7 +1952,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nwas-critical-care-hilton-head-2027@anaesthesia-meetings.ganeshsivasank
  ara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270814
 SUMMARY:NWAS Hilton Head 2027
@@ -1780,7 +1970,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aqua-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270819
 DTEND;VALUE=DATE:20270822
 SUMMARY:AQUA 2027
@@ -1795,7 +1985,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-alaska-cruise-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270821
 DTEND;VALUE=DATE:20270829
 SUMMARY:NWAS Alaska cruise 2027
@@ -1812,7 +2002,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:esra-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270905
 SUMMARY:ESRA Congress 2027
@@ -1826,7 +2016,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:apsf-stoelting-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270910
 SUMMARY:APSF Stoelting 2027
@@ -1841,7 +2031,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:snacc-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270909
 DTEND;VALUE=DATE:20270912
 SUMMARY:SNACC 2027
@@ -1854,8 +2044,41 @@ URL:https://snacc.org/meetings/future-meetings/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:aaac-dar-es-salaam-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270917
+SUMMARY:AAAC 2027
+LOCATION:Julius Nyerere International Convention Centre (JNICC)\, Dar es Sa
+ laam\, Tanzania
+DESCRIPTION:10th All Africa Anaesthesia Congress 2027\nSociety of Anaesthes
+ iologists of Tanzania (SATA)\, with the WFSA Africa regional section\nEarl
+ y rate ends Sun 31 Jan 2027.\nhttps://aaac2027.com/\nAnaesthesia Meetings 
+ Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#aaac-dar-es-s
+ alaam-2027
+URL:https://aaac2027.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spanza-apagbi-asm-perth-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270919
+SUMMARY:SPANZA ASM 2027
+LOCATION:Pan Pacific Perth\, Perth\, Australia
+DESCRIPTION:SPANZA/APAGBI Annual Scientific Meeting 2027\nSociety for Paedi
+ atric Anaesthesia in New Zealand and Australia (SPANZA)\, with the Associa
+ tion of Paediatric Anaesthetists of Great Britain and Ireland (APAGBI)\nht
+ tps://spanza.org.au/Web/iCore/Events/Event_display.aspx?EventKey=27ASM\nAn
+ aesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meet
+ ings/#spanza-apagbi-asm-perth-2027
+URL:https://spanza.org.au/Web/iCore/Events/Event_display.aspx?EventKey=27AS
+ M
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:eactaic-iaca-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270920
 SUMMARY:EACTAIC 2027
@@ -1871,7 +2094,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:isqua-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270919
 DTEND;VALUE=DATE:20270923
 SUMMARY:ISQua 2027
@@ -1886,7 +2109,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:asa-nsc-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270922
 DTEND;VALUE=DATE:20270926
 SUMMARY:ASA NSC 2027
@@ -1901,7 +2124,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dgai-jahreskongress-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270922
 DTEND;VALUE=DATE:20270925
 SUMMARY:DGAI Jahreskongress 2027
@@ -1915,7 +2138,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aoa-gasfest-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270922
 DTEND;VALUE=DATE:20270925
 SUMMARY:GasFest 2027
@@ -1929,7 +2152,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ptaiit-zjazd-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270923
 DTEND;VALUE=DATE:20270926
 SUMMARY:XXII Zjazd PTAiIT 2027
@@ -1939,15 +2162,16 @@ DESCRIPTION:XXII Zjazd Polskiego Towarzystwa Anestezjologii i Intensywnej T
  erapii (22nd Congress of the Polish Society of Anaesthesiology and Intensi
  ve Therapy)\nPolskie Towarzystwo Anestezjologii i Intensywnej Terapii (PTA
  iIT)\; organising committee chair Prof. Mirosław Czuczwar (society Presid
- ent-elect)\nhttps://zjazdanestezjologow2027.pl/\nAnaesthesia Meetings Alma
- nac: https://ganeshsivasankara.com/anaesthesia-meetings/#ptaiit-zjazd-2027
+ ent-elect)\nEarly rate ends Wed 31 Mar 2027.\nhttps://zjazdanestezjologow2
+ 027.pl/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaes
+ thesia-meetings/#ptaiit-zjazd-2027
 URL:https://zjazdanestezjologow2027.pl/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:nwas-current-practice-sedona-2027@anaesthesia-meetings.ganeshsivasankar
  a.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270927
 DTEND;VALUE=DATE:20271001
 SUMMARY:NWAS Sedona 2027
@@ -1962,9 +2186,24 @@ URL:https://nwas2.northwestseminars.com/conference/view/TopicsinAnesthesia/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:espa-congress-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271003
+SUMMARY:ESPA 2027
+DESCRIPTION:ESPA 2027\, 17th Congress of the European Society for Paediatri
+ c Anaesthesiology\nEuropean Society for Paediatric Anaesthesiology (ESPA)\
+ nDates provisional: the organiser has not yet confirmed them.\nAbstracts c
+ lose Wed 30 Jun 2027.\nEarly rate ends Mon 12 Jul 2027.\nhttps://www.espac
+ ongress.com/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/
+ anaesthesia-meetings/#espa-congress-2027
+URL:https://www.espacongress.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nwas-critical-care-kauai-2027@anaesthesia-meetings.ganeshsivasankara.co
  m
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20271004
 DTEND;VALUE=DATE:20271009
 SUMMARY:NWAS Critical Care Kauai 2027
@@ -1981,9 +2220,22 @@ URL:https://online3.northwestseminars.com/conference/view/CriticalCareTheTe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ebpom-ireland-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271008
+SUMMARY:EBPOM Ireland 2027
+LOCATION:Dingle\, Ireland
+DESCRIPTION:EBPOM Ireland 2027\nEvidence Based Perioperative Medicine (EBPO
+ M)\nhttps://www.ebpom.org/\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#ebpom-ireland-2027
+URL:https://www.ebpom.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nwas-anesthesia-spectrum-gatlinburg-2027@anaesthesia-meetings.ganeshsiv
  asankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20271007
 DTEND;VALUE=DATE:20271011
 SUMMARY:NWAS Gatlinburg 2027
@@ -1999,8 +2251,25 @@ URL:https://nwas2.northwestseminars.com/conference/view/anesthesia-spectrum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:nwas-current-perspectives-anesthesia-toronto-2027@anaesthesia-meetings.
+ ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271015
+SUMMARY:NWAS Current Perspectives in Anesthesia Toronto 2027
+LOCATION:The Omni King Edward Hotel\, Toronto\, Canada
+DESCRIPTION:Current Perspectives in Anesthesia\nNorthwest Anesthesia Semina
+ rs (NWAS)\nhttps://nwas2.northwestseminars.com/conference/view/current-per
+ spectives-in-anesthesia/V2FYdQ\nAnaesthesia Meetings Almanac: https://gane
+ shsivasankara.com/anaesthesia-meetings/#nwas-current-perspectives-anesthes
+ ia-toronto-2027
+URL:https://nwas2.northwestseminars.com/conference/view/current-perspective
+ s-in-anesthesia/V2FYdQ
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:asa-anesthesiology-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271020
 SUMMARY:ANESTHESIOLOGY 2027
@@ -2016,7 +2285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spa-annual-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271016
 SUMMARY:SPA 2027

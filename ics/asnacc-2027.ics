@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:asnacc-2027@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270510
 SUMMARY:ASNACC 2027
@@ -17,10 +17,10 @@ LOCATION:Borneo Convention Centre Kuching\, Kuching\, Malaysia
 DESCRIPTION:Congress of the Asian Society for Neuroanaesthesia and Critical
   Care 2027 (ASNACC 2027)\nMalaysian Society of Neuroanaesthesiology and Ne
  urocritical Care (MSNACC) organising committee\, for the Asian Society for
-  Neuroanaesthesia and Critical Care (ASNACC)\nDates provisional: the organ
- iser has not yet confirmed them.\nhttps://asnacc2027.org/\nAnaesthesia Mee
- tings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#asnacc-
- 2027
+  Neuroanaesthesia and Critical Care (ASNACC)\nAbstracts close Sun 15 Nov 2
+ 026.\nEarly rate ends Sun 28 Feb 2027.\nhttps://asnacc2027.org/\nAnaesthes
+ ia Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#a
+ snacc-2027
 URL:https://asnacc2027.org/
 TRANSP:TRANSPARENT
 END:VEVENT

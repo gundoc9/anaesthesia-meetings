@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mount Sinai Clinical Update Curaçao 2027: abstracts close
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mount-sinai-clinical-update-curacao-2027-abstracts@anaesthesia-meetings
+ .ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Mount Sinai Clinical Update Curaçao 2027: abstracts close
+DESCRIPTION:43rd Annual International Symposium: Clinical Update in Anesthe
+ siology\, Surgery and Perioperative Medicine\nAbstracts close Fri 30 Oct 2
+ 026.\nhttps://www.clinicalupdateinanesthesiology.org\nAnaesthesia Meetings
+  Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#mount-sinai-
+ clinical-update-curacao-2027
+URL:https://www.clinicalupdateinanesthesiology.org
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: abstracts close in a
+  week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: abstracts close tomo
+ rrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

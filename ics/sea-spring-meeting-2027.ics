@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SEA Spring Meeting 2027
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sea-spring-meeting-2027@anaesthesia-meetings.ganeshsivasankara.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270419
+SUMMARY:SEA Spring Meeting 2027
+LOCATION:Renaissance Minneapolis Hotel\, The Depot\, Minneapolis\, United S
+ tates
+DESCRIPTION:Society for Education in Anesthesia 2027 Spring Meeting\nSociet
+ y for Education in Anesthesia (SEA)\, in collaboration with the ASA Simula
+ tion Education Network (SEN)\nAbstracts close Wed 30 Sep 2026.\nhttps://ww
+ w.seahq.org/2027-spring-meeting\nAnaesthesia Meetings Almanac: https://gan
+ eshsivasankara.com/anaesthesia-meetings/#sea-spring-meeting-2027
+URL:https://www.seahq.org/2027-spring-meeting
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

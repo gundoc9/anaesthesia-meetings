@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anaesthesia Meetings Almanac//anaesthesia-meetings.ganeshsivasank
+ ara.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Aspen Anesthesia 2027: early rate ends
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aspen-anesthesia-2027-early-rate@anaesthesia-meetings.ganeshsivasankara
+ .com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Aspen Anesthesia 2027: early rate ends
+DESCRIPTION:Aspen Anesthesia Seminar 2027 (Holiday Seminars)\nEarly rate en
+ ds Thu 31 Dec 2026.\nhttps://www.holidayseminars.com/anesthesia_seminars/a
+ spen_anesthesia_conference\nAnaesthesia Meetings Almanac: https://ganeshsi
+ vasankara.com/anaesthesia-meetings/#aspen-anesthesia-2027
+URL:https://www.holidayseminars.com/anesthesia_seminars/aspen_anesthesia_co
+ nference
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aspen Anesthesia 2027: early rate ends in a week
+TRIGGER:-P7DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aspen Anesthesia 2027: early rate ends tomorrow
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
