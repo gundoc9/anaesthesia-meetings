@@ -11,79 +11,6 @@ X-WR-CALDESC:Abstract and early-rate deadlines for anaesthesia meetings\, w
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:journees-francophones-arp-2026-early-rate@anaesthesia-meetings.ganeshsi
- vasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:Journées Francophones ARP 2026: early rate ends
-DESCRIPTION:Journées Francophones d'Anesthésie Réanimation Pédiatriques
-  (JFAR 2026)\nEarly rate ends Mon 2 Nov 2026.\nhttps://staartunisia.tn/eve
- nements/journees-francophones-d-anesthesie-reanimation-ped\nAnaesthesia Me
- etings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#journe
- es-francophones-arp-2026
-URL:https://staartunisia.tn/evenements/journees-francophones-d-anesthesie-r
- eanimation-ped
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Journées Francophones ARP 2026: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Journées Francophones ARP 2026: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:isacon-2026-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:ISACON 2026: abstracts close
-DESCRIPTION:ISACON National 2026 - 73rd Annual National Conference of the I
- ndian Society of Anaesthesiologists\nAbstracts close Tue 10 Nov 2026.\nhtt
- ps://isacon2026national.com/\nAnaesthesia Meetings Almanac: https://ganesh
- sivasankara.com/anaesthesia-meetings/#isacon-2026
-URL:https://isacon2026national.com/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ISACON 2026: abstracts close in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ISACON 2026: abstracts close tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:te-aka-tauwhiro-2026-early-rate@anaesthesia-meetings.ganeshsivasankara.
- com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:Te Aka Tauwhiro 2026: early rate ends
-DESCRIPTION:Te Aka Tauwhiro: Aotearoa Anaesthesia Trainee Meeting\nEarly ra
- te ends Mon 2 Nov 2026.\nhttps://www.tauwhiro.anaesthesia.nz/\nAnaesthesia
-  Meetings Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#te-
- aka-tauwhiro-2026
-URL:https://www.tauwhiro.anaesthesia.nz/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Te Aka Tauwhiro 2026: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:sta-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -181,30 +108,6 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:winter-pain-symposium-tignes-2027-early-rate@anaesthesia-meetings.ganes
- hsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Winter Pain Symposium 2027: early rate ends
-DESCRIPTION:13th Advances in Pain Medicine Winter Symposium\nEarly rate end
- s Sun 1 Nov 2026.\nhttps://www.winterpainsymposium.com/\nAnaesthesia Meeti
- ngs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#winter-pa
- in-symposium-tignes-2027
-URL:https://www.winterpainsymposium.com/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Winter Pain Symposium 2027: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Winter Pain Symposium 2027: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:asa-advance-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261119
@@ -249,30 +152,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Aspen Anesthesia 2027: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:block-and-pain-paris-2027-early-rate@anaesthesia-meetings.ganeshsivasan
- kara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Block & Pain 2027: early rate ends
-DESCRIPTION:Congrès Block & Pain : Anesthésie & Douleur\nEarly rate ends 
- Sun 1 Nov 2026.\nhttps://www.blockandpain.com/\nAnaesthesia Meetings Alman
- ac: https://ganeshsivasankara.com/anaesthesia-meetings/#block-and-pain-par
- is-2027
-URL:https://www.blockandpain.com/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Block & Pain 2027: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Block & Pain 2027: early rate ends tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
@@ -443,32 +322,6 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:spaqi-perioperative-medicine-summit-2027-abstracts@anaesthesia-meetings
- .ganeshsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:SPAQI Perioperative Medicine Summit 2027: abstracts close
-DESCRIPTION:22nd Annual Perioperative Medicine Summit (SPAQI)\nAbstracts cl
- ose Fri 13 Nov 2026.\nhttps://www.spaqi.org/2027/\nAnaesthesia Meetings Al
- manac: https://ganeshsivasankara.com/anaesthesia-meetings/#spaqi-periopera
- tive-medicine-summit-2027
-URL:https://www.spaqi.org/2027/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: abstracts close in a 
- week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: abstracts close tomor
- row
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:spaqi-perioperative-medicine-summit-2027-early-rate@anaesthesia-meeting
  s.ganeshsivasankara.com
 DTSTAMP:20261101T000000Z
@@ -491,30 +344,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: early rate ends tomor
  row
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whistler-summit-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.c
- om
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Whistler Summit 2027: abstracts close
-DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nAbstrac
- ts close Fri 6 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meeting
- s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-su
- mmit-2027
-URL:https://ubccpd.ca/node/3017
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Whistler Summit 2027: abstracts close in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Whistler Summit 2027: abstracts close tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
