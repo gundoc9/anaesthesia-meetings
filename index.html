@@ -187,10 +187,10 @@ code,.mono{font-family:var(--mono);font-feature-settings:"tnum" 1}
 @media (max-width:479px){.trust .long{display:none}}
 @media (min-width:760px) and (max-width:899px){.trust .long{display:none}}
 .trust .links{display:flex;align-items:center;gap:4px;margin-left:auto}
-.ok{width:12px;height:12px;border-radius:50%;background:var(--ok);flex:none;position:relative}
-.ok::after{content:"";position:absolute;left:3.5px;top:1.5px;width:3px;height:6px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
-.ok.prov{background:var(--amber)}
-.ok.prov::after{display:none}
+.trust .ok{width:12px;height:12px;border-radius:50%;background:var(--ok);flex:none;position:relative}
+.trust .ok::after{content:"";position:absolute;left:3.5px;top:1.5px;width:3px;height:6px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.trust .ok.prov{background:var(--amber)}
+.trust .ok.prov::after{display:none}
 .trust a,.trust .save{color:var(--accent);font-weight:700;text-decoration:none;min-height:36px;display:inline-flex;align-items:center;padding:0 7px;border-radius:6px;font-size:13px;white-space:nowrap}
 .trust a:hover,.trust .save:hover{background:var(--paper-2)}
 .trust .save[aria-pressed="true"]{color:var(--ink)}
