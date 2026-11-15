@@ -1,7 +1,7 @@
 {
  "name": "Anaesthesia Meetings Almanac",
  "short_name": "Meetings",
- "description": "Anaesthesia meetings worldwide from November 2026 to October 2027: dates and days of the week, abstract and registration deadlines, flights and leave days from your home airport, where to stay and where to eat.",
+ "description": "Anaesthesia meetings worldwide for the year ahead: dates and days of the week, abstract and registration deadlines, flights and leave days from your home airport, where to stay and where to eat.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
