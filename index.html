@@ -110,6 +110,8 @@ code,.mono{font-family:var(--mono);font-feature-settings:"tnum" 1}
 .search svg{width:16px;height:16px;fill:none;stroke:var(--ink-2);stroke-width:2.2;flex:none}
 .search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:16px;color:var(--ink);padding:10px 0}
 .search input::placeholder{color:var(--ink-2)}
+.search input:focus-visible{outline:0}
+.search:focus-within{outline:2px solid var(--teal-ink);outline-offset:2px}
 .filters{display:grid;gap:8px;margin-top:10px}
 .frow{display:flex;gap:8px;align-items:center;overflow-x:auto;scrollbar-width:none;min-width:0;max-width:100%;padding:2px 0}
 .frow.ctl{flex-wrap:wrap;overflow:visible}
