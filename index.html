@@ -989,11 +989,11 @@ function detailHTML(m){
 function renderDetail(){
   const sheet = $('sheet');
   const m = MEETINGS.find(x => x.id===state.selected);
-  if (!m){ sheet.classList.remove('open'); sheet.innerHTML = `<div class="placeholder"><h3>Pick a meeting</h3><p>Dates, deadlines, flights from your base, where to stay and where to eat appear here.</p></div>`; if (window.matchMedia('(min-width:760px)').matches) sheet.classList.add('open'); return; }
-  sheet.innerHTML = detailHTML(m);
+  if (!m){ sheet.dataset.mid = ''; sheet.classList.remove('open'); sheet.innerHTML = `<div class="placeholder"><h3>Pick a meeting</h3><p>Dates, deadlines, flights from your base, where to stay and where to eat appear here.</p></div>`; if (window.matchMedia('(min-width:760px)').matches) sheet.classList.add('open'); return; }
+  const narrow = !window.matchMedia('(min-width:760px)').matches; const scroller = narrow ? sheet : $('detail'); const keep = sheet.dataset.mid===m.id ? scroller.scrollTop : 0; sheet.innerHTML = detailHTML(m); sheet.dataset.mid = m.id;
   sheet.classList.add('open');
-  if (!window.matchMedia('(min-width:760px)').matches){ sheet.scrollTop = 0; document.body.style.overflow = 'hidden'; }
-  else { $('detail').scrollTop = 0; }
+  if (narrow) document.body.style.overflow = 'hidden';
+  scroller.scrollTop = keep;
 }
 function closeDetail(){ state.selected = null; state.legBefore = state.legAfter = null; state.apIndex = 0; document.body.style.overflow = ''; renderDetail(); for (const r of document.querySelectorAll('.row')) r.setAttribute('aria-current','false'); }
 function select(id){ state.selected = id; state.legBefore = state.legAfter = null; state.apIndex = 0; for (const r of document.querySelectorAll('.row')) r.setAttribute('aria-current', r.dataset.id===id?'true':'false'); renderDetail(); }
