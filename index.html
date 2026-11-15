@@ -745,7 +745,7 @@ function flagOf(country){ const cc = NAME2CC[country]; if (!cc || cc.length!==2)
 function kindWord(m){ return m.kind==='course' ? 'Course' : 'Congress'; }
 // ---------- the picture of each place ----------
 // Places with a finished drawing; the rest show a plain band in their region's colours until theirs is drawn.
-const PICS = new Set(['caen','kona','london','riyadh','telaviv','villach']);
+const PICS = new Set(['amsterdam', 'antwerp', 'augsburg', 'bigsky', 'caen', 'florence', 'genoa', 'hongkong', 'innsbruck', 'istanbul', 'kona', 'lahaina', 'langenfeld', 'london', 'lyon', 'newyork', 'oxonhill', 'paris', 'phoenix', 'riyadh', 'sarasota', 'scottsdale', 'snowmassvillage', 'strasbourg', 'telaviv', 'tignes', 'villach', 'wailea', 'westpalmbeach', 'willemstad']);
 function placeOf(m){
   if (!m.city) return {name: m.country || 'To be announced', sub: 'Venue to be announced', key: ''};
   const paren = (m.city.match(/\(([^)]*)\)/) || [])[1] || '';
