@@ -168,7 +168,12 @@ svg{flex:none}
 .strip .t5i{font-size:14.5px;font-weight:600}
 .strip .tp{font-size:14.5px;font-weight:800;fill:#FFFBF3}
 .strip .tv{font-size:15.5px;font-weight:800;fill:#fff}
-.strip-cap{margin-top:8px}
+.strip-cap{margin-top:8px}/* one trip, two meetings: the meetings a short hop away, drawn as two postcards with the days of the whole trip */
+.pair + .pair{margin-top:16px;padding-top:16px;border-top:1.5px dashed var(--rule)}
+.strip .tc{font-weight:800;letter-spacing:.05em;paint-order:stroke;stroke:#FFFBF3;stroke-width:3px;stroke-opacity:.7;stroke-linejoin:round}
+.strip .tw{font-size:12.5px;font-weight:600}
+.strip .td{font-size:16.5px;font-weight:700}
+.strip a.pairgo{cursor:pointer}
 /* the picture at the head of a meeting */
 .ph{position:relative;overflow:hidden;aspect-ratio:402/172;background:#E9F1EE;isolation:isolate}
 .ph .art{display:block;width:100%;height:100%;object-fit:cover}
@@ -1282,6 +1287,99 @@ function stripHTML(m){
 
 // Names of the meeting's own hotels that the drawing shows, the venue included when it is one of them
 function stripPlaced(m){ const v = m.place, set = new Set(); for (const x of (v.hotels||[])) if (x.official) set.add(x.name); if (v.venue_official) for (const n of (v.venue_names||[])) set.add(n); return set; }
+// ---------- one trip, two meetings ----------
+// Other meetings that start within four days of this one ending, or end within four days of it starting, at most 1,500 km away.
+// Worked out here from the dates and places, so the monthly review needs no extra data for it.
+const PAIR_KM = 1500, PAIR_GAP = 4;
+const PAIR_PLANE = '<path d="M-10 -1.7h15q4.6 0 4.6 1.7q0 1.7-4.6 1.7h-15z"/><path d="M-1 -.6l-5.4-8.2h3.6l7.6 8.2z"/><path d="M-1 .6l-5.4 8.2h3.6l7.6-8.2z"/><path d="M-10 -1l-2.6-4.6h2.6l3.4 4.6z"/>';
+function llOf(m){ return m.place && m.place.ll ? {lat: m.place.ll[0], lon: m.place.ll[1]} : destFor(m); }
+function tripPairs(m){
+  const base = baseAp(), home = p => !!(base && haversine(base, p) < 80), here = llOf(m);
+  if (!here || isPast(m) || home(here)) return [];
+  const s = pd(m.start), e = pd(m.end), list = [];
+  for (const o of MEETINGS){
+    if (o === m || isPast(o)) continue;
+    const there = llOf(o); if (!there || home(there)) continue;
+    const km = haversine(here, there); if (km > PAIR_KM) continue;
+    const later = Math.round((pd(o.start) - e) / DAY), earlier = Math.round((s - pd(o.end)) / DAY);
+    const g = later >= 0 ? later : earlier >= 0 ? earlier : -1;   // meetings that overlap never pair
+    if (g < (km < 25 ? 0 : 1) || g > PAIR_GAP) continue;
+    list.push({o, km, g, a: later >= 0 ? m : o, b: later >= 0 ? o : m});
+  }
+  return list.sort((x, y) => x.g - y.g || x.km - y.km).slice(0, 3).sort((x, y) => pd(x.o.start) - pd(y.o.start));
+}
+function pairHop(km, a, b){
+  const hm = min => { const r = Math.max(5, Math.round(min / 5) * 5), H = Math.floor(r / 60), M = r % 60; return H ? (M ? `${H} h ${String(M).padStart(2, '0')}` : `${H} h`) : `${M} min`; };
+  if (km < 0.6) return {mode: 'walk', big: 'Same', small: 'venue'};
+  if (km < 25) return {mode: 'road', big: 'Same city', small: `${Math.max(1, Math.round(km))} km`};
+  if (km < 300) return {mode: 'road', big: hm(km * 1.3 / 80 * 60), small: 'by road'};
+  const pa = destFor(a), pb = destFor(b);   // the flight is airport to airport, as in Getting there
+  return {mode: 'fly', big: flightShort(pa && pb ? haversine(pa, pb) : km), small: 'flight'};
+}
+function pairDates(x){
+  const s = pd(x.start), e = pd(x.end);
+  if (s.getTime() === e.getTime()) return `${s.getUTCDate()} ${MON[s.getUTCMonth()]}`;
+  return s.getUTCMonth() === e.getUTCMonth() ? `${s.getUTCDate()}–${e.getUTCDate()} ${MON[s.getUTCMonth()]}` : `${s.getUTCDate()} ${MON[s.getUTCMonth()]} – ${e.getUTCDate()} ${MON[e.getUTCMonth()]}`;
+}
+function pairWrap(t, maxW, size){   // at most three lines; a name that runs on ends in …
+  const fit = x => stripW(x, size, true) <= maxW, cut = x => { while (!fit(x + '…') && x.length > 1) x = x.slice(0, -1).trimEnd(); return x + '…'; };
+  const lines = [''];
+  for (const w of String(t).trim().split(/\s+/)){ const cur = lines[lines.length - 1], next = cur ? cur + ' ' + w : w; if (!cur || fit(next)) lines[lines.length - 1] = next; else lines.push(w); }
+  const three = lines.length > 3 ? [lines[0], lines[1], lines.slice(2).join(' ')] : lines;
+  return three.map(x => fit(x) ? x : cut(x));
+}
+function pairSVG(m, p, bef, aft){
+  const W = 380, CW = 148, CH = 63.3, Y0 = 8, cx = W / 2, uid = 'tp' + (p.a.id + p.b.id).replace(/[^a-z0-9]/gi, ''), hop = pairHop(p.km, p.a, p.b), o = p.o;
+  const names = [p.a, p.b].map(x => pairWrap(x.short, CW - 10, 15)), nl = Math.max(names[0].length, names[1].length);
+  const prov = [p.a, p.b].some(x => x.dates_status === 'provisional'), DY = Y0 + CH + 21 + (nl - 1) * 18 + 21, TY = DY + 13 + (prov ? 19 : 0);
+  const out = addDays(pd(p.a.start), -bef), back = addDays(pd(p.b.end), aft), n = Math.round((back - out) / DAY) + 1;
+  let defs = '', g = '', link = '';
+  // the two meetings as postcards, the earlier on the left; this one ringed in coral, the other opens its own page
+  [p.a, p.b].forEach((x, i) => {
+    const X = i ? W - CW : 0, mine = x === m, pl = placeOf(x), clip = `${uid}c${i}`;
+    defs += `<clipPath id="${clip}"><rect x="${X}" y="${Y0}" width="${CW}" height="${CH}" rx="10"/></clipPath>`;
+    let c = PICS.has(pl.key) ? `<image href="places/${pl.key}.svg" x="${X}" y="${Y0}" width="${CW}" height="${CH}" preserveAspectRatio="xMidYMid slice" clip-path="url(#${clip})"/>`
+      : `<g clip-path="url(#${clip})">${plainBand(x, pl, uid + 'b' + i).replace('<svg class="band"', `<svg class="pband" x="${X}" y="${Y0}" width="${CW}" height="${CH}"`)}</g>`;
+    const nm = pl.name.toUpperCase(), fs = Math.max(10, Math.min(14, 14 * (CW - 22) / (stripW(nm, 14, true) + nm.length * .7)));
+    c += `<text x="${X + 10}" y="${F1(Y0 + 6 + fs)}" class="tc" style="font-size:${F1(fs)}px">${esc(nm)}</text>`;
+    c += mine ? `<rect x="${X + 1.25}" y="${Y0 + 1.25}" width="${CW - 2.5}" height="${F1(CH - 2.5)}" rx="9" fill="none" stroke="#C4381F" stroke-width="2.5"/>`
+      : `<circle cx="${X + CW - 16}" cy="${F1(Y0 + CH - 16)}" r="11" fill="#1D3350"/><path d="M${X + CW - 18.2} ${F1(Y0 + CH - 21.5)}l5.3 5.5-5.3 5.5" fill="none" stroke="#FFFBF3" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>`;
+    c += names[i].map((l, j) => `<text x="${X + 3}" y="${F1(Y0 + CH + 21 + j * 18)}" class="t4">${esc(l)}</text>`).join('');
+    c += SR(X + 2, DY - 10, 10, 10, mine ? '#C4381F' : '#1D3350', 2.5) + `<text x="${X + 18}" y="${F1(DY)}" class="t5">${esc(pairDates(x))}</text>`;
+    if (x.dates_status === 'provisional') c += `<text x="${X + 18}" y="${F1(DY + 19)}" class="t5" style="fill:#7A4E0C">dates provisional</text>`;
+    if (mine) g += c;
+    else link = `<a class="pairgo" href="#${esc(x.id)}" data-id="${esc(x.id)}" aria-label="Open ${esc(x.short)}, ${esc(pl.name)}, ${esc(pairDates(x))}"><rect x="${X}" y="${Y0}" width="${CW}" height="${F1(TY - 6 - Y0)}" fill="transparent"/>${c}</a>`;
+  });
+  // the hop between them: a flight path, a road, or a short walk
+  const ay = Y0 + 24, x1 = CW + 8, x2 = W - CW - 8;
+  if (hop.mode === 'fly') g += `<path d="M${x1} ${ay}Q${cx} ${ay - 34} ${x2} ${ay}" fill="none" stroke="#C4381F" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="0.1 6.4"/><g transform="translate(${cx} ${ay - 17}) scale(1.3)" fill="#3E5468">${PAIR_PLANE}</g>`;
+  else if (hop.mode === 'road') g += `<path d="M${x1} ${ay}H${x2}" stroke="#8E8274" stroke-width="7.5" stroke-linecap="round"/><path d="M${x1 + 3} ${ay}H${x2 - 3}" stroke="#F3EBD8" stroke-width="1.3" stroke-dasharray="5 6"/><g transform="translate(${F1(cx - 42.5)} ${ay - 3})">${SR(30, -11.5, 25, 8.6, '#2E5E96', 3)}${SR(35, -17, 13.5, 7, '#3E6EA6', 2.4)}<circle cx="36" cy="-2.6" r="2.9" fill="#1D3350"/><circle cx="49.5" cy="-2.6" r="2.9" fill="#1D3350"/></g>`;
+  else g += `<path d="M${x1} ${ay}H${x2}" stroke="#3E5468" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0.1 6" opacity=".7"/><g transform="translate(${cx} ${ay - 2}) scale(1.55)">${STRIP_WALKER}</g>`;
+  g += `<circle cx="${x1}" cy="${ay}" r="3.2" fill="#1D3350"/><circle cx="${x2}" cy="${ay}" r="3.2" fill="#1D3350"/>`;
+  g += `<text x="${cx}" y="${ay + 27}" class="t4" text-anchor="middle">${esc(hop.big)}</text>${hop.small ? `<text x="${cx}" y="${ay + 44}" class="t5" text-anchor="middle">${esc(hop.small)}</text>` : ''}`;
+  // the days of the whole trip: this meeting in coral, the other in navy, weekends in slate, travel days outlined
+  const tw = Math.min(31, (W - 3 * (n - 1)) / n), ms = pd(m.start), me = pd(m.end), os = pd(o.start), oe = pd(o.end);
+  for (let i = 0; i < n; i++){
+    const d = addDays(out, i), x = i * (tw + 3), we = isWeekend(d), mine = d >= ms && d <= me, theirs = !mine && d >= os && d <= oe;
+    const fill = mine || theirs ? (we ? '#5A7385' : mine ? '#C4381F' : '#1D3350') : null, col = fill ? '#FFF7E6' : we ? '#48606F' : '#B5371F';
+    const wd = tw >= 25 ? WD[dow(d)] : tw >= 19 ? WD[dow(d)].slice(0, 2) : WD[dow(d)][0], wf = tw >= 29 ? 12.5 : tw >= 25 ? 11.2 : 11.5, df = Math.min(16.5, tw * .6);
+    g += fill ? SR(x, TY, tw, 38, fill, 6.5) : `<rect x="${F1(x + 1)}" y="${TY + 1}" width="${F1(tw - 2)}" height="36" rx="5.5" fill="none" stroke="${we ? '#5A7385' : '#C4381F'}" stroke-width="2"/>`;
+    g += `<text x="${F1(x + tw / 2)}" y="${TY + 15}" text-anchor="middle" class="tw" style="fill:${col};font-size:${wf}px">${wd}</text><text x="${F1(x + tw / 2)}" y="${TY + 32}" text-anchor="middle" class="td" style="fill:${col};font-size:${F1(df)}px">${d.getUTCDate()}</text>`;
+  }
+  // what the one trip costs, against going to this meeting alone
+  const mOut = addDays(ms, -bef), mBack = addDays(me, aft), words = (k, l) => `${k} night${k === 1 ? '' : 's'} · ${leaveWords(l)}`, Y = TY + 38 + 27;
+  const both = words(n - 1, workingDays(out, back)), alone = words(Math.round((mBack - mOut) / DAY), workingDays(mOut, mBack));
+  g += `<text x="3" y="${Y}" class="t4">Both</text><text x="106" y="${Y}" class="t4">${both}</text>`;
+  g += `<text x="3" y="${Y + 21}" class="t5">Just this one</text><text x="106" y="${Y + 21}" class="t5">${alone}</text>`;
+  const H = Y + 21 + 8;
+  const said = `${p.a.short}, ${pairDates(p.a)}, then ${p.b.short}, ${pairDates(p.b)}. ${hop.big}${hop.small ? ', ' + hop.small : ''}. Both: ${both}. Just this one: ${alone}.`;
+  return `<div class="pair"><svg class="strip pairsvg" viewBox="0 0 ${W} ${H}" role="group" aria-label="${esc(said)}"><defs>${defs}</defs>${g}${link}</svg></div>`;
+}
+function pairsHTML(m, bef, aft){
+  const ps = tripPairs(m);
+  if (!ps.length) return '';
+  return `<section class="sec"><h3>One trip, two meetings</h3>${ps.map(p => pairSVG(m, p, bef, aft)).join('')}<p class="hint strip-cap">Tap the other meeting to open it. Meetings within four days and ${fmtKm(PAIR_KM)} of this one; travel times are estimates.</p></section>`;
+}
 function detailHTML(m){
   const s = pd(m.start), e = pd(m.end);
   const base = baseAp();
@@ -1355,6 +1453,9 @@ function detailHTML(m){
     h += `<p class="notes">Flights can be planned once the venue city is announced.</p>`;
   }
   h += `</section>`;
+
+  // One trip, two meetings
+  h += pairsHTML(m, bef, aft);
 
   // Entry requirements
   if (m.country){
@@ -1457,6 +1558,7 @@ function rerenderAll(){ renderFilters(); renderList(); renderDetail(); }
 document.addEventListener('click', ev => {
   const t = ev.target.closest('button, a, .row');
   if (!t) return;
+  if (t.matches('.pairgo')){ ev.preventDefault(); select(t.dataset.id); return; }
   if (t.id==='filtBtn'){ const f = $('filters'), open = f.hidden; f.hidden = !open; t.setAttribute('aria-expanded', open?'true':'false'); return; }
   if (t.id==='filtDone'){ $('filters').hidden = true; $('filtBtn').setAttribute('aria-expanded','false'); const top = $('main').getBoundingClientRect().top + window.scrollY - stickyH(); if (window.scrollY > top) window.scrollTo({top}); return; }
   if (t.id==='filtClear'){ state.region = state.fly = state.kind = state.leave = state.spec = null; renderFilters(); renderList(); return; }
