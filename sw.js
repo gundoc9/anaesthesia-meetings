@@ -1,6 +1,6 @@
 // Offline copy of the Anaesthesia Meetings Almanac. The page itself is fetched network-first so reviews arrive, with the cached copy as the fallback;
 // icons, the manifest and fonts are cached on first use. Calendar files are never cached, so a tap always gets the current file.
-const V = 'almanac-3954855c95';
+const V = 'almanac-9f7cbfdd83';
 const CORE = ['./', './index.html', './manifest.json', './anaesthesia-meetings-icon-180-v3.png', './anaesthesia-meetings-icon-512-v3.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== V).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
