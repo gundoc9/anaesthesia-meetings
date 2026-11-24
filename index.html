@@ -174,6 +174,14 @@ svg{flex:none}
 .strip .tw{font-size:12.5px;font-weight:600}
 .strip .td{font-size:16.5px;font-weight:700}
 .strip a.pairgo{cursor:pointer}
+/* your year, in Saved: leave days by month, with the trips joined and any clashes named */
+.yearplan{margin:2px 0 4px}
+.strip .tm{font-size:11.5px;font-weight:600}
+.strip .tn{font-size:15px;font-weight:700}
+/* back to the meeting you came from */
+.back span{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:64vw}
+.trailback{display:none}
+@media (min-width:760px){.trailback{display:inline-flex;align-items:center;gap:6px;min-height:40px;margin:0 0 8px;font-weight:700;color:var(--ink);font-size:15.5px}.trailback svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2.2}}
 /* the picture at the head of a meeting */
 .ph{position:relative;overflow:hidden;aspect-ratio:402/172;background:#E9F1EE;isolation:isolate}
 .ph .art{display:block;width:100%;height:100%;object-fit:cover}
@@ -482,6 +490,14 @@ details[open] summary::before{transform:rotate(45deg)}
         </div>
       </div>
       <div class="field">
+        <label>Long flights, 12 hours or more</label>
+        <div class="trip" style="margin-top:0">
+          <div class="leg"><span class="lbl">Fly out</span><div class="adj" style="margin-top:6px"><button id="lbefMinus" aria-label="One day later">−</button><span id="lbefLabel"></span><button id="lbefPlus" aria-label="One day earlier">+</button></div></div>
+          <div class="leg"><span class="lbl">Fly back</span><div class="adj" style="margin-top:6px"><button id="laftMinus" aria-label="One day earlier">−</button><span id="laftLabel"></span><button id="laftPlus" aria-label="One day later">+</button></div></div>
+        </div>
+        <p class="hint" style="margin-top:8px">Many departments allow extra travel days for meetings this far away.</p>
+      </div>
+      <div class="field">
         <label for="natSel">Passport you travel on</label>
         <select class="sel" id="natSel"></select>
         <p class="hint" style="margin-top:8px">Used only to point the entry-requirements search at the right rules.</p>
@@ -523,13 +539,15 @@ const OBS = (Array.isArray(DATA.observances) && DATA.observances.length) ? DATA.
 ];
 
 // ---------- state ----------
-const state = {tab:'meetings', spec:null, region:null, fly:null, kind:null, q:'', selected:null, base:null, cabin:'economy', before:1, after:1, saved:new Set(), weekend:null, ram:null, nat:null, legBefore:null, legAfter:null, apIndex:0, copyOpen:false, guessed:false, bannerOff:false, leave:null, fresh:false, openNotes:new Set()};
+const state = {tab:'meetings', spec:null, region:null, fly:null, kind:null, q:'', selected:null, base:null, cabin:'economy', before:1, after:1, longBefore:2, longAfter:2, trail:[], saved:new Set(), weekend:null, ram:null, nat:null, legBefore:null, legAfter:null, apIndex:0, copyOpen:false, guessed:false, bannerOff:false, leave:null, fresh:false, openNotes:new Set()};
 const STORE = 'anaesthesia-meetings:v2';
 try{ const s = JSON.parse(localStorage.getItem(STORE)||localStorage.getItem('anaesthesia-meetings:v1')||'{}');
   if (s.base && AIR.has(s.base)) state.base = s.base;
   if (s.cabin && CABIN_LABEL[s.cabin]) state.cabin = s.cabin;
   if (Number.isInteger(s.before)) state.before = Math.min(7, Math.max(0, s.before));
   if (Number.isInteger(s.after)) state.after = Math.min(7, Math.max(0, s.after));
+  if (Number.isInteger(s.longBefore)) state.longBefore = Math.min(7, Math.max(0, s.longBefore));
+  if (Number.isInteger(s.longAfter)) state.longAfter = Math.min(7, Math.max(0, s.longAfter));
   if (Array.isArray(s.saved)) state.saved = new Set(s.saved.filter(id => MEETINGS.some(m => m.id===id)));
   if (s.weekend==='satsun'||s.weekend==='frisat') state.weekend = s.weekend;
   if (typeof s.ram==='boolean') state.ram = s.ram;
@@ -544,7 +562,7 @@ if (!state.base){
     if (!pick){ for (const a of AIR.values()){ if (a.tz===tz && a.large){ pick = a.iata; break; } } }
     state.base = pick || 'LHR'; state.guessed = true; }catch(e){ state.base = 'LHR'; state.guessed = true; }
 }
-function persist(){ try{ localStorage.setItem(STORE, JSON.stringify({base:state.base, cabin:state.cabin, before:state.before, after:state.after, saved:[...state.saved], weekend:state.weekend, ram:state.ram, nat:state.nat, bannerOff:state.bannerOff})); }catch(e){} }
+function persist(){ try{ localStorage.setItem(STORE, JSON.stringify({base:state.base, cabin:state.cabin, before:state.before, after:state.after, longBefore:state.longBefore, longAfter:state.longAfter, saved:[...state.saved], weekend:state.weekend, ram:state.ram, nat:state.nat, bannerOff:state.bannerOff})); }catch(e){} }
 function natCC(){ return state.nat || baseAp().cc; }
 function baseAp(){ return AIR.get(state.base); }
 function weekendKind(){ return state.weekend || (FRISAT.has(baseAp().cc) ? 'frisat' : 'satsun'); }
@@ -573,7 +591,11 @@ function isPast(m){ return pd(m.end) < today; }
 function overlapsObs(m){ const s = pd(m.start), e = pd(m.end); return OBS.filter(o => !(e < pd(o.from) || s > pd(o.to))); }
 function workingDays(a, b){ let n = 0; for (let d = a; d <= b; d = addDays(d, 1)) if (!isWeekend(d)) n++; return n; }
 // Leave the default trip costs: working days from the day you fly out to the day you fly back (the meeting's own days when it is at your base)
-function leaveDays(m){ const km = kmFor(m); if (km==null) return null; const s = pd(m.start), e = pd(m.end); return km<80 ? workingDays(s, e) : workingDays(addDays(s, -state.before), addDays(e, state.after)); }
+// Long flights, 12 hours or more by the nonstop estimate, take their own travel days: many departments allow more for them
+const LONG_H = 12;
+function isLong(m){ const km = kmFor(m); return km != null && km >= 80 && flightHours(km) >= LONG_H; }
+function tdays(m){ return m && isLong(m) ? {before: state.longBefore, after: state.longAfter} : {before: state.before, after: state.after}; }
+function leaveDays(m){ const km = kmFor(m); if (km==null) return null; const s = pd(m.start), e = pd(m.end); return km<80 ? workingDays(s, e) : workingDays(addDays(s, -tdays(m).before), addDays(e, tdays(m).after)); }
 function leaveWords(n){ return n===0 ? 'no leave days' : `${n} leave day${n===1?'':'s'}`; }
 // New: added at the latest monthly check
 function isNew(m){ return !!m.added && m.added >= DATA.checked && daysUntil(pd(m.added)) > -45; }
@@ -820,7 +842,7 @@ function thumbHTML(m){
 // The days of the default trip: travel days outlined, meeting days filled, weekend days in slate
 function tripTiles(m){
   const s = pd(m.start), e = pd(m.end), km = kmFor(m), away = km != null && km >= 80;
-  const a = away ? addDays(s, -state.before) : s, b = away ? addDays(e, state.after) : e;
+  const td = tdays(m), a = away ? addDays(s, -td.before) : s, b = away ? addDays(e, td.after) : e;
   let h = '';
   for (let d = a; d <= b; d = addDays(d, 1)){ const on = d >= s && d <= e; h += `<span class="dt ${on?'m':'t'}${isWeekend(d)?' w':''}"><i>${WD[dow(d)]}</i><b>${d.getUTCDate()}</b></span>`; }
   return h;
@@ -876,6 +898,63 @@ function groupedRows(rows){
   }
   return h;
 }
+// ---------- your year: the saved meetings as trips, leave days by month, and any clashes ----------
+function canJoin(x, y){   // y starts soon after x ends, near enough to go straight on: the One trip rule
+  const a = llOf(x), b = llOf(y), base = baseAp();
+  if (!a || !b || (base && (haversine(base, a) < 80 || haversine(base, b) < 80))) return false;
+  const km = haversine(a, b), g = Math.round((pd(y.start) - pd(x.end)) / DAY);
+  return km <= PAIR_KM && g >= (km < 25 ? 0 : 1) && g <= PAIR_GAP;
+}
+function savedTrips(){
+  const ms = MEETINGS.filter(m => state.saved.has(m.id) && !isPast(m) && kmFor(m) != null).sort((a, b) => pd(a.start) - pd(b.start) || pd(a.end) - pd(b.end));
+  const trips = [];
+  for (const m of ms){
+    const t = trips[trips.length - 1], home = kmFor(m) < 80;
+    if (t && !t.home && !home && canJoin(t.ms[t.ms.length - 1], m)) t.ms.push(m); else trips.push({ms: [m], home});
+  }
+  for (const t of trips){
+    const a = t.ms[0], b = t.ms[t.ms.length - 1];
+    t.out = t.home ? pd(a.start) : addDays(pd(a.start), -tdays(a).before);
+    t.back = t.home ? pd(b.end) : addDays(pd(b.end), tdays(b).after);
+    t.leave = workingDays(t.out, t.back); t.nights = t.home ? 0 : Math.round((t.back - t.out) / DAY);
+  }
+  const clashes = [];
+  for (let i = 0; i < trips.length; i++) for (let j = i + 1; j < trips.length; j++) if (trips[j].out <= trips[i].back) clashes.push([trips[i], trips[j]]);
+  return {trips, clashes};
+}
+function savedPlanHTML(){
+  const {trips, clashes} = savedTrips();
+  if (!trips.length) return '';
+  const W = 380, leave = trips.reduce((n, t) => n + t.leave, 0), nights = trips.reduce((n, t) => n + t.nights, 0), away = trips.filter(t => !t.home).length;
+  // the twelve months from this one: working days of leave in each, coral where a clash falls
+  const months = [...Array(12)].map((_, i) => ({d: new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth() + i, 1)), n: 0, clash: false}));
+  const slot = d => (d.getUTCFullYear() - months[0].d.getUTCFullYear()) * 12 + d.getUTCMonth() - months[0].d.getUTCMonth();
+  for (const t of trips) for (let d = t.out; d <= t.back; d = addDays(d, 1)){ const k = slot(d); if (k >= 0 && k < 12 && !isWeekend(d)) months[k].n++; }
+  for (const [, b] of clashes){ const k = slot(b.out); if (k >= 0 && k < 12) months[k].clash = true; }
+  let g = '';
+  [[leave, leave === 1 ? 'leave day' : 'leave days'], [nights, nights === 1 ? 'night away' : 'nights away'], [away, away === 1 ? 'trip' : 'trips']].forEach(([v, l], i) => {
+    g += `<text x="${3 + i * 128}" y="27" class="t1">${v}</text><text x="${3 + i * 128}" y="47" class="t5">${l}</text>`;
+  });
+  const TY = 64, tw = (W - 11 * 3) / 12;
+  months.forEach((mo, i) => {
+    const x = i * (tw + 3), fill = mo.clash ? '#C4381F' : mo.n ? '#1D3350' : null, col = fill ? '#FFF7E6' : '#48606F';
+    g += fill ? SR(x, TY, tw, 40, fill, 6.5) : `<rect x="${F1(x + 1)}" y="${TY + 1}" width="${F1(tw - 2)}" height="38" rx="5.5" fill="none" stroke="#CDBE9C" stroke-width="1.6"/>`;
+    g += `<text x="${F1(x + tw / 2)}" y="${TY + 15}" text-anchor="middle" class="tm" style="fill:${col}">${MON[mo.d.getUTCMonth()]}</text><text x="${F1(x + tw / 2)}" y="${TY + 33}" text-anchor="middle" class="tn" style="fill:${col}">${mo.n || '·'}</text>`;
+  });
+  // under the months: the meetings that make one trip, then any clashes
+  const names = ms => ms.length === 2 ? `${ms[0].short} and ${ms[1].short}` : ms.slice(0, -1).map(x => x.short).join(', ') + ' and ' + ms[ms.length - 1].short;
+  const notes = trips.filter(t => t.ms.length > 1).map(t => ['One trip:', names(t.ms), false]).concat(clashes.map(([a, b]) => ['Clash:', `${a.ms[a.ms.length - 1].short} and ${b.ms[0].short}`, true]));
+  let y = TY + 40 + 30;
+  for (const [lead, text, red] of notes){
+    const ls = pairWrap(`${lead} ${text}`, W - 26, 14.5);
+    g += red ? SR(3, y - 11, 11, 11, '#C4381F', 3) : `<circle cx="6.5" cy="${y - 5.5}" r="4.6" fill="none" stroke="#1D3350" stroke-width="2"/><circle cx="12" cy="${y - 5.5}" r="4.6" fill="none" stroke="#1D3350" stroke-width="2"/>`;
+    ls.forEach((l, j) => { const body = j ? esc(l) : `<tspan style="font-weight:700;fill:${red ? '#C4381F' : '#1D3350'}">${esc(lead)}</tspan>${esc(l.slice(lead.length))}`; g += `<text x="24" y="${F1(y + j * 19)}" class="t5">${body}</text>`; });
+    y += ls.length * 19 + 9;
+  }
+  const H = y - 2;
+  const said = `Your year: ${leave} leave days, ${nights} nights away, ${away} trips.` + notes.map(n => ` ${n[0]} ${n[1]}.`).join('');
+  return `<div class="sect"><span>Your year</span><span></span></div><svg class="strip yearplan" viewBox="0 0 ${W} ${F1(H)}" role="img" aria-label="${esc(said)}">${g}</svg>`;
+}
 function renderList(){
   const list = $('list');
   if (state.tab==='deadlines'){ list.innerHTML = deadlinesHTML(); return; }
@@ -888,7 +967,7 @@ function renderList(){
   let h = '';
   if (state.guessed && !state.bannerOff && state.tab==='meetings') h += `<div class="banner"><span>Flights and leave are worked out from <b>${esc(baseAp().city)} (${baseAp().iata})</b>, guessed from your clock.</span><span class="spacer"></span><button id="changeBase">Change</button><button id="bannerOk">That's right</button></div>`;
   if (state.fresh){ const c = pd(DATA.checked); h += `<div class="toolbar freshbar"><span class="hint"><b>${upcoming.length}</b> added at the ${c.getUTCDate()} ${MONTHS[c.getUTCMonth()]} check</span><button class="btn quiet" id="freshOff">Show all</button></div>`; }
-  if (state.tab==='saved') h += `<div class="toolbar"><button class="btn quiet" id="copyList">Copy my shortlist</button>${EMBEDDED?'':`<button class="btn quiet" id="icsList">Shortlist to calendar (.ics)</button>`}${state.copyOpen?`<textarea class="copybox" id="copyBox" readonly aria-label="Shortlist text"></textarea>`:''}</div>`;
+  if (state.tab==='saved') h += savedPlanHTML() + `<div class="toolbar"><button class="btn quiet" id="copyList">Copy my shortlist</button>${EMBEDDED?'':`<button class="btn quiet" id="icsList">Shortlist to calendar (.ics)</button>`}${state.copyOpen?`<textarea class="copybox" id="copyBox" readonly aria-label="Shortlist text"></textarea>`:''}</div>`;
   h += groupedRows(upcoming);
   if (past.length) h += `<details class="pastwrap"${upcoming.length?'':' open'}><summary>Already held (${past.length})</summary>${groupedRows(past)}</details>`;
   list.innerHTML = h;
@@ -1362,7 +1441,7 @@ function pairSVG(m, p, bef, aft){
   for (let i = 0; i < n; i++){
     const d = addDays(out, i), x = i * (tw + 3), we = isWeekend(d), mine = d >= ms && d <= me, theirs = !mine && d >= os && d <= oe;
     const fill = mine || theirs ? (we ? '#5A7385' : mine ? '#C4381F' : '#1D3350') : null, col = fill ? '#FFF7E6' : we ? '#48606F' : '#B5371F';
-    const wd = tw >= 25 ? WD[dow(d)] : tw >= 19 ? WD[dow(d)].slice(0, 2) : WD[dow(d)][0], wf = tw >= 29 ? 12.5 : tw >= 25 ? 11.2 : 11.5, df = Math.min(16.5, tw * .6);
+    const wd = tw >= 27 ? WD[dow(d)] : tw >= 19 ? WD[dow(d)].slice(0, 2) : WD[dow(d)][0], wf = tw >= 29 ? 12.5 : tw >= 27 ? 11.2 : 11.5, df = Math.min(16.5, tw * .6);
     g += fill ? SR(x, TY, tw, 38, fill, 6.5) : `<rect x="${F1(x + 1)}" y="${TY + 1}" width="${F1(tw - 2)}" height="36" rx="5.5" fill="none" stroke="${we ? '#5A7385' : '#C4381F'}" stroke-width="2"/>`;
     g += `<text x="${F1(x + tw / 2)}" y="${TY + 15}" text-anchor="middle" class="tw" style="fill:${col};font-size:${wf}px">${wd}</text><text x="${F1(x + tw / 2)}" y="${TY + 32}" text-anchor="middle" class="td" style="fill:${col};font-size:${F1(df)}px">${d.getUTCDate()}</text>`;
   }
@@ -1386,15 +1465,16 @@ function detailHTML(m){
   const apCodes = m.airports.filter(c => AIR.has(c));
   if (state.apIndex >= apCodes.length) state.apIndex = 0;
   const dest = apCodes.length ? AIR.get(apCodes[state.apIndex]) : null;
-  const bef = state.legBefore==null ? state.before : state.legBefore, aft = state.legAfter==null ? state.after : state.legAfter;
+  const td = tdays(m), bef = state.legBefore==null ? td.before : state.legBefore, aft = state.legAfter==null ? td.after : state.legAfter;
   const out = addDays(s, -bef), back = addDays(e, aft);
   const spec = m.specialty.map(x=>SPEC[x]).join(' · ');
   const bigDates = s.getTime()===e.getTime() ? `${s.getUTCDate()} <i>${MON[s.getUTCMonth()]}</i>` : s.getUTCMonth()===e.getUTCMonth() ? `${s.getUTCDate()}–${e.getUTCDate()} <i>${MON[s.getUTCMonth()]}</i>` : `${s.getUTCDate()} <i>${MON[s.getUTCMonth()]}</i> – ${e.getUTCDate()} <i>${MON[e.getUTCMonth()]}</i>`;
   const wdText = s.getTime()===e.getTime() ? `<b>${WD[dow(s)]}</b>` : `<b>${WD[dow(s)]}</b> to <b>${WD[dow(e)]}</b>, ${m.days} days`;
   const obs = ramOn() ? overlapsObs(m) : [];
-  let h = `<div class="sheet-bar gutter" style="padding-left:max(8px,env(safe-area-inset-left,0px))"><button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Back</button>
+  const prev = state.trail.length ? MEETINGS.find(x => x.id===state.trail[state.trail.length - 1].id) : null;
+  let h = `<div class="sheet-bar gutter" style="padding-left:max(8px,env(safe-area-inset-left,0px))"><button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg><span>${prev ? esc(prev.short) : 'Back'}</span></button>
       <button class="star" data-star="${m.id}" aria-pressed="${state.saved.has(m.id)?'true':'false'}" aria-label="Save ${esc(m.short)}"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.8l6.1-.7z"/></svg></button></div>
-    <div class="d-pic">${picHTML(m, placeOf(m), 'detail')}</div>
+    ${prev ? `<div class="gutter"><button class="trailback" id="trailBack"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Back to ${esc(prev.short)}</button></div>` : ''}<div class="d-pic">${picHTML(m, placeOf(m), 'detail')}</div>
     <div class="d-body gutter">
     <div class="d-head">
       
@@ -1446,7 +1526,7 @@ function detailHTML(m){
     h += `<div class="trip">
       <div class="leg"><span class="lbl">Fly out</span><div class="date">${fmtD(out)}</div><div class="adj"><button data-leg="before" data-dir="-1" aria-label="Fly out a day later">−</button><span>${bef===0?'on the first day':bef===1?'the day before':bef+' days before'}</span><button data-leg="before" data-dir="1" aria-label="Fly out a day earlier">+</button></div></div>
       <div class="leg"><span class="lbl">Fly back</span><div class="date">${fmtD(back)}</div><div class="adj"><button data-leg="after" data-dir="-1" aria-label="Fly back a day earlier">−</button><span>${aft===0?'on the last day':aft===1?'the day after':aft+' days after'}</span><button data-leg="after" data-dir="1" aria-label="Fly back a day later">+</button></div></div></div>`;
-    h += `<div class="leave">Away <b>${nights} night${nights===1?'':'s'}</b>, <b>${wd} working day${wd===1?'':'s'}</b> of leave with a ${weekendKind()==='frisat'?'Friday–Saturday':'Saturday–Sunday'} weekend.</div>`;
+    h += `<div class="leave">Away <b>${nights} night${nights===1?'':'s'}</b>, <b>${wd} working day${wd===1?'':'s'}</b> of leave with a ${weekendKind()==='frisat'?'Friday–Saturday':'Saturday–Sunday'} weekend.${isLong(m) && state.legBefore==null && state.legAfter==null ? ` Long flight, so ${td.before===td.after ? `${td.before} travel day${td.before===1?'':'s'} each way` : `${td.before} travel day${td.before===1?'':'s'} out and ${td.after} back`}.` : ''}</div>`;
     h += `<p class="hint" style="margin-top:12px">${CABIN_LABEL[state.cabin]}, one adult, return. Live fares open in the search sites below.</p>
       <div class="btns"><a class="btn" href="${fl.google}" target="_blank" rel="noopener">Google Flights</a><a class="btn" href="${fl.skyscanner}" target="_blank" rel="noopener">Skyscanner</a><a class="btn" href="${fl.kayak}" target="_blank" rel="noopener">Kayak</a></div>`;
   } else {
@@ -1515,7 +1595,8 @@ function renderDetail(){
   for (const b of sheet.querySelectorAll('.more-note')){ const n = b.previousElementSibling; if (n.classList.contains('open') || n.scrollHeight > n.clientHeight + 2) b.hidden = false; else n.classList.remove('long'); }
   scroller.scrollTop = keep;
 }
-function closeDetail(){ state.selected = null; state.legBefore = state.legAfter = null; state.apIndex = 0; document.body.style.overflow = ''; renderDetail(); for (const r of document.querySelectorAll('.row')) r.setAttribute('aria-current','false'); }
+function scrollerEl(){ return window.matchMedia('(min-width:760px)').matches ? $('detail') : $('sheet'); }
+function closeDetail(){ state.trail = []; state.selected = null; state.legBefore = state.legAfter = null; state.apIndex = 0; document.body.style.overflow = ''; renderDetail(); for (const r of document.querySelectorAll('.row')) r.setAttribute('aria-current','false'); }
 function select(id){ state.selected = id; state.legBefore = state.legAfter = null; state.apIndex = 0; for (const r of document.querySelectorAll('.row')) r.setAttribute('aria-current', r.dataset.id===id?'true':'false'); renderDetail(); }
 function setTab(tab){ state.tab = tab; for (const b of document.querySelectorAll('.tab')) b.setAttribute('aria-selected', b.dataset.tab===tab?'true':'false'); renderList(); }
 
@@ -1548,6 +1629,8 @@ function renderPicker(){
   for (const b of document.querySelectorAll('#wkSeg button')) b.setAttribute('aria-pressed', b.dataset.wk===weekendKind()?'true':'false');
   $('befLabel').textContent = state.before===0?'on the first day':state.before===1?'the day before':`${state.before} days before`;
   $('aftLabel').textContent = state.after===0?'on the last day':state.after===1?'the day after':`${state.after} days after`;
+  $('lbefLabel').textContent = state.longBefore===0?'on the first day':state.longBefore===1?'the day before':`${state.longBefore} days before`;
+  $('laftLabel').textContent = state.longAfter===0?'on the last day':state.longAfter===1?'the day after':`${state.longAfter} days after`;
   $('ramCheck').checked = ramOn();
 }
 function openPicker(){ $('overlay').classList.add('open'); renderPicker(); const inp = $('apSearch'); inp.value=''; const a = baseAp(); $('apResults').innerHTML = `<p class="hint">Now: <span class="iata">${a.iata}</span> ${esc(a.city)}, ${esc(a.country)}</p>`; setTimeout(()=>inp.focus(), 50); }
@@ -1558,7 +1641,7 @@ function rerenderAll(){ renderFilters(); renderList(); renderDetail(); }
 document.addEventListener('click', ev => {
   const t = ev.target.closest('button, a, .row');
   if (!t) return;
-  if (t.matches('.pairgo')){ ev.preventDefault(); select(t.dataset.id); return; }
+  if (t.matches('.pairgo')){ ev.preventDefault(); state.trail.push({id: state.selected, top: scrollerEl().scrollTop}); select(t.dataset.id); return; }
   if (t.id==='filtBtn'){ const f = $('filters'), open = f.hidden; f.hidden = !open; t.setAttribute('aria-expanded', open?'true':'false'); return; }
   if (t.id==='filtDone'){ $('filters').hidden = true; $('filtBtn').setAttribute('aria-expanded','false'); const top = $('main').getBoundingClientRect().top + window.scrollY - stickyH(); if (window.scrollY > top) window.scrollTo({top}); return; }
   if (t.id==='filtClear'){ state.region = state.fly = state.kind = state.leave = state.spec = null; renderFilters(); renderList(); return; }
@@ -1575,14 +1658,15 @@ document.addEventListener('click', ev => {
   if (t.id==='copyList'){ state.copyOpen = true; renderList(); copyText(shortlistText(), 'copyBox'); return; }
   if (t.id==='icsList'){ if (!state.saved.size){ toast('Nothing saved yet'); return; } downloadText(shortlistIcs(), 'my-anaesthesia-meetings.ics', 'text/calendar;charset=utf-8'); return; }
   if (t.dataset.copy){ copyText(t.dataset.copy, null); return; }
-  if (t.matches('.row') || t.matches('.dl')){ select(t.dataset.id); return; }
-  if (t.id==='back'){ closeDetail(); return; }
+  if (t.matches('.row') || t.matches('.dl')){ state.trail = []; select(t.dataset.id); return; }
+  if (t.id==='back' || t.id==='trailBack'){ if (state.trail.length){ const p = state.trail.pop(); select(p.id); scrollerEl().scrollTop = p.top; } else closeDetail(); return; }
   if (t.id==='baseBtn' || t.id==='baseLink' || t.id==='changeBase'){ openPicker(); return; }
   if (t.id==='closePicker'){ closePicker(); return; }
   if (t.dataset.cabin){ state.cabin = t.dataset.cabin; persist(); renderPicker(); renderDetail(); return; }
   if (t.dataset.wk){ state.weekend = t.dataset.wk; persist(); renderPicker(); rerenderAll(); return; }
+  if (t.id==='lbefMinus'||t.id==='lbefPlus'||t.id==='laftMinus'||t.id==='laftPlus'){ const k = t.id.startsWith('lbef')?'longBefore':'longAfter'; state[k] = Math.min(7, Math.max(0, state[k] + (t.id.endsWith('Plus')?1:-1))); persist(); renderPicker(); renderList(); renderDetail(); return; }
   if (t.id==='befMinus'||t.id==='befPlus'||t.id==='aftMinus'||t.id==='aftPlus'){ const k = t.id.startsWith('bef')?'before':'after'; state[k] = Math.min(7, Math.max(0, state[k] + (t.id.endsWith('Plus')?1:-1))); persist(); renderPicker(); renderList(); renderDetail(); return; }
-  if (t.dataset.leg){ const k = t.dataset.leg==='before'?'legBefore':'legAfter'; const cur = state[k]==null ? state[t.dataset.leg] : state[k]; state[k] = Math.min(10, Math.max(0, cur + Number(t.dataset.dir))); renderDetail(); return; }
+  if (t.dataset.leg){ const k = t.dataset.leg==='before'?'legBefore':'legAfter'; const cur = state[k]==null ? tdays(MEETINGS.find(x => x.id===state.selected))[t.dataset.leg] : state[k]; state[k] = Math.min(10, Math.max(0, cur + Number(t.dataset.dir))); renderDetail(); return; }
   if (t.dataset.ap!==undefined){ state.apIndex = Number(t.dataset.ap); renderDetail(); return; }
   if (t.dataset.note){ const k = state.selected + ':' + t.dataset.note; if (state.openNotes.has(k)) state.openNotes.delete(k); else state.openNotes.add(k); renderDetail(); return; }
   if (t.id==='freshLink' || t.id==='freshOff'){ state.fresh = t.id==='freshLink' ? !state.fresh : false; renderSpan(); if (state.tab!=='meetings') setTab('meetings'); else renderList();
@@ -1592,7 +1676,7 @@ document.addEventListener('click', ev => {
 });
 document.addEventListener('keydown', ev => {
   if (ev.key==='Escape'){ if ($('overlay').classList.contains('open')) closePicker(); else if (state.selected && !window.matchMedia('(min-width:760px)').matches) closeDetail(); }
-  if ((ev.key==='Enter'||ev.key===' ') && ev.target.matches('.row')){ ev.preventDefault(); select(ev.target.dataset.id); }
+  if ((ev.key==='Enter'||ev.key===' ') && ev.target.matches('.row')){ ev.preventDefault(); state.trail = []; select(ev.target.dataset.id); }
 });
 document.addEventListener('change', ev => {
   if (ev.target.id==='regionSel'){ state.region = ev.target.value||null; renderFilters(); renderList(); }
