@@ -11,52 +11,6 @@ X-WR-CALDESC:Abstract and early-rate deadlines for anaesthesia meetings\, w
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sta-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:STA 2027: abstracts close
-DESCRIPTION:2027 STA Annual Meeting (Society for Technology in Anesthesia)\
- nAbstracts close Sun 15 Nov 2026.\nhttps://www.stahq.org/events/annual-mee
- ting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
- sia-meetings/#sta-2027
-URL:https://www.stahq.org/events/annual-meeting
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:STA 2027: abstracts close in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:STA 2027: abstracts close tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sta-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:STA 2027: early rate ends
-DESCRIPTION:2027 STA Annual Meeting (Society for Technology in Anesthesia)\
- nEarly rate ends Sun 15 Nov 2026.\nhttps://www.stahq.org/events/annual-mee
- ting\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/anaesthe
- sia-meetings/#sta-2027
-URL:https://www.stahq.org/events/annual-meeting
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:STA 2027: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:STA 2027: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:aoa-wsm-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
 DTSTAMP:20261101T000000Z
 DTSTART;VALUE=DATE:20261203
@@ -104,29 +58,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Mount Sinai Clinical Update Curaçao 2027: early rate ends tomo
  rrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:asa-advance-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:ASA ADVANCE 2027: early rate ends
-DESCRIPTION:ASA ADVANCE 2027: The Anesthesiology Business Event\nEarly rate
-  ends Thu 19 Nov 2026.\nhttps://www.asahq.org/advance\nAnaesthesia Meeting
- s Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#asa-advance
- -2027
-URL:https://www.asahq.org/advance
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ASA ADVANCE 2027: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ASA ADVANCE 2027: early rate ends tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
@@ -344,30 +275,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:SPAQI Perioperative Medicine Summit 2027: early rate ends tomor
  row
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whistler-summit-2027-early-rate@anaesthesia-meetings.ganeshsivasankara.
- com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Whistler Summit 2027: early rate ends
-DESCRIPTION:Whistler Anesthesiology Summit (17th Annual)\, UBC CPD\nEarly r
- ate ends Mon 23 Nov 2026.\nhttps://ubccpd.ca/node/3017\nAnaesthesia Meetin
- gs Almanac: https://ganeshsivasankara.com/anaesthesia-meetings/#whistler-s
- ummit-2027
-URL:https://ubccpd.ca/node/3017
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Whistler Summit 2027: early rate ends in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Whistler Summit 2027: early rate ends tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
@@ -717,29 +624,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:HMS Anesthesiology Update 2027: early rate ends tomorrow
-TRIGGER:-PT15H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:asnacc-2027-abstracts@anaesthesia-meetings.ganeshsivasankara.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:ASNACC 2027: abstracts close
-DESCRIPTION:Congress of the Asian Society for Neuroanaesthesia and Critical
-  Care 2027 (ASNACC 2027)\nAbstracts close Sun 15 Nov 2026.\nhttps://asnacc
- 2027.org/\nAnaesthesia Meetings Almanac: https://ganeshsivasankara.com/ana
- esthesia-meetings/#asnacc-2027
-URL:https://asnacc2027.org/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ASNACC 2027: abstracts close in a week
-TRIGGER:-P7DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ASNACC 2027: abstracts close tomorrow
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
